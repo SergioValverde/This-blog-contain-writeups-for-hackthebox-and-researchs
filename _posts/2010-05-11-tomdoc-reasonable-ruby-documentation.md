@@ -1,6 +1,7 @@
 ---
-layout: post
 title: TomDoc - Reasonable Ruby Documentation
+date: 2010-05-11 00:00:00 Z
+layout: post
 ---
 
 {{ page.title }}

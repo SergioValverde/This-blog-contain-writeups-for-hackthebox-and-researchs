@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Replicated - An Easier Path from SaaS to Enterprise
+date: 2015-06-19 00:00:00 Z
+layout: post
 ---
 
 {{ page.title }}

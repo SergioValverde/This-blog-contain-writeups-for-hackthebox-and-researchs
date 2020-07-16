@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Optimize for Happiness
+date: 2010-10-18 00:00:00 Z
+layout: post
 ---
 
 {{ page.title }}

@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Readme Driven Development
+date: 2010-08-23 00:00:00 Z
+layout: post
 ---
 
 {{ page.title }}

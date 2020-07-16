@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Farewell GitHub, Hello Immersive Computing
+date: 2014-04-21 00:00:00 Z
+layout: post
 ---
 
 {{ page.title }}

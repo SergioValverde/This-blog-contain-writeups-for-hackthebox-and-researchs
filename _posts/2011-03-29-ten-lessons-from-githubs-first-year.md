@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Ten Lessons from GitHub's First Year
+date: 2011-03-29 00:00:00 Z
+layout: post
 ---
 
 {{ page.title }}

@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Open Source (Almost) Everything
+date: 2011-11-22 00:00:00 Z
+layout: post
 ---
 
 {{ page.title }}

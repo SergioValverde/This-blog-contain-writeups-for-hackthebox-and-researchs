@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Rejected Bio from The Setup
+date: 2011-05-03 00:00:00 Z
+layout: post
 ---
 
 {{ page.title }}

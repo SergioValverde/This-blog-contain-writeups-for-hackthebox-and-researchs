@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Designer, Architect, Developer
+date: 2010-12-11 00:00:00 Z
+layout: post
 ---
 
 {{ page.title }}
