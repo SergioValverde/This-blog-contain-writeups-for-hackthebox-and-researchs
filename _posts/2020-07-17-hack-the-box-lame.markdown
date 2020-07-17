@@ -116,7 +116,7 @@ Por último nos queda el puerto distccd v1, volvemos a usar la herramienta nmap,
 
 # Análisis
 
-Descubrimos la vulnerabilidad CVE-2004-2687,está vulnerabilidad tiene una gravedad de rango ALTO, y nos permitiría ejecutar comandos de manera remota.
+Descubrimos la vulnerabilidad **CVE-2004-2687**,está vulnerabilidad tiene una gravedad de rango **ALTO**, y nos permitiría ejecutar comandos de manera remota.
 Podemos hacer uso de este código
 `nmap -p 3632 <ip> --script distcc-exec --script-args="distcc-exec.cmd='id'"`
 O podemos hacer uso de este [script](https://gist.github.com/DarkCoderSc/4dbf6229a93e75c3bdf6b467e67a9855), es nuestro caso, será el que usemos.
