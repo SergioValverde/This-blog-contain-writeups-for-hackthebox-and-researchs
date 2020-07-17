@@ -134,7 +134,7 @@ Y a posteriori, lanzamos el script
 
 Una vez lanzamos el script, obtendremos una shell.
 
-![shell.jpg](%7B%7Bsite.baseurl%7D%7D/images/Lame/shell.jpg)
+![shell.jpg]({{site.baseurl}}/images/Lame/shell.jpg)
 
 El objetivo de HTB, es conseguir las flags de el usuario y de root.
 En este caso podríamos conseguir la del user.
