@@ -57,7 +57,7 @@ Host script results:
 
 Vamos a obtener más información de los servicios samba.
 NMAP cuenta con scripts, para realizar una enumeración de samba.
-\`kali@kali:\~/HTB/lame/paper$ nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse 10.10.10.3 -Pn
+`kali@kali:\~/HTB/lame/paper$ nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse 10.10.10.3 -Pn
 Starting Nmap 7.80 ( https://nmap.org ) at 2020-07-17 15:15 EDT
 Nmap scan report for 10.10.10.3
 Host is up (0.10s latency).
@@ -103,8 +103,7 @@ Host script results:
 |     Max Users: <unlimited>
 |     Path: C:\\tmp
 |_    Anonymous access: READ/WRITE
-|_smb-enum-users: ERROR: Script execution failed (use -d to debug)
-\`
+|_smb-enum-users: ERROR: Script execution failed (use -d to debug)`
 Podemos intentar acceder con smbclient, a algunos de los directorios listamos con los scripts de Nmap.
 Pero no vemos nada relevante.
 Por último nos queda el puerto distccd v1, volvemos a usar la herramienta nmap, y sus buenos scripts.
