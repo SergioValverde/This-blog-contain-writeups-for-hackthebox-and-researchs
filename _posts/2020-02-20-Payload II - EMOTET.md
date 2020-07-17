@@ -1,7 +1,8 @@
 ---
-layout: post
 title: Payload II
-permalink: /PayloadII/
+date: 2020-02-20 00:00:00 Z
+permalink: "/PayloadII/"
+layout: post
 ---
 
 ### Payload II – Special Emotet
