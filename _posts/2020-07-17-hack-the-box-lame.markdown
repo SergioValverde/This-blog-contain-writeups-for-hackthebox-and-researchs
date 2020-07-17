@@ -3,7 +3,7 @@ title: Hack The Box - LAME
 date: 2020-07-17 22:59:00 Z
 ---
 
-![LAME.jpg](%7B%7Bsite.baseurl%7D%7D/images/Lame/LAME.jpg)
+![LAME.jpg]({{site.baseurl}}/images/Lame/LAME.jpg)
 
 El primer paso, será comprobar si disponemos de conectividad entre nuestra máquina y la máquina objetivo.
 Podemos realizar un ping a la dirección de distino.
