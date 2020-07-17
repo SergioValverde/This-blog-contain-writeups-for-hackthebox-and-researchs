@@ -150,7 +150,7 @@ Realizamos una búsqueda de ficheros SUID, ficheros que podemos ejecutar con los
 
 De todos los que nos encontramos, nos llama la atención la herramienta nmap, si..., parece que con está herramienta podemos realizar todo jeje.
 
-!\[ls-la.jpg\]({{site.baseurl}}/images/Lame/ls-la.jpg)
+!\[lsla.jpg\]({{site.baseurl}}/images/Lame/lsla.jpg)
 
 Las antiguas versiones de la herramienta nmap, cuentan con un **modo interactive**, el cuál permite a los usuarios ejecutar comandos en una shell.
 
