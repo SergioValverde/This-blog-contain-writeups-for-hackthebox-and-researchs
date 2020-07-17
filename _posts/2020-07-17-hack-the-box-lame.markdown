@@ -109,7 +109,7 @@ Podemos intentar acceder con smbclient, a algunos de los directorios listamos co
 Pero no vemos nada relevante.
 Por último nos queda el puerto distccd v1, volvemos a usar la herramienta nmap, y sus buenos scripts.
 
-![Nmap=distcc.jpg](%7B%7Bsite.baseurl%7D%7D/images/Lame/Nmap=distcc.jpg)
+![Nmap=distcc.jpg]({{site.baseurl}}/images/Lame/Nmap=distcc.jpg)
 
 # Análisis
 
@@ -123,11 +123,11 @@ O podemos hacer uso de este [script](https://gist.github.com/DarkCoderSc/4dbf622
 Si leemos el script, nos indica como explotarlo.
 Primero, levantamos un puerto con netcat
 
-![nc.jpg](%7B%7Bsite.baseurl%7D%7D/images/Lame/nc.jpg)
+![nc.jpg]({{site.baseurl}}/images/Lame/nc.jpg)
 
 Y a posteriori, lanzamos el script
 
-![pythonscript.jpg](%7B%7Bsite.baseurl%7D%7D/images/Lame/pythonscript.jpg)
+![pythonscript.jpg]({{site.baseurl}}/images/Lame/pythonscript.jpg)
 
 Una vez lanzamos el script, obtendremos una shell.
 
@@ -136,14 +136,14 @@ Una vez lanzamos el script, obtendremos una shell.
 El objetivo de HTB, es conseguir las flags de el usuario y de root.
 En este caso podríamos conseguir la del user.
 
-![flaguser.jpg](%7B%7Bsite.baseurl%7D%7D/images/Lame/flaguser.jpg)
+![flaguser.jpg]({{site.baseurl}}/images/Lame/flaguser.jpg)
 
 # POSTEXPLOTACIÓN
 
 Una vez conseguido el acceso, debemos elevar nuestros privilegios para conseguir ser root, y conseguir la flag final.
 Realizamos una búsqueda de ficheros SUID, ficheros que podemos ejecutar con los permisos del usuario que los creo.
 
-![SUID.jpg](%7B%7Bsite.baseurl%7D%7D/images/Lame/SUID.jpg)
+![SUID.jpg]({{site.baseurl}}/images/Lame/SUID.jpg)
 
 De todos los que nos encontramos, nos llama la atención la herramienta nmap, si..., parece que con está herramienta podemos realizar todo jeje.
 
@@ -151,14 +151,14 @@ De todos los que nos encontramos, nos llama la atención la herramienta nmap, si
 
 Las antiguas versiones de la herramienta nmap, cuentan con un **modo interactive**, el cuál permite a los usuarios ejecutar comandos en una shell.
 
-![nmap-v.jpg](%7B%7Bsite.baseurl%7D%7D/images/Lame/nmap-v.jpg)
+![nmap-v.jpg]({{site.baseurl}}/images/Lame/nmap-v.jpg)
 
 Este modo, está comprendido entre las versiones **2.02 a 5.21**
 Abrimos el modo interactive e invocamos una shell
 
-![nmap--interactive.jpg](%7B%7Bsite.baseurl%7D%7D/images/Lame/nmap--interactive.jpg)
+![nmap--interactive.jpg]({{site.baseurl}}/images/Lame/nmap--interactive.jpg)
 
 Para más información sobre binarios, podemos hacer uso de [gtfobins ](https://gtfobins.github.io/gtfobins/nmap/)
 Conseguimos root, y con ello tendremos permisos para obtener la flag
 
-![flagroot.jpg](%7B%7Bsite.baseurl%7D%7D/images/Lame/flagroot.jpg)
+![flagroot.jpg]({{site.baseurl}}/images/Lame/flagroot.jpg)
