@@ -14,7 +14,8 @@ Podemos comprobar como los paquetes llegan a la máquina de destino correctament
 
 En esta fase vamos a obtener más información de la máquina.
 Usamos la herramienta NMAP
-`nmap -sC -sV 10.10.10.3 -p-
+```
+nmap -sC -sV 10.10.10.3 -p-
 PORT     STATE SERVICE     VERSION
 21/tcp   open  ftp         vsftpd 2.3.4
 |_ftp-anon: Anonymous FTP login allowed (FTP code 230)
@@ -53,7 +54,8 @@ Host script results:
 |   authentication_level: user
 |   challenge_response: supported
 |_  message_signing: disabled (dangerous, but default)
-|_smb2-time: Protocol negotiation failed (SMB2)`
+|_smb2-time: Protocol negotiation failed (SMB2)
+```
 
 Vamos a obtener más información de los servicios samba.
 NMAP cuenta con scripts, para realizar una enumeración de samba.
