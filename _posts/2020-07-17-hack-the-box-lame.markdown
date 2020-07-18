@@ -15,7 +15,7 @@ Podemos comprobar como los paquetes llegan a la máquina de destino correctament
 # Reconocimiento
 
 En esta fase vamos a obtener más información de la máquina.
-Usamos la herramienta NMAP
+Usamos la herramienta **NMAP**
 ```
 nmap -sC -sV 10.10.10.3 -p-
 PORT     STATE SERVICE     VERSION
