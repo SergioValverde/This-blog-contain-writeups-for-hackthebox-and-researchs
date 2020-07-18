@@ -179,7 +179,7 @@ En este caso podríamos conseguir la del user.
 # POSTEXPLOTACIÓN
 
 Una vez conseguido el acceso, debemos elevar nuestros privilegios para conseguir ser root, y conseguir la flag final.
-Realizamos una búsqueda de ficheros SUID, ficheros que podemos ejecutar con los permisos del usuario que los creo.
+Realizamos una búsqueda de **ficheros SUID, ficheros que podemos ejecutar con los permisos del usuario que los creo**.
 
 ![SUID.jpg]({{site.baseurl}}/images/Lame/SUID.jpg)
 
