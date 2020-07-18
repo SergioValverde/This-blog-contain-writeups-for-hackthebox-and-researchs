@@ -7,7 +7,9 @@ date: 2020-07-17 22:59:00 Z
 
 El primer paso, será comprobar si disponemos de conectividad entre nuestra máquina y la máquina objetivo.
 Podemos realizar un ping a la dirección de distino.
+
 ![ping.jpg]({{site.baseurl}}/images/Lame/ping.jpg)
+
 Podemos comprobar como los paquetes llegan a la máquina de destino correctamente, además a través del comando ping, conocemos que se trata de una máquina Linux.
 
 # RECONOCIMIENTO
