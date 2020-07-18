@@ -12,7 +12,7 @@ Podemos realizar un ping a la dirección de destino.
 
 Podemos comprobar como los paquetes llegan a la máquina de destino correctamente, además a través del comando ping, conocemos que se trata de una máquina Linux.
 
-# RECONOCIMIENTO
+# Reconocimiento
 
 En esta fase vamos a obtener más información de la máquina.
 Usamos la herramienta NMAP
@@ -121,10 +121,11 @@ Por último nos queda el puerto **distccd v1**, volvemos a usar la herramienta n
 
 # Análisis
 
-Descubrimos un primer vector en Samba 3.0.20, la vulnerabilidad CVE2007-2447 
+Descubrimos un **primer vector** en **Samba 3.0.20**, la vulnerabilidad **CVE2007-2447**
+
 En la cuál podremos ejecutar una reverse shell hacía nuestro equipo.
 
-Descubrimos un segundo vector, la vulnerabilidad **CVE-2004-2687**,está vulnerabilidad tiene una gravedad de rango **ALTO**, y nos permitiría ejecutar comandos de manera remota.
+Descubrimos un **segundo vector**, la vulnerabilidad **CVE-2004-2687**,está vulnerabilidad tiene una gravedad de rango **ALTO**, y nos permitiría ejecutar comandos de manera remota.
 
 Podemos hacer uso de este código
 `nmap -p 3632 <ip> --script distcc-exec --script-args="distcc-exec.cmd='id'"`
@@ -132,7 +133,7 @@ O podemos hacer uso de este [script](https://gist.github.com/DarkCoderSc/4dbf622
 
 # Explotación
 
-Atacando al primer vector.
+**Atacando al primer vector**.
 Primero, levantamos un puerto con netcat 
 
 ![ncsamba.jpg]({{site.baseurl}}/images/Lame/ncsamba.jpg)
@@ -156,7 +157,7 @@ Conseguimos rápidamente root sin necesidad de una post-explotación
 
 
 
-Atacando al segundo vector
+**Atacando al segundo vector**
 Si leemos el script, nos indica como explotarlo.
 Primero, levantamos un puerto con netcat
 
