@@ -152,7 +152,7 @@ Se produce la conexión
 
 ![ncsamba2.jpg]({{site.baseurl}}/images/Lame/ncsamba2.jpg)
 
-Conseguimos rápidamente root sin necesidad de una post-explotación
+Conseguimos rápidamente root sin necesidad de una post-explotación.
 
 
 
