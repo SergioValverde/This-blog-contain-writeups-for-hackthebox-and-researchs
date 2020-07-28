@@ -17,7 +17,7 @@ Una vez comprobado, que la información llegue correctamente a la máquina de de
 
 # Recolección de Información
 
-Con la herramienta NMAP recolectaremos información sobre los puertos abiertos.
+Con la herramienta **NMAP** recolectaremos información sobre los puertos abiertos.
 
 `sudo nmap -sC -sV 10.10.10.4 -p-
 Starting Nmap 7.80 ( https://nmap.org ) at 2020-07-28 04:13 EDT
@@ -50,3 +50,7 @@ Host script results:
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 217.12 seconds
 `
+
+# Enumeración
+
+Trás realizar el análisis, será ver y estructurar que información nos va a ser útil para realizar una correcta explotación.
