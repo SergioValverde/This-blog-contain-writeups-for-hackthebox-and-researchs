@@ -51,12 +51,11 @@ Nmap done: 1 IP address (1 host up) scanned in 217.12 seconds
 Observamos que están corriendo los puertos del Servicio **SAMBA**
 
 Cito a nuestra amiga Wikipedia:
-```
-
+*
 Samba es una implementación del protocolo de **archivos compartidos de Microsoft Windows** (antiguamente llamado SMB, renombrado recientemente a CIFS) para sistemas de tipo UNIX. 
 
-Samba también permite validar usuarios haciendo de Controlador Principal de Dominio (PDC), como miembro de dominio e incluso como un dominio Active Directory para redes basadas en Windows; aparte de ser capaz de servir colas de impresión, directorios compartidos y autentificar con su propio archivo de usuarios.
-```
+Samba también permite validar usuarios haciendo de Controlador Principal de Dominio (PDC), como miembro de dominio e incluso como un dominio Active Directory para redes basadas en Windows; aparte de ser capaz de servir colas de impresión, directorios compartidos y autentificar con su propio archivo de usuarios.*
+
 
 
 
