@@ -45,7 +45,7 @@ Host script results:
 |_  message_signing: disabled (dangerous, but default)
 |_smb2-time: Protocol negotiation failed (SMB2)
 
-Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Service detection performed. 
 Nmap done: 1 IP address (1 host up) scanned in 217.12 seconds
 ```
 Observamos que están corriendo los puertos del Servicio **SAMBA**
