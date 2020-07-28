@@ -64,7 +64,7 @@ Para recolectar samba, contamos con diferentes herramientas.
 
 Nmap cuenta con scripts oara obtener información sobre el servicio SAMBA
 
-![ping.jpg]({{site.baseurl}}/images/Legacy/ping.jpg)
+![nmap-samba-enum.jpg]({{site.baseurl}}/images/Legacy/nmap-samba-enum.jpg)
 
 Podemos hacer de todos ellos:
 
