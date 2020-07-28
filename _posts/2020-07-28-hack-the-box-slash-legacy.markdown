@@ -64,11 +64,13 @@ Para recolectar samba, contamos con diferentes herramientas.
 
 Nmap cuenta con scripts oara obtener información sobre el servicio SAMBA
 
-![nmap-samba-enum.jpg]({{site.baseurl}}/images/Legacy/nmap-samba-enum.jpg)
+![nmap-samba-scripts.jpg]({{site.baseurl}}/images/Legacy/nmap-samba-scripts.jpg)
 
 Podemos hacer de todos ellos:
 
 ```nmap --script=smb-enum* -p 445 MACHINE_IP```
+
+![nmap-samba-enum.jpg]({{site.baseurl}}/images/Legacy/nmap-samba-enum.jpg)
 
 ```
 │445/tcp open  microsoft-ds
