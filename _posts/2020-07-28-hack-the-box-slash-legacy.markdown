@@ -78,6 +78,9 @@ Podemos hacer de todos ellos:
 
 ![nmap-samba-enum.jpg]({{site.baseurl}}/images/Legacy/nmap-samba-enum.jpg)
 
+El siguiente paso, será hacer uso de los scripts de vulnerabilidades
+
+![nmap-samba-vuln.jpg]({{site.baseurl}}/images/Legacy/nmap-samba-vuln.jpg) 
 
 
 
