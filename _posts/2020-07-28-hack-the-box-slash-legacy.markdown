@@ -9,13 +9,13 @@ categories:
 ![Legacy.jpg]({{site.baseurl}}/images/Legacy/Legacy.jpg)
 
 
-Primer paso, será trazar una ruta hacía la máquina Legacy con el comando ping
+Primer paso, será trazar una ruta hacía la máquina Legacy con el comando **ping**.
 
 ![ping.jpg]({{site.baseurl}}/images/Legacy/ping.jpg)
 
 Una vez comprobado, que la información llegue correctamente a la máquina de destino. Empezaremos con recolectar información sobre Legacy.
 
-Recolección de Información
+# Recolección de Información
 
 Con la herramienta NMAP recolectaremos información sobre los puertos abiertos.
 
