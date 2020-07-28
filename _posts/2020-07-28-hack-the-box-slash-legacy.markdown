@@ -1,9 +1,6 @@
 ---
 title: Hack The Box / Legacy
 date: 2020-07-28 08:08:00 Z
-published: false
-categories:
-- Windows
 ---
 
 ![Legacy.jpg]({{site.baseurl}}/images/Legacy/Legacy.jpg)
