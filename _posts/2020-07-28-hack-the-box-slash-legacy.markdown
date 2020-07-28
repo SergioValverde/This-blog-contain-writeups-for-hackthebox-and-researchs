@@ -62,7 +62,12 @@ Para recolectar samba, contamos con diferentes herramientas.
 
 ### NMAP
 
-Nmap cuenta con scripts para obtener información sobre el servicio SAMBA
+Nmap cuenta con scripts para obtener información sobre el servicio SAMBA. Tenemos script para enumerar información, y también para ver si es **vulnerable** a las vulnerabilidades más conocidas.
+
+Podemos listas los scripts de está manera:
+
+```ls -lh /usr/share/nmap/scripts/ | grep smb- ```
+
 
 ![nmap-samba-scripts.jpg]({{site.baseurl}}/images/Legacy/nmap-samba-scripts.jpg)
 
