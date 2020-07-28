@@ -16,7 +16,8 @@ Una vez comprobado, que la información llegue correctamente a la máquina de de
 
 Con la herramienta **NMAP** recolectaremos información sobre los puertos abiertos.
 
-`sudo nmap -sC -sV 10.10.10.4 -p-
+```
+sudo nmap -sC -sV 10.10.10.4 -p-
 Starting Nmap 7.80 ( https://nmap.org ) at 2020-07-28 04:13 EDT
 Nmap scan report for Legacy (10.10.10.4)
 Host is up (0.097s latency).
@@ -46,7 +47,7 @@ Host script results:
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 217.12 seconds
-`
+```
 Observamos que están corriendo los puertos del Servicio **SAMBA**
 
 Cito a nuestra amiga Wikipedia:
