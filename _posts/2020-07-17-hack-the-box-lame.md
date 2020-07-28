@@ -9,7 +9,7 @@ El primer paso, será comprobar si disponemos de conectividad entre nuestra máq
 Podemos realizar un ping a la dirección de destino.
 
 ![ping.jpg]({{site.baseurl}}/images/Lame/ping.jpg)
-
+w
 Podemos comprobar como los paquetes llegan a la máquina de destino correctamente, además a través del comando ping, conocemos que se trata de una máquina Linux.
 
 # Reconocimiento
