@@ -72,25 +72,6 @@ Podemos hacer de todos ellos:
 
 ![nmap-samba-enum.jpg]({{site.baseurl}}/images/Legacy/nmap-samba-enum.jpg)
 
-```
-│445/tcp open  microsoft-ds
-                                                                                │|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
-                                                                                │
-                                                                                │Host script results:
-                                                                                │| smb-enum-shares: 
-                                                                                │|   note: ERROR: Enumerating shares failed, guessing at common ones (NT_STATUS_ACCESS_DENIED)
-                                                                                │|   account_used: <blank>
-                                                                                │|   \\10.10.10.4\ADMIN$: 
-                                                                                │|     warning: Couldn't get details for share: NT_STATUS_ACCESS_DENIED
-                                                                                │|     Anonymous access: <none>
-                                                                                │|   \\10.10.10.4\C$: 
-                                                                                │|     warning: Couldn't get details for share: NT_STATUS_ACCESS_DENIED
-                                                                                │|     Anonymous access: <none>
-                                                                                │|   \\10.10.10.4\IPC$: 
-                                                                                │|     warning: Couldn't get details for share: NT_STATUS_ACCESS_DENIED
-                                                                                │|_    Anonymous access: READ
-```
-
 
 
 
