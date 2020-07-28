@@ -70,7 +70,7 @@ Podemos hacer de todos ellos:
 
 ```nmap --script=smb-enum* -p 445 MACHINE_IP```
 
-```                                                    
+```
 │445/tcp open  microsoft-ds
                                                                                 │|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
                                                                                 │
