@@ -30,8 +30,7 @@ Service Info: OSs: Windows, Windows XP; CPE: cpe:/o:microsoft:windows, cpe:/o:mi
 
 Host script results:
 |_clock-skew: mean: -4h23m11s, deviation: 2h07m16s, median: -5h53m11s
-|_nbstat: NetBIOS name: LEGACY, NetBIOS user: <unknown>, 
-NetBIOS MAC: 00:50:56:b9:52:86 (VMware)
+|_nbstat: NetBIOS name: LEGACY, NetBIOS user: <unknown>
 | smb-os-discovery: 
 |   OS: Windows XP (Windows 2000 LAN Manager)
 |   OS CPE: cpe:/o:microsoft:windows_xp::-
