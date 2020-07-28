@@ -54,6 +54,9 @@ Cito a nuestra amiga Wikipedia:
 
 Samba también permite validar usuarios haciendo de Controlador Principal de Dominio (PDC), como miembro de dominio e incluso como un dominio Active Directory para redes basadas en Windows; aparte de ser capaz de servir colas de impresión, directorios compartidos y autentificar con su propio archivo de usuarios. `
 
+
+
+
 # Enumeración
 
 Trás realizar el análisis, será ver y estructurar que información nos va a ser útil para realizar una correcta explotación.
