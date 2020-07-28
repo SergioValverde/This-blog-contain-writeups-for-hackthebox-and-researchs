@@ -56,6 +56,38 @@ Samba es una implementación del protocolo de **archivos compartidos de Microsof
 
 Samba también permite validar usuarios haciendo de Controlador Principal de Dominio (PDC), como miembro de dominio e incluso como un dominio Active Directory para redes basadas en Windows; aparte de ser capaz de servir colas de impresión, directorios compartidos y autentificar con su propio archivo de usuarios.*
 
+## SAMBA
+
+Para recolectar samba, contamos con diferentes herramientas.
+
+### NMAP
+
+Nmap cuenta con scripts la obtener información sobre el servicio SAMBA
+
+![ping.jpg]({{site.baseurl}}/images/Legacy/ping.jpg)
+
+Podemos hacer de todos ellos:
+
+```nmap --script=smb-enum* -p 445 MACHINE_IP```
+
+```                                                    │
+│445/tcp open  microsoft-ds
+                                                                                │|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+                                                                                │
+                                                                                │Host script results:
+                                                                                │| smb-enum-shares: 
+                                                                                │|   note: ERROR: Enumerating shares failed, guessing at common ones (NT_STATUS_ACCESS_DENIED)
+                                                                                │|   account_used: <blank>
+                                                                                │|   \\10.10.10.4\ADMIN$: 
+                                                                                │|     warning: Couldn't get details for share: NT_STATUS_ACCESS_DENIED
+                                                                                │|     Anonymous access: <none>
+                                                                                │|   \\10.10.10.4\C$: 
+                                                                                │|     warning: Couldn't get details for share: NT_STATUS_ACCESS_DENIED
+                                                                                │|     Anonymous access: <none>
+                                                                                │|   \\10.10.10.4\IPC$: 
+                                                                                │|     warning: Couldn't get details for share: NT_STATUS_ACCESS_DENIED
+                                                                                │|_    Anonymous access: READ
+```
 
 
 
