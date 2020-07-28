@@ -26,7 +26,7 @@ PORT     STATE  SERVICE       VERSION
 139/tcp  open   netbios-ssn   Microsoft Windows netbios-ssn
 445/tcp  open   microsoft-ds  Windows XP microsoft-ds
 3389/tcp closed ms-wbt-server
-Service Info: OSs: Windows, Windows XP; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_xp
+Service Info: OSs: Windows, Windows XP;
 
 Host script results:
 |_clock-skew: mean: -4h23m11s, deviation: 2h07m16s, median: -5h53m11s
