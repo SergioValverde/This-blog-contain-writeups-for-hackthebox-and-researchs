@@ -91,18 +91,14 @@ Trás realizar el análisis, será ver y estructurar que información nos va a s
 
 Hemos observado diferentes **directorios** a través de **samba**, como son **$ADMIN**, **$C** , **$IPC**.
 Podríamos intentar acceder a ellos para leer algún fichero, obtener más información, en definitiva, una investigación.
-Si nos fijamos bien recibimos el error **NT_STATUS_INVALID_PARAMETER**
 
-![errorNT_Status1.jpg]({{site.baseurl}}/images/Legacy/errorNT_Status1.jpg) 
-
-Por lo cuál no perdamos el tiempo en intentar arreglarlo, como me paso a mí.
 
 La siguiente información valiosas, son las **vulnerabilidades** obtenidas:
 
 * **MS08-067**
 * **MS17-010**
 
-Debemos validar esta información, ya que puede estar parcheada.
+Debemos validar esta información, ya que puede estar parcheada y realmente no ser vulnerable.
 
 # Explotación
 
