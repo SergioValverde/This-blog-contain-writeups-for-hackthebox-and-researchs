@@ -156,3 +156,8 @@ Y lanzamos el exploit
 Y se produce la conexión
 
 ![conexion.jpg]({{site.baseurl}}/images/Legacy/conexion.jpg) 
+
+Ya solo nos faltaría, obtener las flasg de user y del Administrador
+
+ROOT:
+![flagroot.jpg]({{site.baseurl}}/images/Legacy/flagroot.jpg) 
