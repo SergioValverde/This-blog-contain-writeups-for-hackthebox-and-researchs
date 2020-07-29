@@ -102,6 +102,8 @@ Debemos validar esta información, ya que puede estar parcheada y realmente no s
 
 # Explotación
 
+## MS08-067
+
 Nos fijamos como objetivo atacar a la **vuln MS08-067**
 Googleamos en busca de un exploit, encontramos este [https://github.com/andyacer/ms08_067](https://github.com/andyacer/ms08_067)
 
