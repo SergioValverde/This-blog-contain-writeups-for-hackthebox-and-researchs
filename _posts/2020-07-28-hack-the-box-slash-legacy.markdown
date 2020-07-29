@@ -97,7 +97,7 @@ Si nos fijamos bien recibimos el error **NT_STATUS_INVALID_PARAMETER**
 
 Por lo cuál no perdamos el tiempo en intentar arreglarlo, como me paso a mí.
 
-La siguiente información valiosas, son las vulnerabilidades obtenidas:
+La siguiente información valiosas, son las **vulnerabilidades** obtenidas:
 
 * **MS08-067**
 * **MS17-010**
