@@ -157,7 +157,7 @@ Y se produce la conexión
 
 ![conexion.jpg]({{site.baseurl}}/images/Legacy/conexion.jpg) 
 
-Ya solo nos faltaría, obtener las flasg de user y del Administrador
+Ya solo nos faltaría, obtener las flag de user y del Administrador
 
 USER:
 
