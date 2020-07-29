@@ -168,3 +168,7 @@ ROOT:
 ![flagroot.jpg]({{site.baseurl}}/images/Legacy/flagroot.jpg) 
 
 ## MS17-010
+
+Vemos como la anterior vulnerabilidad conseguimos el control de Legacy.
+
+Nuestro próximo objetivo será comprobar si la vulnerabilidad MS17-010, o tambíen conocida como wanacry es vulnerable
