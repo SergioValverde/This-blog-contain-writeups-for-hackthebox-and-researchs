@@ -99,8 +99,8 @@ Por lo cuál no perdamos el tiempo en intentar arreglarlo, como me paso a mí.
 
 La siguiente información valiosas, son las vulnerabilidades obtenidas:
 
-* MS08-067
-* MS17-010
+* **MS08-067**
+* **MS17-010**
 
 Debemos validar esta información, ya que puede estar parcheada.
 
