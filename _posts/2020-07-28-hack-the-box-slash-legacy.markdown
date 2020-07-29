@@ -159,5 +159,10 @@ Y se produce la conexión
 
 Ya solo nos faltaría, obtener las flasg de user y del Administrador
 
+USER:
+
+![flaguser.jpg]({{site.baseurl}}/images/Legacy/flaguser.jpg) 
+
 ROOT:
+
 ![flagroot.jpg]({{site.baseurl}}/images/Legacy/flagroot.jpg) 
