@@ -145,5 +145,9 @@ A la hora de integrar la shellcode en el script, deberemos dejarlo de está mane
 
 Debemos abrirnos un puerto en escucha con netcat, en mi caso abriré el puerto 443, que es el puerto indicado en la shellcode.
 
+![portescucha.jpg]({{site.baseurl}}/images/Legacy/portescucha.jpg) 
+
+Y lanzamos el exploit
 
 
+![lanzandoexploit.jpg]({{site.baseurl}}/images/Legacy/lanzandoexploit.jpg) 
