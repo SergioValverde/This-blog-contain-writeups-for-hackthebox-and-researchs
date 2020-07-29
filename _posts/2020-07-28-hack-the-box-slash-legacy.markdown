@@ -104,5 +104,5 @@ La siguiente información valiosas, son las **vulnerabilidades** obtenidas:
 
 Debemos validar esta información, ya que puede estar parcheada.
 
-
+# Explotación
 
