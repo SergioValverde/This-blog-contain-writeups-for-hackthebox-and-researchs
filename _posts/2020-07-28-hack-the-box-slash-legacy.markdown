@@ -106,3 +106,13 @@ Debemos validar esta información, ya que puede estar parcheada.
 
 # Explotación
 
+Nos fijamos como objetivo atacar a la **vuln MS08-067**
+Googleamos en busca de un exploit, encontramos este [https://github.com/andyacer/ms08_067](https://github.com/andyacer/ms08_067)
+
+Debemos seguir las instrucción que nos indican
+```
+git clone --branch impacket_0_9_17 --single-branch https://github.com/CoreSecurity/impacket/
+cd impacket
+pip install .
+```
+
