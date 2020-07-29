@@ -149,5 +149,8 @@ Debemos abrirnos un puerto en escucha con netcat, en mi caso abriré el puerto 4
 
 Y lanzamos el exploit
 
-
 ![lanzandoexploit.jpg]({{site.baseurl}}/images/Legacy/lanzandoexploit.jpg) 
+
+Y se produce la conexión
+
+![conexion.jpg]({{site.baseurl}}/images/Legacy/conexion.jpg) 
