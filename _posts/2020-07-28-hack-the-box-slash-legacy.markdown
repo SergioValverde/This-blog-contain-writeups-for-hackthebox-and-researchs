@@ -191,3 +191,7 @@ Necesitaremos crear una shellcode como hiciamos anteriormente.
 Abrimos un puerto en escucha
 
 ![portm17.jpg]({{site.baseurl}}/images/Legacy/portm17.jpg) 
+
+Y ejecutamos el script
+
+![scriptms17.jpg]({{site.baseurl}}/images/Legacy/scriptms17.jpg) 
