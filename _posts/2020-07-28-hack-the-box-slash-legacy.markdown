@@ -204,4 +204,4 @@ Y se producirá la conexión.
 
 ![conexionms17.jpg]({{site.baseurl}}/images/Legacy/conexionms17.jpg)
 
- 
+ Es importante ejecutar las ordenes desde el repositorio creado, si no ejecutamos las instrucciones desde el repositorio el script no compilará correctamente y dará fallo.
