@@ -195,3 +195,7 @@ Abrimos un puerto en escucha
 Y ejecutamos el script
 
 ![scriptms17.jpg]({{site.baseurl}}/images/Legacy/scriptms17.jpg) 
+
+Y se producirá la conexión.
+
+![conexionms17.jpg]({{site.baseurl}}/images/Legacy/conexionms17.jpg) 
