@@ -1,5 +1,5 @@
 ---
-title: Hack The BoX - ÍNDICE - LINUX
+title: Hack The Box - ÍNDICE - LINUX
 date: 2020-08-02 20:30:00 Z
 ---
 
