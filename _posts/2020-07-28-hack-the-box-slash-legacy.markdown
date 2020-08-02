@@ -1,5 +1,5 @@
 ---
-title: Hack The BoX - LEGACY - Windows -  MS08-067 - MS17-010
+title: Hack The Box - LEGACY - Windows -  MS08-067 - MS17-010
 date: 2020-07-28 08:08:00 Z
 ---
 
