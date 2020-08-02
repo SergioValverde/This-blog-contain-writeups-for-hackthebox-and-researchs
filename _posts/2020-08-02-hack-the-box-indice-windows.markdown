@@ -1,5 +1,5 @@
 ---
-title: Hack The BoX - ÍNDICE - WINDOWS
+title: Hack The Box - ÍNDICE - WINDOWS
 date: 2020-08-02 20:46:00 Z
 ---
 
