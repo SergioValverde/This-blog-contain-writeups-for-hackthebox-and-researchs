@@ -1,5 +1,5 @@
 ---
-title: Hack The Box - LAME - Linux - Samba 3.0.20 - distccd v1 CVE-2004-2687
+title: Hack The Box - LAME - Linux - Samba 3.0.20 = CVE-2007-2447 - distccd v1 = CVE-2004-2687
 date: 2020-07-17 22:59:00 Z
 ---
 
