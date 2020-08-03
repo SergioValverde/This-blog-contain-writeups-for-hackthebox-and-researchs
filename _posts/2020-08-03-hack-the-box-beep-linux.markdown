@@ -134,6 +134,9 @@ En este momento, **levantamos** con la herramienta **netcat**, el puerto que hem
 
 ![netcat.jpg]({{site.baseurl}}/images/Beep/netcat.jpg)
 
+Y procedemos a aceptar la instalación del modulo.
+
+![confirinstall.jpg]({{site.baseurl}}/images/Beep/confirinstall.jpg)
 
 
 
