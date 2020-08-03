@@ -156,7 +156,7 @@ Conocemos de antemano, que las versiones **2.02** a **5.21** cuentan con el **mo
 
 ![nmap-v.jpg]({{site.baseurl}}/images/Beep/nmap-v.jpg)
 
-Perfecto, podremos ejecutar nmap con sudo y abrirmos el modo interactive
+Perfecto, podremos ejecutar **nmap con sudo ** y abrirmos el modo interactive y convertirnos en **root**
 
 ![root.jpg]({{site.baseurl}}/images/Beep/root.jpg)
 
