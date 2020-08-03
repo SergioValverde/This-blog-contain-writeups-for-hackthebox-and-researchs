@@ -71,10 +71,16 @@ Intentado hacer fuerza bruta con hydra pero a los 5 intentos nos metía en una *
 **Enumeración**
 
 Encontramos un [Local File Inclusion](https://www.exploit-db.com/exploits/37637)
+
+El código que introduciremos vía web es este:
+
+
 `/vtigercrm/graph.php?current_language=../../../../../../../..//etc/amportal.conf%00&module=Accounts&action`
 
-Añadimos este código a la web y nos aparecerá está página, hacemos **control + u** para ver mejor el texto.
+Nos aparecerá está página, hacemos **control + u** para ver mejor el texto.
 
 ![LF1.jpg]({{site.baseurl}}/images/Beep/LF1.jpg)
+
+
 
 
