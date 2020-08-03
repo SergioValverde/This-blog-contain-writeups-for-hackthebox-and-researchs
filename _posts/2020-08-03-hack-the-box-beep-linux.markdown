@@ -62,6 +62,12 @@ Buscamos posibles exploits con **searchsploit**
 
 Desconocemos que versión está instalada, pero probaremos todos por si nos alguno de utilidad.
 
+Antes de tirar por este puerto, estuve buscando y rebuscando información que puediese sacar de los demás puertos.
+Lanzando exploits pero necesitaba información que no tenía en un principio.
+
+Otro puerto que me llamo la atención es el puerto **10000 **que corre el servicio **Webmin**
+Intentado hacer fuerza bruta con hydra pero a los 5 intentos nos metía en una **blacklist**.
+
 **Enumeración**
 
-Debemos obtener toda información posible de cada puerto, en este caso, al tener unos cuántos puertos, me fijaré en el puerto
+https://www.exploit-db.com/exploits/37637
