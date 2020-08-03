@@ -124,7 +124,7 @@ Con el comando
 
 `tar -cvzf shell-1.0.tar.gz shell`
 
-Hacemos clic en **Upload Module**, seleccionamos el paquete comprimido que hemos creado, y damos clic en **Process**.
+Hacemos clic en **Upload Module**, seleccionamos el paquete comprimido que hemos creado, y confirmamos su subida.
 
 Una vez súbido, debemos instalarlo
 
