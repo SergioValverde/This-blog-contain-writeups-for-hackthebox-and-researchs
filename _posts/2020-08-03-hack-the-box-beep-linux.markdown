@@ -110,6 +110,10 @@ Hacemos clic en el apartado **Tools**
 
 ![toolsfreePBX.jpg]({{site.baseurl}}/images/Beep/toolsfreePBX.jpg)
 
+Y nos vamos al apartado **Module Admin**
+
+![moduleadmin.jpg]({{site.baseurl}}/images/Beep/moduleadmin.jpg)
+
 
 
 https://github.com/SamSepiolProxy/FreePBX-Reverse-Shell-Module
