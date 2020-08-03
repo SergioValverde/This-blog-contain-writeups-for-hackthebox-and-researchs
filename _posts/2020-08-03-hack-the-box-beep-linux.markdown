@@ -130,9 +130,10 @@ Una vez súbido, debemos instalarlo, seleccionamos el paquete, y hacemos clic en
 
 ![shellinstall.jpg]({{site.baseurl}}/images/Beep/shellinstall.jpg)
 
-En este momento, levantamos con la herramienta netcat, el puerto que hemos introducido anteriormente.
+En este momento, **levantamos** con la herramienta **netcat**, el puerto que hemos introducido anteriormente.
 
 ![netcat.jpg]({{site.baseurl}}/images/Beep/netcat.jpg)
+
 
 
 
