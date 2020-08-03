@@ -102,7 +102,8 @@ Una vez entramos por el panel de Elastix, nos dirigimos al apartado **PBX** , en
 
 ![freePBX.jpg]({{site.baseurl}}/images/Beep/freePBX.jpg)
 
+Y accederemos al panel de configuración de FreePBX
 
-
+![panelFreePBX.jpg]({{site.baseurl}}/images/Beep/panelFreePBX.jpg)
 
 https://github.com/SamSepiolProxy/FreePBX-Reverse-Shell-Module
