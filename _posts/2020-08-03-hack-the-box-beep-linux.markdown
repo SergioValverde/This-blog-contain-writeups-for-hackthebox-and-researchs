@@ -56,6 +56,11 @@ Accedemos vía nagevador y nos encontramos con el portal Elastix.
 
 ![elastix.jpg]({{site.baseurl}}/images/Beep/elastix.jpg)
 
+Buscamos posibles exploits con **searchsploit**
+
+![searchsploitelastix.jpg]({{site.baseurl}}/images/Beep/searchsploitelastix.jpg)
+
+Desconocemos que versión está instalada, pero probaremos todos por si nos alguno de utilidad.
 
 **Enumeración**
 
