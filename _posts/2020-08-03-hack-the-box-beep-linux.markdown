@@ -3,13 +3,13 @@ title: Hack The Box - BEEP - Linux
 date: 2020-08-03 09:42:00 Z
 ---
 
-El primer paso será comprobar la conectividad entre máquinas
+El primer paso será comprobar la conectividad entre máquinas.
 
-FOTO PING
+![PING.jpg]({{site.baseurl}}/images/Beep/PING.jpg)
 
-RECONOCIMIENTO
+# RECONOCIMIENTO
 
-Lanzaremos NMAP
+Lanzaremos la herramienta **NMAP**
 
 ```
 nmap -sC -sV 10.10.10.7 -p- 
@@ -51,3 +51,11 @@ PORT      STATE SERVICE    VERSION
 |_http-title: Site doesn't have a title (text/html; Charset=iso-8859-1).
 Service Info: Hosts:  beep.localdomain, 127.0.0.1, example.com, localhost; OS: Unix
 ```
+
+Accedemos vía nagevador y nos encontramos con el portal Elastix.
+
+
+
+**Enumeración**
+
+Debemos obtener toda información posible de cada puerto, en este caso, al tener unos cuántos puertos, me fijaré en el puerto
