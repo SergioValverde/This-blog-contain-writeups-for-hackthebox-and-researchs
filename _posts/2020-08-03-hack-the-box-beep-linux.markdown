@@ -160,5 +160,7 @@ Perfecto, podremos ejecutar **nmap con sudo ** y abrirmos el modo interactive y 
 
 ![root.jpg]({{site.baseurl}}/images/Beep/root.jpg)
 
+Ahora solo nos faltaría ir a por las flags, para terminar con BEEP.
+
 
 
