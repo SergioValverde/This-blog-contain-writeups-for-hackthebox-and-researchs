@@ -75,6 +75,6 @@ Encontramos un [Local File Inclusion](https://www.exploit-db.com/exploits/37637)
 
 Añadimos este código a la web y nos aparecerá está página, hacemos **control + u** para ver mejor el texto.
 
-![elastix.jpg]({{site.baseurl}}/images/Beep/elastix.jpg)
+![LF1.jpg]({{site.baseurl}}/images/Beep/LF1.jpg)
 
 
