@@ -149,3 +149,7 @@ El siguiente paso será elevar los privilegios a **root**.
 Escribimos **sudo -l**, y nos muestra que herramientas podemos correr con permisos root, sin necesidad de password.
 
 ![sudo-l.jpg]({{site.baseurl}}/images/Beep/sudo-l.jpg)
+
+Contamos con la herramienta **NMAP**
+
+![nmap-v.jpg]({{site.baseurl}}/images/Beep/nmap-v.jpg)
