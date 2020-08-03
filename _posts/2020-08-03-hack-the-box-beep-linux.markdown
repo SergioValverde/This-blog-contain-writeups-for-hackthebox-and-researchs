@@ -84,5 +84,6 @@ En este texto, encontramos el usuario **admin** y su **password**, con la podrem
 
 ![dashboardelastix.jpg]({{site.baseurl}}/images/Beep/dashboardelastix.jpg)
 
+# Explotación
 
 
