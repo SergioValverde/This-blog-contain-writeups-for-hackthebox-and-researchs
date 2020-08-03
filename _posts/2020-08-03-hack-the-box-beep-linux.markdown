@@ -142,3 +142,10 @@ Si todo se completa con exito, nos devolvera un **regalo** en forma de shell :)
 
 ![shell.jpg]({{site.baseurl}}/images/Beep/shell.jpg)
 
+# PostExplotación
+
+El siguiente paso será elevar los privilegios a **root**.
+
+Escribimos **sudo -l**, y nos muestra que herramientas podemos correr con permisos root, sin necesidad de password.
+
+![sudo-l.jpg]({{site.baseurl}}/images/Beep/sudo-l.jpg)
