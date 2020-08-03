@@ -1,5 +1,5 @@
 ---
-title: Hack The Box - BEEP - Linux
+title: Hack The Box - BEEP - Linux - Elastix = LFI
 date: 2020-08-03 09:42:00 Z
 ---
 
