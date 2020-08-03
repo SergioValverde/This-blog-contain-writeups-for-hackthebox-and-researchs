@@ -3,6 +3,8 @@ title: Hack The Box - BEEP - Linux
 date: 2020-08-03 09:42:00 Z
 ---
 
+![Beep.jpg]({{site.baseurl}}/images/Beep/Beep.jpg)
+
 El primer paso será comprobar la conectividad entre máquinas.
 
 ![PING.jpg]({{site.baseurl}}/images/Beep/PING.jpg)
