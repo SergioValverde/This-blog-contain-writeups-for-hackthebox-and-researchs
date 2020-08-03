@@ -12,7 +12,7 @@ RECONOCIMIENTO
 Lanzaremos NMAP
 
 ```
-kali@kali:~$ sudo nmap -sC -sV 10.10.10.7 -p- 
+nmap -sC -sV 10.10.10.7 -p- 
 [sudo] password for kali: 
 Sorry, try again.
 [sudo] password for kali: 
