@@ -138,5 +138,7 @@ Y procedemos a aceptar la instalación del modulo.
 
 ![confirinstall.jpg]({{site.baseurl}}/images/Beep/confirinstall.jpg)
 
+Si todo se completa con exito, nos devolvera un **regalo** en forma de shell :)
 
+![confirinstall.jpg]({{site.baseurl}}/images/Beep/confirinstall.jpg)
 
