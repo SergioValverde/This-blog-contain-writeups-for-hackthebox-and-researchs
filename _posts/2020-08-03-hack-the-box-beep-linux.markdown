@@ -73,5 +73,8 @@ Intentado hacer fuerza bruta con hydra pero a los 5 intentos nos metía en una *
 Encontramos un [Local File Inclusion](https://www.exploit-db.com/exploits/37637)
 `/vtigercrm/graph.php?current_language=../../../../../../../..//etc/amportal.conf%00&module=Accounts&action`
 
+Añadimos este código a la web y nos aparecerá está página, hacemos **control + u** para ver mejor el texto.
+
+![elastix.jpg]({{site.baseurl}}/images/Beep/elastix.jpg)
 
 
