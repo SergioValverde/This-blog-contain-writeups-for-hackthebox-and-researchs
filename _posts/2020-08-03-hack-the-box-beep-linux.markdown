@@ -114,7 +114,7 @@ Y nos vamos al apartado **Module Admin**
 
 ![moduleadmin.jpg]({{site.baseurl}}/images/Beep/moduleadmin.jpg)
 
-En este apartado subirmos un modulo, donde alojaremos una reverse shell para realizar la conexión entre Beep y mi máquina.
+En este apartado subiremos un modulo, donde alojaremos una reverse shell para realizar la conexión entre Beep y mi máquina.
 
 
 Podemos hacer uso de este repositorio de [github](https://github.com/SamSepiolProxy/FreePBX-Reverse-Shell-Module), nos lo descargamos y **modificamos los parámetros de IP y puerto del fichero install.php**, indicando nuestra IP y el puerto que vamos a abrir.
