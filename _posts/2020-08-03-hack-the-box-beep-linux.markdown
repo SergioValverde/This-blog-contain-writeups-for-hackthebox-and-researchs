@@ -106,4 +106,10 @@ Y accederemos al panel de configuración de FreePBX
 
 ![panelFreePBX.jpg]({{site.baseurl}}/images/Beep/panelFreePBX.jpg)
 
+Acemos clic en el apartado **Tools**
+
+![toolsfreePBX.jpg]({{site.baseurl}}/images/Beep/toolsfreePBX.jpg)
+
+
+
 https://github.com/SamSepiolProxy/FreePBX-Reverse-Shell-Module
