@@ -82,7 +82,7 @@ Nos aparecerá está página, hacemos **control + u** para ver mejor el texto.
 
 En este texto, encontramos el usuario **admin** y su **password**, con la podremos entrar en en **panel de administrador de Elaxtix**
 
-
+![dashboardelastix.jpg]({{site.baseurl}}/images/Beep/dashboardelastix.jpg)
 
 
 
