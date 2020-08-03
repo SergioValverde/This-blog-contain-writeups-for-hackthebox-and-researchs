@@ -96,7 +96,7 @@ Con las claves de usuario podremos acceder vía ssh como root
 
 **Solución 2**
 
+Una vez entramos por el panel de Elastix, nos dirigimos al apartado **PBX** , en la columna de la izquierda, hay un último apartado.
 
-
-
+![freePBX.jpg]({{site.baseurl}}/images/Beep/freePBX.jpg)
 
