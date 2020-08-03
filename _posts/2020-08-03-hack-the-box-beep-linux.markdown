@@ -126,7 +126,7 @@ Con el comando
 
 Hacemos clic en **Upload Module**, seleccionamos el paquete comprimido que hemos creado, y confirmamos su subida.
 
-Una vez súbido, debemos instalarlo
+Una vez súbido, debemos instalarlo, seleccionamos el paquete, y hacemos clic en **Process**.
 
 ![shellinstall.jpg]({{site.baseurl}}/images/Beep/shellinstall.jpg)
 
