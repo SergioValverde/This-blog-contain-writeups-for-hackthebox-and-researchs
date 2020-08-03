@@ -54,6 +54,7 @@ Service Info: Hosts:  beep.localdomain, 127.0.0.1, example.com, localhost; OS: U
 
 Accedemos vía nagevador y nos encontramos con el portal Elastix.
 
+![elastix.jpg]({{site.baseurl}}/images/Beep/elastix.jpg)
 
 
 **Enumeración**
