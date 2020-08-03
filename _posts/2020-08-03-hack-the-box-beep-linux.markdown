@@ -86,4 +86,8 @@ En este texto, encontramos el usuario **admin** y su **password**, con la podrem
 
 # Explotación
 
+Con las claves de usuario podremos acceder vía ssh como root
+
+![sshroot.jpg]({{site.baseurl}}/images/Beep/sshroot.jpg)
+
 
