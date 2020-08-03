@@ -150,6 +150,15 @@ Escribimos **sudo -l**, y nos muestra que herramientas podemos correr con permis
 
 ![sudo-l.jpg]({{site.baseurl}}/images/Beep/sudo-l.jpg)
 
-Contamos con la herramienta **NMAP**
+Contamos con la herramienta **NMAP**, comprobamos que versión tiene instalado.
+
+Conocemos de antemano, que las versiones **2.02** a **5.21** cuentan con el **modo interactive**, el cuál nos permite abrirnos una shell.
 
 ![nmap-v.jpg]({{site.baseurl}}/images/Beep/nmap-v.jpg)
+
+Perfecto, podremos ejecutar nmap con sudo y abrirmos el modo interactive
+
+![root.jpg]({{site.baseurl}}/images/Beep/root.jpg)
+
+
+
