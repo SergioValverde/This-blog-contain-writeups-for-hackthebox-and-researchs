@@ -119,3 +119,9 @@ En este apartado subirmos un modulo, donde alojaremos una reverse shell para rea
 
 Podemos hacer uso de este repositorio de [github](https://github.com/SamSepiolProxy/FreePBX-Reverse-Shell-Module), nos lo descargamos y **modificamos los parámetros de IP y puerto del fichero install.php**, indicando nuestra IP y el puerto que vamos a abrir.
 
+Y por último, para poder subir el paquete correctamente, debemos comprimir el paquete, indicamos el siguiente nombre, **nombre-versión.tar.gz**
+Con el comando
+
+`tar -cvzf shell-1.0.tar.gz shell`
+
+
