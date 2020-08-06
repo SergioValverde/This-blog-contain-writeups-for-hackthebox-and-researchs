@@ -3,7 +3,7 @@ title: Hack The Box - Bashed
 date: 2020-08-06 07:49:00 Z
 ---
 
-Siguiente la entesala de los anteriores posts, hoy seguimos con **BASHED**
+Siguiente la antesala de los anteriores posts, hoy seguimos con **BASHED**
 
 ![Bashed.jpg]({{site.baseurl}}/images/Bashed/Bashed.jpg)
 
