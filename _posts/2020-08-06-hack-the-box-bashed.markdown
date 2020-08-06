@@ -93,3 +93,7 @@ El primer paso, debemos levantar un puerto desde nuestro equipo y mantenerlo a l
 Y desde la webshell, lanzaremos un netcat.
 
 ![netcat-e.jpg]({{site.baseurl}}/images/Bashed/netcat-e.jpg)
+
+Primero hemos comprobado si el binario se encuentra instalado, afirmativo, así lo es.
+
+Y segundo, lanzamos la reverse shell, pero en este caso, nos da error debido a que la opción **-e** la cuál indicamos que **ejecute ** un **/bin/sh**, no se encuentra instalada.
