@@ -136,7 +136,7 @@ Otra pista sería ver los procesos que están corriendo con el comando:
 
 ![psauz.jpg]({{site.baseurl}}/images/Bashed/psauz.jpg)
 
-De esta forma podemos ejecutar comandos y abrirnos una **bash** con el usuario scriptmanager.
+De esta forma podemos **ejecutar comandos** y abrirnos una **bash** con el usuario scriptmanager.
 
 ![sudo-i-u.jpg]({{site.baseurl}}/images/Bashed/sudo-i-u.jpg)
 
@@ -144,19 +144,7 @@ En la **raíz del sistema** nos encontramos un **directorio** que resulta ser in
 
 ![directorio.jpg]({{site.baseurl}}/images/Bashed/directorio.jpg)
 
-No tenemos permisos para acceder al directorio, pero podemos **listar** el contenido.
-
-![Dscript.jpg]({{site.baseurl}}/images/Bashed/Dscript.jpg)
-
-Resulta interesante.
 
 
+Resulta interesante y  si víamos anteriormente los procesos corriendo, nos llamaría la atención que hay una tarea programada que se ejecuta.
 
-
-
-
-
-
-
-Si vemos los procesos que andan corriendo, con el comando
-`ps -aux`
