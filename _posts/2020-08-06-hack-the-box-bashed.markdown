@@ -124,5 +124,7 @@ Ahora podremos agarrar la flag de user.txt
 
 Empezamos con la fase de escalada de privilegios.
 
+En la raíz del sistema nos encontramos un directorio que resulta ser interesante.
 
+![directorio.jpg]({{site.baseurl}}/images/Bashed/directorio.jpg)
 
