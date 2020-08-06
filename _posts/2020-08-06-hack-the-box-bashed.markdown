@@ -130,5 +130,5 @@ En la **raíz del sistema** nos encontramos un **directorio **que resulta ser in
 
 No tenemos permisos para acceder al directorio, pero podemos **listar** el contenido.
 
-
+![Dscript.jpg]({{site.baseurl}}/images/Bashed/Dscript.jpg)
 
