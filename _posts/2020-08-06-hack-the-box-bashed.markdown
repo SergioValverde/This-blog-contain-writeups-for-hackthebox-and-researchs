@@ -18,6 +18,7 @@ Gracias al [TTL](https://es.wikipedia.org/wiki/Tiempo_de_vida_(inform%C3%A1tica)
 Como siempre, ejecutamos la herramienta **NMAP**
 
 `-A: Enable OS detection, version detection, script scanning, and traceroute`
+
 `T5: Acelera el proceso, podemos indicar del 1 al 5, siendo 5 el más rapido.`
 
 ```
