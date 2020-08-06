@@ -134,6 +134,7 @@ Otra pista sería ver los procesos que están corriendo con el comando:
 
 `ps -aux`
 
+![psauz.jpg]({{site.baseurl}}/images/Bashed/psauz.jpg)
 
 En la **raíz del sistema** nos encontramos un **directorio **que resulta ser interesante.
 
