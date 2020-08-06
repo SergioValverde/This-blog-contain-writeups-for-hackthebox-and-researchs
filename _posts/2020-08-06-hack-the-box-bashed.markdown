@@ -13,3 +13,24 @@ El primer paso, como siempre, comprobar si tenemos conectividad entre nuestro eq
 
 Gracias al [TTL](https://es.wikipedia.org/wiki/Tiempo_de_vida_(inform%C3%A1tica)) reconocemos que la máquina que vamos a auditar es una máquina **Linux**.
 
+# Reconocimiento
+
+Como siempre, ejecutamos la herramienta **NMAP**
+
+
+```
+kali@kali:~$ nmap -A -T5 10.10.10.68 -p-                                                                              [0/0]
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-08-06 03:51 EDT                                                            
+Warning: 10.10.10.68 giving up on port because retransmission cap hit (2).                                                 
+Nmap scan report for 10.10.10.68                                                                                           
+Host is up (0.035s latency).                                                                                               
+Not shown: 57774 closed ports, 7759 filtered ports           
+PORT     STATE SERVICE    VERSION                 
+80/tcp   open  http       Apache httpd 2.4.18 ((Ubuntu))
+|_http-server-header: Apache/2.4.18 (Ubuntu)                
+|_http-title: Arrexel's Development Site                    
+4480/tcp open  tcpwrapped                                    
+                                                             
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 79.11 seconds   
+```
