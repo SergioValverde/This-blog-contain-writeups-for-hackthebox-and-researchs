@@ -164,3 +164,5 @@ Debe quedar de la siguiente forma:
 Abrimos el puerto indicado, el puerto 8888, y automáticamente ejecutara la reverse shell.
 
 Consiguiendo nuestro objetivo, ser **root**
+
+![root.jpg]({{site.baseurl}}/images/Bashed/root.jpg)
