@@ -139,7 +139,8 @@ Otra pista sería ver los procesos que están corriendo con el comando:
 De esta forma podemos ejecutar comandos y abrirnos una **bash** con el usuario scriptmanager.
 
 ![sudo-i-u.jpg]({{site.baseurl}}/images/Bashed/sudo-i-u.jpg)
-En la **raíz del sistema** nos encontramos un **directorio **que resulta ser interesante.
+
+En la **raíz del sistema** nos encontramos un **directorio** que resulta ser interesante.
 
 ![directorio.jpg]({{site.baseurl}}/images/Bashed/directorio.jpg)
 
