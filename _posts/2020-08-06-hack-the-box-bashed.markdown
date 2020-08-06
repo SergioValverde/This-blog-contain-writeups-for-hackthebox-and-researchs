@@ -74,6 +74,10 @@ Podemos leer y aprender más sobre los códigos webs a través de está [página
 
 Accediendo a los directios que nos ha descubierto gobuster, nos encontramos con el directorio **/dev/**.
 
-El cuál contiene, las webshell´s del repositorio que hemos leído anteriormente.
+El cuál contiene, las **webshell´s** del repositorio que hemos leído anteriormente.
 
 ![dev.jpg]({{site.baseurl}}/images/Bashed/dev.jpg)
+
+En estás webshell, podemos ejecutar todo tipo de comandos.
+
+![webshell.jpg]({{site.baseurl}}/images/Bashed/webshell.jpg)
