@@ -144,6 +144,6 @@ Nos debemos de fijar en los permisos que tienen asignados cada usuario.
 
 ![test.jpg]({{site.baseurl}}/images/Bashed/test.jpg)
 
-Si vemos estos ficheros, vemos como el script escrito en python crea el fichero test.txt y escribe los comandos.
+Si vemos estos ficheros, vemos como el script escrito en python crea el fichero test.txt y escribe "testing123!.
 
 ![test2.jpg]({{site.baseurl}}/images/Bashed/test2.jpg)
