@@ -130,15 +130,7 @@ Si listamos los permisos de sudo:
 
 Podemos ver que tenemos permisos para **ejecutar comandos** con el usuario scriptmanager.
 
-
-
-
-
-
-
-
-
-
+Otra pista sería ver los procesos que están corriendo
 
 
 En la **raíz del sistema** nos encontramos un **directorio **que resulta ser interesante.
