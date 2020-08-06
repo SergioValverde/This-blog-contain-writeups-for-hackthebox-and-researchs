@@ -25,7 +25,8 @@ Tenemos dos principales parámetros:
 
 * **T5**: Acelera el proceso, podemos indicar del 1 al 5, siendo 5 el más rapido.
 
-```nmap -A -T5 10.10.10.68 -p-                                                                              
+```
+nmap -A -T5 10.10.10.68 -p-                                                                              
 Starting Nmap 7.80 ( https://nmap.org ) at 2020-08-06 03:51 EDT                                                            
 Warning: 10.10.10.68 giving up on port because retransmission cap hit (2).                                                 
 Nmap scan report for 10.10.10.68                                                                                           
@@ -35,7 +36,8 @@ PORT     STATE SERVICE    VERSION
 80/tcp   open  http       Apache httpd 2.4.18 ((Ubuntu))
 |_http-server-header: Apache/2.4.18 (Ubuntu)                
 |_http-title: Arrexel's Development Site                    
-4480/tcp open  tcpwrapped```
+4480/tcp open  tcpwrapped
+```
 
 Reconocemos un equipo Ubuntu que corre un servidor web Apache con la versión 2.4.18.
 
