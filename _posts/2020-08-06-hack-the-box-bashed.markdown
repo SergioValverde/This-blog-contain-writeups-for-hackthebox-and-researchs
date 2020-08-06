@@ -130,11 +130,7 @@ Si listamos los permisos de sudo:
 
 Podemos ver que tenemos permisos para **ejecutar comandos** con el usuario scriptmanager.
 
-Otra pista sería ver los procesos que están corriendo con el comando:
 
-`ps -aux`
-
-![psauz.jpg]({{site.baseurl}}/images/Bashed/psauz.jpg)
 
 De esta forma podemos **ejecutar comandos** y abrirnos una **bash** con el usuario scriptmanager.
 
