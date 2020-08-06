@@ -82,3 +82,10 @@ En estás webshell, podemos ejecutar todo tipo de comandos.
 
 ![webshell.jpg]({{site.baseurl}}/images/Bashed/webshell.jpg)
 
+El objetivo que nos hemos marcado, será tener una shell totalmente interactiva, desde nuestra propia máquina.
+
+Para ello necesitaremos lanzar una shell reversa hacía nuestra máquina.
+
+El primer paso, debemos levantar un puerto desde nuestro equipo y mantenerlo a la escucha.
+
+![puertoescucha.jpg]({{site.baseurl}}/images/Bashed/puertoescucha.jpg)
