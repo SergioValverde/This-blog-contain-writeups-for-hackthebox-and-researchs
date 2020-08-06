@@ -15,5 +15,5 @@ En la fase de **postexplotación**, haremos uso de **nmap** y su funcionalidad *
 La **explotación** podemos hacer vía ssh, con el usuario y pass conseguido. O **subiendo un modulo al panel FreePBX** el cuál conseguimos una **reverse shell**.
 La **postexplotación** la haremos ejecutando **nmap** con privilegios sudo, y haciendo uso del modulo **interactive**.
 
-* [**BASHED**](https://sergiovalverde.github.io/2020/08/06/hack-the-box-bashed.html) : Nos encontramos con un servidor web, en el cuál aloja una webshell [(phpbash.php)](https://github.com/Arrexel/phpbash))
+* [**BASHED**](https://sergiovalverde.github.io/2020/08/06/hack-the-box-bashed.html) : Nos encontramos con un servidor web, en el cuál aloja una webshell [(phpbash.php)](https://github.com/Arrexel/phpbash)
 
