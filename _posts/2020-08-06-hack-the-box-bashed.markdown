@@ -57,6 +57,13 @@ Recogeremos más información con la herramienta **gobuster**.
 
 ![gobuster.jpg]({{site.baseurl}}/images/Bashed/gobuster.jpg)
 
+
+# Análisis
+
+Con la herramienta gobuster, hemos podido recolectar información del servidor web, obteniendo directorios accesibles.
+
+Es interanse comprender el Status que tienen.
+
 Podemos observar multiples **directorios** que son **accesibles**, reciben los códigos:
 * **200**, los códigos que empiezan por la cifra 2, son **respuestas satisfactorias**.
 * **301**, los códigos que empiezan por la cifra 3, son **reedirecciones**.
