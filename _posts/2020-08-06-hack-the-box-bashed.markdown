@@ -96,7 +96,7 @@ Y desde la webshell, lanzaremos un netcat.
 
 Primero hemos comprobado si el binario se encuentra instalado, afirmativo, así lo es.
 
-Y segundo, lanzamos la reverse shell, pero en este caso, nos da error debido a que la opción **-e** la cuál indicamos que **ejecute ** un **/bin/sh**, no se encuentra instalada.
+Y segundo, lanzamos la reverse shell, pero en este caso, nos da error debido a que la opción **-e** la cuál indicamos que **ejecute** un **/bin/sh**, no se encuentra instalada.
 
 Probamos otra opción, que es hacer uso de netcat pero sin la opción -e.
 
