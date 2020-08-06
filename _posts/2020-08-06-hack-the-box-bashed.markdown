@@ -140,10 +140,10 @@ En la **raíz del sistema** nos encontramos un **directorio** que resulta ser in
 
 Dentro del directorio **/scripts/** nos encontramos dos ficheros, uno llamado **test.py** y otro **test.txt**
 
-Nos debemos de fijar en los permisos que tienen asignados cada usuario.
+Nos debemos de fijar en el propietario del fichero que tiene asignados cada usuario.
 
 ![test.jpg]({{site.baseurl}}/images/Bashed/test.jpg)
 
-Si vemos estos ficheros, vemos como el script escrito en python crea el fichero test.txt y escribe testing123!.
+Si vemos estos ficheros, vemos como el script escrito en python **crea el fichero** test.txt y escribe testing123!.
 
 ![test2.jpg]({{site.baseurl}}/images/Bashed/test2.jpg)
