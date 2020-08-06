@@ -17,6 +17,8 @@ Gracias al [TTL](https://es.wikipedia.org/wiki/Tiempo_de_vida_(inform%C3%A1tica)
 
 Como siempre, ejecutamos la herramienta **NMAP**
 
+`-A: Enable OS detection, version detection, script scanning, and traceroute`
+`T5: Acelera el proceso, podemos indicar del 1 al 5, siendo 5 el más rapido.`
 
 ```
 nmap -A -T5 10.10.10.68 -p-                                                                              [0/0]
@@ -31,6 +33,5 @@ PORT     STATE SERVICE    VERSION
 |_http-title: Arrexel's Development Site                    
 4480/tcp open  tcpwrapped                                    
                                                              
-Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-Nmap done: 1 IP address (1 host up) scanned in 79.11 seconds   
 ```
+
