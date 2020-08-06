@@ -166,3 +166,7 @@ Abrimos el puerto indicado, el puerto 8888, y automáticamente ejecutara la reve
 Consiguiendo nuestro objetivo, ser **root**
 
 ![root.jpg]({{site.baseurl}}/images/Bashed/root.jpg)
+
+Consiguiendo nuestra querida flag :)
+
+![flagroot.jpg]({{site.baseurl}}/images/Bashed/flagroot.jpg)
