@@ -53,3 +53,4 @@ phpbash is a standalone, **semi-interactive web shell**. It's main purpose is to
 
 Recogeremos más información con la herramienta **gobuster**.
 
+![gobuster.jpg]({{site.baseurl}}/images/Bashed/gobuster.jpg)
