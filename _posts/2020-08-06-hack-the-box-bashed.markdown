@@ -60,12 +60,20 @@ Recogeremos más información con la herramienta **gobuster**.
 
 # Análisis
 
-Con la herramienta gobuster, hemos podido recolectar información del servidor web, obteniendo directorios accesibles.
+Con la herramienta **gobuster**, hemos podido recolectar información del servidor web, obteniendo directorios accesibles.
 
-Es interanse comprender el Status que tienen.
+Es interanse comprender el **Status** que tienen.
 
 Podemos observar multiples **directorios** que son **accesibles**, reciben los códigos:
 * **200**, los códigos que empiezan por la cifra 2, son **respuestas satisfactorias**.
 * **301**, los códigos que empiezan por la cifra 3, son **reedirecciones**.
 
 Podemos leer y aprender más sobre los códigos webs a través de está [página](https://developer.mozilla.org/es/docs/Web/HTTP/Status).
+
+# Explotación
+
+Accediendo a los directios que nos ha descubierto gobuster, nos encontramos con el directorio **/dev/**.
+
+El cuál contiene, las webshell´s del repositorio que hemos leído anteriormente.
+
+![dev.jpg]({{site.baseurl}}/images/Bashed/dev.jpg)
