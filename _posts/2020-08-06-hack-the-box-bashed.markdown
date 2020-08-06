@@ -148,3 +148,4 @@ En la **raíz del sistema** nos encontramos un **directorio** que resulta ser in
 Resulta interesante y  si veíamos anteriormente los procesos corriendo, nos llamaría la atención que hay una tarea programada que se ejecuta.
 
 
+![tarea.jpg]({{site.baseurl}}/images/Bashed/tarea.jpg)
