@@ -19,9 +19,11 @@ Como siempre, ejecutamos la herramienta **NMAP**
 
 En esta ocasión, haremos uso de un análisis agresivo, pero siempre trabajando en entornos controlados, como es mi caso, sin problema.
 
-`-A: Enable OS detection, version detection, script scanning, and traceroute`
+Tenemos dos principales parámetros:
 
-`T5: Acelera el proceso, podemos indicar del 1 al 5, siendo 5 el más rapido.`
+* -A: Enable OS detection, version detection, script scanning, and traceroute
+
+* T5: Acelera el proceso, podemos indicar del 1 al 5, siendo 5 el más rapido.
 
 ```
 nmap -A -T5 10.10.10.68 -p-                                                                              
