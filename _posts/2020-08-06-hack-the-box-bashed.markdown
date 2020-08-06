@@ -45,7 +45,7 @@ Si accedemos al servidor web, nos encontramos la siguiente web.
 
 ![web.jpg]({{site.baseurl}}/images/Bashed/web.jpg)
 
-Nos hace referencia a [este](https://github.com/Arrexel/phpbash) repositorio.
+Nos hace referencia a [**este**](https://github.com/Arrexel/phpbash) repositorio.
 
 ```
 phpbash is a standalone, semi-interactive web shell. 
@@ -81,3 +81,4 @@ El cuál contiene, las **webshell´s** del repositorio que hemos leído anterior
 En estás webshell, podemos ejecutar todo tipo de comandos.
 
 ![webshell.jpg]({{site.baseurl}}/images/Bashed/webshell.jpg)
+
