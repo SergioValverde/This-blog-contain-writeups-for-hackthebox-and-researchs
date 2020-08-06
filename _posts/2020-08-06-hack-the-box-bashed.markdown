@@ -21,9 +21,9 @@ En esta ocasión, haremos uso de un análisis agresivo, pero siempre trabajando 
 
 Tenemos dos principales parámetros:
 
-* -A: Enable OS detection, version detection, script scanning, and traceroute
+* **-A**: Enable OS detection, version detection, script scanning, and traceroute.
 
-* T5: Acelera el proceso, podemos indicar del 1 al 5, siendo 5 el más rapido.
+* **T5**: Acelera el proceso, podemos indicar del 1 al 5, siendo 5 el más rapido.
 
 ```
 nmap -A -T5 10.10.10.68 -p-                                                                              
