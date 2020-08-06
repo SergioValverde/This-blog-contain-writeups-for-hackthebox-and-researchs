@@ -57,4 +57,7 @@ Recogeremos más información con la herramienta **gobuster**.
 
 ![gobuster.jpg]({{site.baseurl}}/images/Bashed/gobuster.jpg)
 
-Podemos observar multiples **directorios** que son **accesibles**, reciben el **código 200**.
+Podemos observar multiples **directorios** que son **accesibles**, reciben los códigos:
+* 200, los códigos que empiezan por la cifra 2, son **respuestas satisfactorias**.
+* 301, los códigos que empiezan por la cifra 3, son **reedirecciones **.
+
