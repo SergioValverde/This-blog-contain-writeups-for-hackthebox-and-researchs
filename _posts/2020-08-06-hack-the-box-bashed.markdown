@@ -57,4 +57,4 @@ Recogeremos más información con la herramienta **gobuster**.
 
 ![gobuster.jpg]({{site.baseurl}}/images/Bashed/gobuster.jpg)
 
-Podemos observar multiples **directorios** que son **accesibles**, reciben el **código 200**
+Podemos observar multiples **directorios** que son **accesibles**, reciben el **código 200**.
