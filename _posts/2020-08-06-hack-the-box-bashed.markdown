@@ -145,4 +145,3 @@ En la **raíz del sistema** nos encontramos un **directorio** que resulta ser in
 ![directorio.jpg]({{site.baseurl}}/images/Bashed/directorio.jpg)
 
 
-Resulta interesante 
