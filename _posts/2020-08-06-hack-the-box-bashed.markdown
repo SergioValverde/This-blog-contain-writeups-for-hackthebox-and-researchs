@@ -144,5 +144,4 @@ Dentro del directorio **/scripts/** nos encontramos dos ficheros, uno llamado **
 
 Si vemos estos ficheros, vemos como el script escrito en pyton abre el fichero test.txt y escribe los comandos.
 
-
 ![test2.jpg]({{site.baseurl}}/images/Bashed/test2.jpg)
