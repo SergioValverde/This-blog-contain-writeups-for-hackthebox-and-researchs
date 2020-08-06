@@ -124,6 +124,23 @@ Ahora podremos agarrar la flag de user.txt
 
 Empezamos con la fase de escalada de privilegios.
 
+Si listamos los permisos de sudo:
+
+![sudo-ll.jpg]({{site.baseurl}}/images/Bashed/sudo-ll.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 En la **raíz del sistema** nos encontramos un **directorio **que resulta ser interesante.
 
 ![directorio.jpg]({{site.baseurl}}/images/Bashed/directorio.jpg)
@@ -132,3 +149,15 @@ No tenemos permisos para acceder al directorio, pero podemos **listar** el conte
 
 ![Dscript.jpg]({{site.baseurl}}/images/Bashed/Dscript.jpg)
 
+Resulta interesante.
+
+
+
+
+
+
+
+
+
+Si vemos los procesos que andan corriendo, con el comando
+`ps -aux`
