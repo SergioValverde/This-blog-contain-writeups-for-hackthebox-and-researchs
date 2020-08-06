@@ -39,11 +39,13 @@ PORT     STATE SERVICE    VERSION
 4480/tcp open  tcpwrapped
 ```
 
-Reconocemos un equipo Ubuntu que corre un servidor web Apache con la versión 2.4.18.
+Reconocemos un equipo Ubuntu que corre un servidor web Apache con la versión **2.4.18**.
 
-Si accedemos al servidor web, nos encontramos con esto.
+Si accedemos al servidor web, nos encontramos la siguiente web.
 
 ![web.jpg]({{site.baseurl}}/images/Bashed/web.jpg)
+
+Nos hace referencia a [este](https://github.com/Arrexel/phpbash) repositorio
 
 Recogeremos más información con la herramienta **gobuster**.
 
