@@ -10,3 +10,5 @@ Siguiente la antesala de los anteriores posts, hoy seguimos con **BASHED**
 El primer paso, como siempre, comprobar si tenemos conectividad entre nuestro equipo y "víctima".
 
 ![Ping.jpg]({{site.baseurl}}/images/Bashed/Ping.jpg)
+
+Gracias al [TTL](https://es.wikipedia.org/wiki/Tiempo_de_vida_(inform%C3%A1tica)) reconocemos que la máquina que vamos a auditar es una máquina **Linux**.
