@@ -19,7 +19,7 @@ Como siempre, ejecutamos la herramienta **NMAP**
 
 
 ```
-kali@kali:~$ nmap -A -T5 10.10.10.68 -p-                                                                              [0/0]
+nmap -A -T5 10.10.10.68 -p-                                                                              [0/0]
 Starting Nmap 7.80 ( https://nmap.org ) at 2020-08-06 03:51 EDT                                                            
 Warning: 10.10.10.68 giving up on port because retransmission cap hit (2).                                                 
 Nmap scan report for 10.10.10.68                                                                                           
