@@ -129,6 +129,7 @@ Si listamos los permisos de sudo:
 ![sudo-ll.jpg]({{site.baseurl}}/images/Bashed/sudo-ll.jpg)
 
 Podemos ver que tenemos permisos para **ejecutar comandos** con el usuario scriptmanager.
+La opción importante es **-u** que debe ser indicada para ejecutar comandos con otro usuario. La opción -i, la realiza por defecto sudo.
 
 
 ![sudo-i-u.jpg]({{site.baseurl}}/images/Bashed/sudo-i-u.jpg)
