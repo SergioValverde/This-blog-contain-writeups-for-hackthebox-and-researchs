@@ -58,7 +58,7 @@ Recogeremos más información con la herramienta **gobuster**.
 ![gobuster.jpg]({{site.baseurl}}/images/Bashed/gobuster.jpg)
 
 Podemos observar multiples **directorios** que son **accesibles**, reciben los códigos:
-* 200, los códigos que empiezan por la cifra 2, son **respuestas satisfactorias**.
-* 301, los códigos que empiezan por la cifra 3, son **reedirecciones **.
+* **200**, los códigos que empiezan por la cifra 2, son **respuestas satisfactorias**.
+* **301**, los códigos que empiezan por la cifra 3, son **reedirecciones**.
 
 Podemos leer y aprender más sobre los códigos webs a través de está [página](https://developer.mozilla.org/es/docs/Web/HTTP/Status).
