@@ -45,7 +45,11 @@ Si accedemos al servidor web, nos encontramos la siguiente web.
 
 ![web.jpg]({{site.baseurl}}/images/Bashed/web.jpg)
 
-Nos hace referencia a [este](https://github.com/Arrexel/phpbash) repositorio
+Nos hace referencia a [este](https://github.com/Arrexel/phpbash) repositorio.
+
+```
+phpbash is a standalone, semi-interactive web shell. It's main purpose is to assist in penetration tests where traditional reverse shells are not possible. The design is based on the default Kali Linux terminal colors, so pentesters should feel right at home.
+```
 
 Recogeremos más información con la herramienta **gobuster**.
 
