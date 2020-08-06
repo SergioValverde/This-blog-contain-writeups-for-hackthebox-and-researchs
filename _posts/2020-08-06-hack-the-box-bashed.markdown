@@ -37,5 +37,11 @@ PORT     STATE SERVICE    VERSION
 |_http-title: Arrexel's Development Site                    
 4480/tcp open  tcpwrapped```
 
+Reconocemos un equipo Ubuntu que corre un servidor web Apache con la versión 2.4.18.
 
+Si accedemos al servidor web, nos encontramos con esto.
+
+![web.jpg]({{site.baseurl}}/images/Bashed/web.jpg)
+
+Recogeremos más información con la herramienta **gobuster**.
 
