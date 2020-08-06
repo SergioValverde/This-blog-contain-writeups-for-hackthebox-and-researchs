@@ -128,7 +128,7 @@ Si listamos los permisos de sudo:
 
 ![sudo-ll.jpg]({{site.baseurl}}/images/Bashed/sudo-ll.jpg)
 
-
+Podemos ver que tenemos permisos para **ejecutar comandos** con el usuario scriptmanager.
 
 
 
