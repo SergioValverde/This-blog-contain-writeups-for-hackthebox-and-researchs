@@ -89,3 +89,7 @@ Para ello necesitaremos lanzar una shell reversa hacía nuestra máquina.
 El primer paso, debemos levantar un puerto desde nuestro equipo y mantenerlo a la escucha.
 
 ![puertoescucha.jpg]({{site.baseurl}}/images/Bashed/puertoescucha.jpg)
+
+Y desde la webshell, lanzaremos un netcat.
+
+![netcat-e.jpg]({{site.baseurl}}/images/Bashed/netcat-e.jpg)
