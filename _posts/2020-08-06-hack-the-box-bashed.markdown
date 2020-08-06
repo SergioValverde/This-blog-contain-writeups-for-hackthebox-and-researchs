@@ -118,6 +118,8 @@ Ahora podremos agarrar la flag de user.txt
 
 
 ![falguser.jpg]({{site.baseurl}}/images/Bashed/falguser.jpg)
+
+
 # PostExplotación
 
 Empezamos con la fase de escalada de privilegios.
