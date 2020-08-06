@@ -52,9 +52,9 @@ Observamos que están corriendo los puertos del Servicio **SAMBA**
 
 Cito a nuestra amiga Wikipedia:
 
-_Samba es una implementación del protocolo de **archivos compartidos de Microsoft Windows** (antiguamente llamado SMB, renombrado recientemente a CIFS) para sistemas de tipo UNIX. 
+_Samba es una implementación del protocolo de **archivos compartidos de Microsoft Windows** (antiguamente llamado SMB, renombrado recientemente a CIFS) para sistemas de tipo UNIX._ 
 
-Samba también permite validar usuarios haciendo de Controlador Principal de Dominio (PDC), como miembro de dominio e incluso como un dominio Active Directory para redes basadas en Windows; aparte de ser capaz de servir colas de impresión, directorios compartidos y autentificar con su propio archivo de usuarios._
+_Samba también permite validar usuarios haciendo de Controlador Principal de Dominio (PDC), como miembro de dominio e incluso como un dominio Active Directory para redes basadas en Windows; aparte de ser capaz de servir colas de impresión, directorios compartidos y autentificar con su propio archivo de usuarios._
 
 ## SAMBA
 
