@@ -147,3 +147,4 @@ Nos debemos de fijar en el propietario del fichero que tiene asignados cada usua
 Si vemos estos ficheros, vemos como el script escrito en python **crea el fichero** test.txt y escribe testing123!.
 
 ![test2.jpg]({{site.baseurl}}/images/Bashed/test2.jpg)
+
