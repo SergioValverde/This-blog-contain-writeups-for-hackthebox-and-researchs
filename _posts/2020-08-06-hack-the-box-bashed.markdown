@@ -21,7 +21,7 @@ En esta ocasión, haremos uso de un análisis agresivo, pero siempre trabajando 
 
 Tenemos dos principales parámetros:
 
-* **-A**: Enable OS detection, version detection, script scanning, and traceroute.
+* **A**: Enable OS detection, version detection, script scanning, and traceroute.
 
 * **T5**: Acelera el proceso, podemos indicar del 1 al 5, siendo 5 el más rapido.
 
@@ -39,4 +39,6 @@ PORT     STATE SERVICE    VERSION
 4480/tcp open  tcpwrapped                                    
                                                              
 ```
+
+
 
