@@ -67,11 +67,12 @@ Nos los descargamos para ver si encontramos algo.
 
 Una vez descargado, debemos descomprimirlo con `jar xf BlockyCore.jar`
 
+Navegamos por la carpeta **com** y encontramos un fichero llamado **BlockyCore.class**
+
 Para leer estos ficheros, usaremos el comandos **strings**.
 
 ![blockycore.jpg]({{site.baseurl}}/images/Blocky/blockycore.jpg)
 
-Navegamos por la carpeta **com** y encontramos un fichero llamado **BlockyCore.class**
 
 
 
