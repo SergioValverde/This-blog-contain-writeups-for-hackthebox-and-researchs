@@ -96,3 +96,9 @@ Necesitaremos ver que usuarios hay en la tabla de wordpress_users
 Y nos encontramos con el usuario **Notch**
 
 ![notch.jpg]({{site.baseurl}}/images/Blocky/notch.jpg)
+
+Intentamos probar la password obtenida anteriormente, la cual pudimos acceder al panel de phpmyadmin, por si reutilizasen las mismas contraseñas en ambas cuentas.
+
+Y acertamos.
+
+![ssh.jpg]({{site.baseurl}}/images/Blocky/ssh.jpg)
