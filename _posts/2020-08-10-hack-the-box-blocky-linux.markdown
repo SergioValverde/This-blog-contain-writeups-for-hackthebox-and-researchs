@@ -88,3 +88,11 @@ Con estos datos, podemos intentar loguearnos a través de ssh, o acceder al pane
 Y accedemos exitosamente al panel.
 
 ![panelphpmy.jpg]({{site.baseurl}}/images/Blocky/panelphpmy.jpg)
+
+# Explotación
+
+Necesitaremos ver que usuarios hay en la tabla de wordpress_users
+
+Y nos encontramos con el usuario **Notch**
+
+![notch.jpg]({{site.baseurl}}/images/Blocky/notch.jpg)
