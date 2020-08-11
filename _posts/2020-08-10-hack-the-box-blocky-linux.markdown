@@ -77,3 +77,9 @@ Para leer estos ficheros, usaremos el comandos **strings**.
 # Análsis
 
 Una vez recopilada la información, voy extraer los datos importantes sacados.
+
+El dato más importante es el extraído del **fichero BlockyCore.class**, en el que podemos leer un usuario, root y una contraseña, 8YsqfCTnvxAUeduzjNSXe22.
+
+
+
+
