@@ -103,5 +103,11 @@ Y acertamos.
 
 ![ssh.jpg]({{site.baseurl}}/images/Blocky/ssh.jpg)
 
+# PostExplotación
+
+La fase de escalada será bastante sencilla.
+
+Escribimos sudo su y la contraseña y ya estaría :)
 
 
+![root.jpg]({{site.baseurl}}/images/Blocky/root.jpg)
