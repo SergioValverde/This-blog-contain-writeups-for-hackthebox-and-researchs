@@ -55,4 +55,4 @@ Seguimos recabando información, ahora con **gobuster**.
 
 `gobuster dir -u http://10.10.10.37/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,html,sh,py,pl
 `
-
+![gobuster.jpg]({{site.baseurl}}/images/Blocky/gobuster.jpg)
