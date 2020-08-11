@@ -47,7 +47,7 @@ Como podemos ver, se trata de un wordpress.
 
 Intentaremos recabar más información, wordpress cuenta con un análisis de vulnerabilidades, llamado **wpscan**.
 
-![Wordpress.jpg]({{site.baseurl}}/images/Blocky/Wordpress.jpg)
+![wpscan.jpg]({{site.baseurl}}/images/Blocky/wpscan.jpg)
 
 Es interesante, ya que recopila información de las versiones que se están corriendo, y los themes instalados, que pueden sernos utiles para ver si tienen posibles vulnerabilidades.
 
@@ -55,3 +55,4 @@ Seguimos recabando información, ahora con **gobuster**.
 
 `gobuster dir -u http://10.10.10.37/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,html,sh,py,pl
 `
+
