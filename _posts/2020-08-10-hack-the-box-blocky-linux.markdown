@@ -85,7 +85,7 @@ Con estos datos, podemos intentar loguearnos a través de ssh, o acceder al pane
 
 ![phpmyadmin.jpg]({{site.baseurl}}/images/Blocky/phpmyadmin.jpg)
 
-Y accedemos exitosamente al panel.
+Y accedemos **exitosamente** al panel.
 
 ![panelphpmy.jpg]({{site.baseurl}}/images/Blocky/panelphpmy.jpg)
 
