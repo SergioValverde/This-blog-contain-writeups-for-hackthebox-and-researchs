@@ -33,7 +33,7 @@ Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 
 ```
 
-Mi metodología será siempre comprobar todos los servicios antes de ponerme enfrente del servicio web, y dejarlo para el último paso. 
+**Mi** metodología será siempre comprobar todos los servicios antes de ponerme enfrente del servicio web, y dejarlo para el último paso. 
 
 En este caso, no encontramos nada en el servicio FTP.
 
