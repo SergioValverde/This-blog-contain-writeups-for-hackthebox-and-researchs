@@ -39,3 +39,4 @@ En este caso, no encontramos nada en el servicio FTP.
 
 Así pasamos al servicio web.
 
+![Wordpress.jpg]({{site.baseurl}}/images/Blocky/Wordpress.jpg)
