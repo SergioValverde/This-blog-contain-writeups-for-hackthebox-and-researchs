@@ -74,8 +74,6 @@ Para leer estos ficheros, usaremos el comandos **strings**.
 ![blockycore.jpg]({{site.baseurl}}/images/Blocky/blockycore.jpg)
 
 
-
-
 # Análsis
 
 Una vez recopilada la información, voy extraer los datos importantes sacados.
