@@ -91,7 +91,7 @@ Y accedemos **exitosamente** al panel.
 
 # Explotación
 
-Necesitaremos ver que usuarios hay en la tabla de wordpress_users
+Necesitaremos ver que usuarios hay en la tabla de **wordpress_users**
 
 Y nos encontramos con el usuario **Notch**
 
