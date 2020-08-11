@@ -43,4 +43,10 @@ El prmer paso sera ver que se esta alojando en la web.
 
 ![Wordpress.jpg]({{site.baseurl}}/images/Blocky/Wordpress.jpg)
 
-Como podemos ver, se trata de un t
+Como podemos ver, se trata de un wordpress.
+
+Intentaremos recabar más información, wordpress cuenta con un análisis de vulnerabilidades, llamado **wpscan**.
+
+![Wordpress.jpg]({{site.baseurl}}/images/Blocky/Wordpress.jpg)
+
+Es interesante, ya que recopila información de las versiones que se están corriendo, y los themes instalados, que pueden sernos utiles para ver si tienen posibles vulnerabilidades.
