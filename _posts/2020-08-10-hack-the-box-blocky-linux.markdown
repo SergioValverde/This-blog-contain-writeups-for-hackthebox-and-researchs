@@ -39,4 +39,7 @@ En este caso, no encontramos nada en el servicio FTP.
 
 Así pasamos al servicio web.
 
+El prmer paso sera ver que se esta alojando en la web.
+
 ![Wordpress.jpg]({{site.baseurl}}/images/Blocky/Wordpress.jpg)
+
