@@ -33,7 +33,7 @@ Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 
 ```
 
-Mi metodología será siempre comprobar todos los servicios antes de ponerme enfrente del servicio web y dejar para el último paso el HTTP.
+Mi metodología será siempre comprobar todos los servicios antes de ponerme enfrente del servicio web, y dejarlo para el último paso. 
 
 En este caso, no encontramos nada en el servicio FTP.
 
@@ -43,3 +43,4 @@ El prmer paso sera ver que se esta alojando en la web.
 
 ![Wordpress.jpg]({{site.baseurl}}/images/Blocky/Wordpress.jpg)
 
+Como podemos ver, se trata de un t
