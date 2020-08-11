@@ -33,3 +33,9 @@ Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 
 ```
 
+Mi metodología será siempre comprobar todos los servicios antes de ponerme enfrente del servicio web y dejar para el último paso el HTTP.
+
+En este caso, no encontramos nada en el servicio FTP.
+
+Así pasamos al servicio web.
+
