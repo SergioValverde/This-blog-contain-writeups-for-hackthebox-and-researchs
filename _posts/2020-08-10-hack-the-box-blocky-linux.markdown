@@ -65,7 +65,8 @@ En el directorio **Plugins**, nos encontramos alojados dos archivos
 
 Nos los descargamos para ver si encontramos algo.
 
+Una vez descargado, debemos descomprimirlo con `jar xf BlockyCore.jar`
 
-Análsiis
+# Análsis
 
 Una vez recopilada la información, voy extraer los datos importantes sacados.
