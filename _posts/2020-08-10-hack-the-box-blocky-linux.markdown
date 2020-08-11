@@ -62,3 +62,10 @@ Obtenemos los siguientes resultados, deberemos ir comprobando uno a uno para ver
 En el directorio **Plugins**, nos encontramos alojados dos archivos
 
 ![plugins.jpg]({{site.baseurl}}/images/Blocky/plugins.jpg)
+
+Nos los descargamos para ver si encontramos algo.
+
+
+Análsiis
+
+Una vez recopilada la información, voy extraer los datos importantes sacados.
