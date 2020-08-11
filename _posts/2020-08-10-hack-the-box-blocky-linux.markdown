@@ -105,7 +105,7 @@ Y acertamos.
 
 # PostExplotación
 
-La fase de escalada será bastante sencilla.
+La fase de escalada será bastante complicada.
 
 Escribimos sudo su y la contraseña y ya estaría :)
 
