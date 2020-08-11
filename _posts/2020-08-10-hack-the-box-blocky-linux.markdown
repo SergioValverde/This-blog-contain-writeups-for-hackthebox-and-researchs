@@ -49,7 +49,7 @@ Intentaremos recabar más información, wordpress cuenta con un análisis de vul
 
 ![wpscan.jpg]({{site.baseurl}}/images/Blocky/wpscan.jpg)
 
-Es interesante, ya que recopila información de las versiones que se están corriendo, y los themes instalados, que pueden sernos utiles para ver si tienen posibles vulnerabilidades.
+Es interesante, ya que **recopila información** de las **versiones** que se están corriendo, y los **themes instalados**, que pueden sernos utiles para ver si tienen posibles vulnerabilidades.
 
 Seguimos recabando información, ahora con **gobuster**.
 
