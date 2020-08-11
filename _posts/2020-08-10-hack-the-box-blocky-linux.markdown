@@ -80,6 +80,7 @@ Una vez recopilada la información, voy extraer los datos importantes sacados.
 
 El dato más importante es el extraído del **fichero BlockyCore.class**, en el que podemos leer un usuario, root y una contraseña, 8YsqfCTnvxAUeduzjNSXe22.
 
+Con estos datos, podemos intentar loguearnos a través de ssh, o acceder al panel **phpmyadmin **que nos recolecto **gobuster**.
 
 
-
+![phpmyadmin.jpg]({{site.baseurl}}/images/Blocky/phpmyadmin.jpg)
