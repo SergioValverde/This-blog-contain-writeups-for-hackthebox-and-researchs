@@ -102,3 +102,4 @@ Intentamos probar la password obtenida anteriormente, la cual pudimos acceder al
 Y acertamos.
 
 ![ssh.jpg]({{site.baseurl}}/images/Blocky/ssh.jpg)
+
