@@ -115,4 +115,3 @@ Esto es debido a que nos encontramos con el comando /bin/su con permisos SUID.
 ![root.jpg]({{site.baseurl}}/images/Blocky/root.jpg)
 
 Ahora ya podemos recolectar las flags.
-
