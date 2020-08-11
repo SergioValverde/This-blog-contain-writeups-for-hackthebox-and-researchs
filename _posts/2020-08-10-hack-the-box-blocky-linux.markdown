@@ -112,6 +112,6 @@ Escribimos sudo su y la contraseña y ya estaría :)
 
 ![root.jpg]({{site.baseurl}}/images/Blocky/root.jpg)
 
-Esto es debido a que nos encontramos con el comando /bin/su con permisos SUID.
+Esto es debido a que nos encontramos con el comando **/bin/su** con **permisos SUID**.
 
 Ahora ya podemos recolectar las flags.
