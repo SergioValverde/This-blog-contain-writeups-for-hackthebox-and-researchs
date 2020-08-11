@@ -59,4 +59,6 @@ Obtenemos los siguientes resultados, deberemos ir comprobando uno a uno para ver
 
 ![gobuster.jpg]({{site.baseurl}}/images/Blocky/gobuster.jpg)
 
+En el directorio **Plugins**, nos encontramos alojados dos archivos
 
+![plugins.jpg]({{site.baseurl}}/images/Blocky/plugins.jpg)
