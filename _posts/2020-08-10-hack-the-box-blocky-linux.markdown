@@ -109,9 +109,9 @@ La fase de escalada será bastante complicada.
 
 Escribimos sudo su y la contraseña y ya estaría :)
 
-Esto es debido a que nos encontramos con el comando /bin/su con permisos SUID.
-
 
 ![root.jpg]({{site.baseurl}}/images/Blocky/root.jpg)
+
+Esto es debido a que nos encontramos con el comando /bin/su con permisos SUID.
 
 Ahora ya podemos recolectar las flags.
