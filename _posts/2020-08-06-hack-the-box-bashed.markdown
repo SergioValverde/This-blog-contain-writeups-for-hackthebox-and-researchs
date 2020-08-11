@@ -1,5 +1,5 @@
 ---
-title: Hack The Box - Bashed
+title: Hack The Box - Bashed - Linux
 date: 2020-08-06 07:49:00 Z
 ---
 
