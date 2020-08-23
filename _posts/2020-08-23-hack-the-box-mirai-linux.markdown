@@ -96,6 +96,12 @@ Y conseguimos acceder !
 
 # PostExplotación
 
-Una de las pricipales path para la escalada de privilegios es hacer uso de sudo -l que nos listará los posibles comandos que podremos recorrer.
+Una de las pricipales path para la escalada de privilegios es hacer uso de **sudo -l** que nos listará los posibles comandos que podremos recorrer.
 
 ![sudo-l.jpg]({{site.baseurl}}/images/Mirai/sudo-l.jpg)
+
+Nos muestra que podemos realizar todo tipo de comandos sin necesidad de password.
+
+Podemos hacer de sudo su y escalar privilegios
+
+![root.jpg]({{site.baseurl}}/images/Mirai/root.jpg)
