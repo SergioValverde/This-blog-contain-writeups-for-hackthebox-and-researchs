@@ -50,7 +50,7 @@ Nos encontramos con una página vacía.
 
 
 En este punto, **volvemos** a los resultados revueltos por **nmap**, y vemos que tenemos abierto el **puerto** **53 - DNS**.
-Conocimiendo el funcionamiento del servidor [DNS](https://www.cloudflare.com/learning/dns/what-is-dns/), vamos agregar la IP-Hostname a nuestro fichero /etc/hosts
+Conocimiendo el funcionamiento del servidor [**DNS**](https://www.cloudflare.com/learning/dns/what-is-dns/), vamos agregar la IP-Hostname a nuestro fichero /etc/hosts
 
 De la siguiente manera:
 
