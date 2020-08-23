@@ -120,3 +120,9 @@ No vemos nada, seguimos rebuscando por la red y por los directorios, y nos encon
 
 ![pista.jpg]({{site.baseurl}}/images/Mirai/pista.jpg)
 
+Justo, encima del mensaje, tenemos las flag de user.
+
+Siempre nos empeñamos en lo dificil, en mirar diferentes things, y lo importante lo tenemos delante...
+
+END :)
+
