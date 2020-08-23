@@ -72,5 +72,7 @@ Intentamos acceder al panel de administrador que descubrimos con gobuster.
 
 ![gobuster.jpg]({{site.baseurl}}/images/Mirai/gobuster.jpg)
 
+Intentamos loguearnos con usuarios por defecto, como admin-admin, admin-user, user-user, etc.
 
 
+![pihole.jpg]({{site.baseurl}}/images/Mirai/pihole.jpg)
