@@ -96,4 +96,6 @@ Y conseguimos acceder !
 
 # PostExplotación
 
+Una de las pricipales path para la escalada de privilegios es hacer uso de sudo -l que nos listará los posibles comandos que podremos recorrer.
 
+![sudo-l.jpg]({{site.baseurl}}/images/Mirai/sudo-l.jpg)
