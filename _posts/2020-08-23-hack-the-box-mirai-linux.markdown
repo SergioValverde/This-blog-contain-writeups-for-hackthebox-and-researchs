@@ -75,7 +75,7 @@ Intentamos acceder al panel de administrador que descubrimos con gobuster.
 Intentamos loguearnos con usuarios por defecto, como admin-admin, admin-user, user-user, etc.
 
 
-![pihole.jpg]({{site.baseurl}}/images/Mirai/pihole.
+![pihole.jpg]({{site.baseurl}}/images/Mirai/pihole.jpg)
 
 Buscaremos usuarios por defecto para conectarnos.
 
@@ -87,3 +87,5 @@ Buscando por la red usuarios por defecto para pi-hole, [descubrimos ](https://bl
 username:pi
 password:raspberry
 ```
+Intentamos conectarnos para ver si 
+
