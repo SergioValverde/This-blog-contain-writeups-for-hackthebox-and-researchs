@@ -21,4 +21,4 @@ En la fase de postexplotacion, **escalamos** a un usuario del sistema, listando 
 
 * [**BLOCKY**](https://sergiovalverde.github.io/2020/08/06/hack-the-box-indice.html) : Nos encontramos con un **servidor web**, el cuál aloja un **wordpress**.
 Nos encontramos con una reutilización de passwords, la cuál encontramos dentro de un fichero java.
-La fase de escalada, será aprovechando del binario **sudo ** y **su**, más conociendo la password, nos podremos como root
+La fase de escalada, será aprovechando del binario **sudo** y **su**, más conociendo la password, nos podremos como root
