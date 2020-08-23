@@ -19,3 +19,6 @@ La **postexplotación** la haremos ejecutando **nmap** con privilegios sudo, y h
 A través de una reverse shell obtenemos usuario www-data.
 En la fase de postexplotacion, **escalamos** a un usuario del sistema, listando los permisos con **sudo -l**, y alcanzamos **root**, **modificanto un script**, este script es ejecutado por el owner root.
 
+* [**BLOCKY**](https://sergiovalverde.github.io/2020/08/06/hack-the-box-indice.html) : Nos encontramos con un **servidor web**, el cuál aloja un **wordpress**.
+Nos encontramos con una reutilización de passwords, la cuál encontramos dentro de un fichero java.
+La fase de escalada, será aprovechando del binario **sudo ** y **su**, más conociendo la password, nos podremos como root
