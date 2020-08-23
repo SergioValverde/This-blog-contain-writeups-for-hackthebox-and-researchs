@@ -91,4 +91,5 @@ Probaremos a conectarnos usando estás credenciales por defecto.
 
 Y conseguimos acceder !
 
+![ssh.jpg]({{site.baseurl}}/images/Mirai/ssh.jpg)
 
