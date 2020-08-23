@@ -115,3 +115,7 @@ Navegamos por el directorio /dev/ el cuál contiene los archivos de los disposit
 Podemos hacer uso del comando find para buscar posible información.
 
 ![find.jpg]({{site.baseurl}}/images/Mirai/find.jpg)
+
+No vemos nada, seguimos rebuscando por la red y por los directorios, y nos encontramos una pista en el fichero **/dev/sdb**
+
+![pista.jpg]({{site.baseurl}}/images/Mirai/pista.jpg)
