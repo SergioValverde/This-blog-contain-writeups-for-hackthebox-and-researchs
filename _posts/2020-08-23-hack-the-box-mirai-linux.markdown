@@ -44,6 +44,10 @@ Accedemos al servidor web abierto en el puerto 80 para ver que información tien
 
 ![Server80.jpg]({{site.baseurl}}/images/Mirai/Server80.jpg)
 
+Nos encontramos una página vacía.
+
+En este punto, volvemos a los resultados revueltos por nmap, y vemos que tenemos abierto el puerto 53 - DNS.
+Conocimiendo el funcionamiento del servidores [DNS](https://www.cloudflare.com/learning/dns/what-is-dns/), vamos agregar la IP-Hostname a nuestro fichero /etc/hosts
 
 
 
