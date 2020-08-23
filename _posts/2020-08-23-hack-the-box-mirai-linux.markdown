@@ -50,4 +50,7 @@ En este punto, volvemos a los resultados revueltos por nmap, y vemos que tenemos
 Conocimiendo el funcionamiento del servidores [DNS](https://www.cloudflare.com/learning/dns/what-is-dns/), vamos agregar la IP-Hostname a nuestro fichero /etc/hosts
 
 
+![hosts.jpg]({{site.baseurl}}/images/Mirai/hosts.jpg)
+
+
 
