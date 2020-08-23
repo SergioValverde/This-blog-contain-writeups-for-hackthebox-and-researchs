@@ -57,6 +57,8 @@ De la siguiente manera:
 
 ![hosts.jpg]({{site.baseurl}}/images/Mirai/hosts.jpg)
 
+De nuevo accedemos al servidor web, en lugar de usar la IP usaremos el hostname.
 
 
+![miraiweb.jpg]({{site.baseurl}}/images/Mirai/miraiweb.jpg)
 
