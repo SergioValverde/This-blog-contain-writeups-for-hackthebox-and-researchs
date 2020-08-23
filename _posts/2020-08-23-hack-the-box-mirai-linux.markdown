@@ -62,3 +62,15 @@ De nuevo accedemos al servidor web, en lugar de usar la IP usaremos el hostname.
 
 ![miraiweb.jpg]({{site.baseurl}}/images/Mirai/miraiweb.jpg)
 
+**Análisis**
+
+Hemos obtenido el acceso a la aplicación Pi-Hole con versión 3.1.4
+
+Intentamos buscar vulnerabilidades pero no encontramos ninguna.
+
+Intentamos acceder al panel de administrador que descubrimos con gobuster.
+
+![gobuster.jpg]({{site.baseurl}}/images/Mirai/gobuster.jpg)
+
+
+
