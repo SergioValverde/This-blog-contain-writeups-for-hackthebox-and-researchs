@@ -87,5 +87,8 @@ Buscando por la red usuarios por defecto para pi-hole, [descubrimos ](https://bl
 username:pi
 password:raspberry
 ```
-Intentamos conectarnos para ver si 
+Probaremos a conectarnos usando estás credenciales por defecto.
+
+Y conseguimos acceder !
+
 
