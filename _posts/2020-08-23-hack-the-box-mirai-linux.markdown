@@ -75,4 +75,15 @@ Intentamos acceder al panel de administrador que descubrimos con gobuster.
 Intentamos loguearnos con usuarios por defecto, como admin-admin, admin-user, user-user, etc.
 
 
-![pihole.jpg]({{site.baseurl}}/images/Mirai/pihole.jpg)
+![pihole.jpg]({{site.baseurl}}/images/Mirai/pihole.
+
+Buscaremos usuarios por defecto para conectarnos.
+
+**Explotación**
+
+Buscando por la red usuarios por defecto para pi-hole, [descubrimos ](https://blog.cryptoaustralia.org.au/instructions-for-setting-up-pi-hole/)un usuario por defecto para acceder vía ssh a las raspberry.
+
+```
+username:pi
+password:raspberry
+```
