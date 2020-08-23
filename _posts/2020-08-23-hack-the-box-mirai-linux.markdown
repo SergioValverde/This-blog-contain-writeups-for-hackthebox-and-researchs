@@ -81,7 +81,7 @@ Buscaremos usuarios por defecto para conectarnos.
 
 **Explotación**
 
-Buscando por la red usuarios por defecto para pi-hole, [descubrimos ](https://blog.cryptoaustralia.org.au/instructions-for-setting-up-pi-hole/)un usuario por defecto para acceder vía ssh a las raspberry.
+Buscando por la red usuarios por defecto para pi-hole, [descubrimos ](https://blog.cryptoaustralia.org.au/instructions-for-setting-up-pi-hole/)un usuario por defecto para acceder vía ssh a la raspberry.
 
 ```
 username:pi
