@@ -119,3 +119,4 @@ Podemos hacer uso del comando find para buscar posible información.
 No vemos nada, seguimos rebuscando por la red y por los directorios, y nos encontramos una pista en el fichero **/dev/sdb**
 
 ![pista.jpg]({{site.baseurl}}/images/Mirai/pista.jpg)
+
