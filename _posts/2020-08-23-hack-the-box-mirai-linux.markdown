@@ -109,3 +109,9 @@ Podemos hacer de sudo su y escalar privilegios
 Se conseguió fácil, pero a la hora de conseguir la flag...
 
 ![flagroot.jpg]({{site.baseurl}}/images/Mirai/flagroot.jpg)
+
+Navegamos por el directorio /dev/ el cuál contiene los archivos de los dispositivos hardware.
+
+Podemos hacer uso del comando find para buscar posible información.
+
+![find.jpg]({{site.baseurl}}/images/Mirai/find.jpg)
