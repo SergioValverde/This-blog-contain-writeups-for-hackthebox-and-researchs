@@ -40,6 +40,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 ```
 
+
 Accedemos al servidor web abierto en el puerto 80 para ver que información tiene alojada.
 
 ![Server80.jpg]({{site.baseurl}}/images/Mirai/Server80.jpg)
