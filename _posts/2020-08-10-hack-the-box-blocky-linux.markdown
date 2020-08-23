@@ -1,5 +1,5 @@
 ---
-title: Hack The Box - Blocky - Linux
+title: Hack The Box - Blocky - Linux - Wordpress
 date: 2020-08-10 22:15:00 Z
 ---
 
