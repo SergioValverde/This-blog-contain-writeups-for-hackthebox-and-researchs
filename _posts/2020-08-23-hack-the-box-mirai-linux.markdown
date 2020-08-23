@@ -105,3 +105,7 @@ Nos muestra que podemos realizar todo tipo de comandos sin necesidad de password
 Podemos hacer de sudo su y escalar privilegios
 
 ![root.jpg]({{site.baseurl}}/images/Mirai/root.jpg)
+
+Se conseguió fácil, pero a la hora de conseguir la flag...
+
+![flagroot.jpg]({{site.baseurl}}/images/Mirai/flagroot.jpg)
