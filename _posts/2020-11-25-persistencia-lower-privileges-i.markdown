@@ -174,3 +174,8 @@ Nos conectamos a la sesión
 Y nos abrimos una shell
 
 ![image023.png]({{site.baseurl}}/images/PersistenciaLow1/image023.png)
+
+Con ctrl^z podemos salir al menú. Vemos las sesiones abiertas:
+
+
+![image024.png]({{site.baseurl}}/images/PersistenciaLow1/image024.png)
