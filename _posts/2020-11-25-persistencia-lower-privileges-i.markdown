@@ -154,5 +154,8 @@ Desde la máquina atacante, creamos nuestro servidor:
 
 ![image018.png]({{site.baseurl}}/images/PersistenciaLow1/image018.png)
 
+Indicamos el puerto 53 y el servidor dns, en este caso, inventado. Podemos utilizar servidores dns autorizados, pero la práctica no trata de este tema.
+Y desde la máquina víctima, nos conectamos:
 
+![image019.png]({{site.baseurl}}/images/PersistenciaLow1/image019.png)
 
