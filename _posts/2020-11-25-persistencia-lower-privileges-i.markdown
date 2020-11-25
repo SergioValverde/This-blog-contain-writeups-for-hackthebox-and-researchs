@@ -206,3 +206,9 @@ Comprobamos y vemos la nueva entrada llamada persistence, del tipo REG_SZ y la l
 
 ![image028.png]({{site.baseurl}}/images/PersistenciaLow1/image028.png)
 
+Al reiniciar el equipo, debería devolvernos la conexión…
+Que intriga!
+
+
+![image029.png]({{site.baseurl}}/images/PersistenciaLow1/image029.png)
+
