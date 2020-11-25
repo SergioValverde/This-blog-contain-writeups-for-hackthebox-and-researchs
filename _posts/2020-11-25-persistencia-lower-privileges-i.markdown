@@ -280,6 +280,8 @@ Y obtenemos nuestra reverse shell.
 
 
 Es interesante conocer que podemos utilizar diferentes localizaciones para ejecutar nuestro payload, haciendo uso de técnicas más avanzadas, dando la posibilidad de realizar estas técnicas lo más anónimamente posible.
+
+
 Y importante conocer las funcionalidades que nos brinda schtasks, por ejemplo, la posibilidad indicar con que usuario ejecutamos la tarea con /ru. 
 
 
