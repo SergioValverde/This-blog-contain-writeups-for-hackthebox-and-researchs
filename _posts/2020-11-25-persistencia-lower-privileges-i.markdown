@@ -59,3 +59,7 @@ Os dejo el link para obtener más información:
 Movemos el binario a la carpeta indicada anteriormente:
 
 ![image003.png]({{site.baseurl}}/images/PersistenciaLow1/image003.png)
+
+Podemos revisarlo y ver como tenemos el fichero colocado en la ruta escrita anteriormente.
+
+![image004.png]({{site.baseurl}}/images/PersistenciaLow1/image004.png)
