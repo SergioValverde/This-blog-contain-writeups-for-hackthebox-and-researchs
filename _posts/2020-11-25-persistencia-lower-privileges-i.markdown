@@ -85,3 +85,8 @@ Nuestra sesión que tenemos abierta:
 
 
 ![image009.png]({{site.baseurl}}/images/PersistenciaLow1/image009.png)
+
+Reiniciamos el equipo, por lo tanto perdemos la sesión que teníamos abierta:
+
+
+![image010.png]({{site.baseurl}}/images/PersistenciaLow1/image010.png)
