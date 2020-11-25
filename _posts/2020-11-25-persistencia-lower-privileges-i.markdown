@@ -218,3 +218,70 @@ Un proceso también importante es el borrado de huellas
 
 ![image030.png]({{site.baseurl}}/images/PersistenciaLow1/image030.png)
 
+Y el fichero .bat
+
+![image031.png]({{site.baseurl}}/images/PersistenciaLow1/image031.png)
+
+Otra opción, en vez de crear el fichero .bat, que al fin al cabo no es la opción más segura. 
+Podemos añadir los parámetros de dnscat entrecomillando la sintaxis:
+
+![image032.png]({{site.baseurl}}/images/PersistenciaLow1/image032.png)
+
+
+![image033.png]({{site.baseurl}}/images/PersistenciaLow1/image033.png)
+
+Lo podemos ver desde el regedit:
+![image034.png]({{site.baseurl}}/images/PersistenciaLow1/image034.png)
+
+Una vez reiniciado el equipo, nos devolverá la sesión
+
+![image035.png]({{site.baseurl}}/images/PersistenciaLow1/image035.png)
+
+
+
+# Scheduled Tasks
+
+A través del lolbas, schtasks, por ejemplo, podemos crear tareas programas, y ejecutar nuestros payloads.
+
+Tenemos diferentes formas, por ejemplo haciendo uso de at.exe:
+
+● At job example:
+     ○ at 08:00 /EVERY:m,t,w,th,f,s,su C:\Some\Evil\batch.bat
+
+● Scheduled tasks 
+schtasks /create /sc minute /mo 1 /tn "Reverse shell" /tr c:\some\directory\revshell.exe
+
+Primero, creamos un payload con msfvenom
+
+![image036.png]({{site.baseurl}}/images/PersistenciaLow1/image036.png)
+
+Lo transferimos al equipo víctima
+![image037.png]({{site.baseurl}}/images/PersistenciaLow1/image037.png)
+
+Y creamos la tarea programada
+
+![image038.png]({{site.baseurl}}/images/PersistenciaLow1/image038.png)
+
+Estamos indicamos: crear una tarea programada, con una frecuencia de un minuto con el nombre de “Reverse” y el path del fichero con /tr.
+Desde metasploit, nos abrimos un multi/handler:
+
+![image039.png]({{site.baseurl}}/images/PersistenciaLow1/image039.png)
+
+Añadimos el payload:
+
+![image040.png]({{site.baseurl}}/images/PersistenciaLow1/image040.png)
+
+Ejecutamos:
+
+![image041.png]({{site.baseurl}}/images/PersistenciaLow1/image041.png)
+
+
+Y obtenemos nuestra reverse shell.
+Es interesante conocer que podemos utilizar diferentes localizaciones para ejecutar nuestro payload, haciendo uso de técnicas más avanzadas, dando la posibilidad de realizar estas técnicas lo más anónimamente posible.
+Y importante conocer las funcionalidades que nos brinda schtasks, por ejemplo, la posibilidad indicar con que usuario ejecutamos la tarea con /ru. 
+
+
+
+
+
+
