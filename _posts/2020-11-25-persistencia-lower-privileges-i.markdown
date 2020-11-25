@@ -163,4 +163,10 @@ Desde el servidor nos confirma que se realizó correctamente la conexión, encri
 
 ![image020.png]({{site.baseurl}}/images/PersistenciaLow1/image020.png)
 
+Podemos ver las sesiones abiertas con el comando sessions o windows.
+![image021.png]({{site.baseurl}}/images/PersistenciaLow1/image021.png)
+
+Nos conectamos a la sesión
+
+![image022.png]({{site.baseurl}}/images/PersistenciaLow1/image022.png)
 
