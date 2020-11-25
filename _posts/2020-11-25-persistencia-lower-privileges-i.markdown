@@ -48,7 +48,7 @@ Lo subimos al equipo, tenemos diferentes opciones, si nos encontramos con una se
 
 ![image002.png]({{site.baseurl}}/images/PersistenciaLow1/image002.png)
 
-O hacer uso del binario certutil.exe, cuya utilidad conocida es la gestión de certificados, podemos hacer usos “no oficial” o inseguro de él, que es descargar ficheros. Tienes otros usos, como encodear fichero o decodearlos, puede sernos útil para la evasión de AV.
+O hacer uso del binario certutil.exe, cuya utilidad conocida es la gestión de certificados, podemos hacer usos “no oficial” o inseguro de él, que es descargar ficheros. Tienes otros usos, como encodear ficheros o decodearlos, puede sernos útil para la evasión de AV.
 
 
 Os dejo el link para obtener más información:
