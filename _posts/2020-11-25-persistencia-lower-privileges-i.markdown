@@ -212,3 +212,9 @@ Que intriga!
 
 ![image029.png]({{site.baseurl}}/images/PersistenciaLow1/image029.png)
 
+Recibida la sesión!
+Un proceso también importante es el borrado de huellas
+
+
+![image030.png]({{site.baseurl}}/images/PersistenciaLow1/image030.png)
+
