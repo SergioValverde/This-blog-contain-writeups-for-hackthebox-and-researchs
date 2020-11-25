@@ -95,3 +95,7 @@ Reiniciamos el equipo, por lo tanto perdemos la sesión que teníamos abierta:
 Y no tendríamos ninguna sesión:
 
 ![image011.png]({{site.baseurl}}/images/PersistenciaLow1/image011.png)
+
+PERO, una vez reiniciado el equipo, se nos devolverá la sesión gracias a la persistencia que hemos colocado:
+
+![image012.png]({{site.baseurl}}/images/PersistenciaLow1/image012.png)
