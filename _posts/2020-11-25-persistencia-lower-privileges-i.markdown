@@ -124,3 +124,8 @@ Vemos que ambas sesiones mueren:
 
 
 ![image016.png]({{site.baseurl}}/images/PersistenciaLow1/image016.png)
+
+Y una vez reiniciado se nos devuelve las sesiones:
+
+
+![image017.png]({{site.baseurl}}/images/PersistenciaLow1/image017.png)
