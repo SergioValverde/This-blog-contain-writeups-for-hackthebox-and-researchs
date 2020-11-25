@@ -298,25 +298,25 @@ Antes de ver la realización de persistencia, es necesario conocer lo siguiente:
 Creamos el job y le asignamos el nombre de backdoor
 
 
-![image042.png]({{site.baseurl}}/images/PersistenciaLow1/image042.png)
+![image043.png]({{site.baseurl}}/images/PersistenciaLow1/image043.png)
 
 Añadimos un fichero a al job
 Seguimos la instrucción addfile <job> <remote_url> <local_name>
 
-![image043.png]({{site.baseurl}}/images/PersistenciaLow1/image043.png)
+![image044.png]({{site.baseurl}}/images/PersistenciaLow1/image044.png)
 
 Ahora, introducimos el programa para ejecutarlo.
 
-![image044.png]({{site.baseurl}}/images/PersistenciaLow1/image044.png)
+![image045.png]({{site.baseurl}}/images/PersistenciaLow1/image045.png)
 
 Añadimos un delay al job en segundos.
 
-![image045.png]({{site.baseurl}}/images/PersistenciaLow1/image045.png)
+![image046.png]({{site.baseurl}}/images/PersistenciaLow1/image046.png)
 
 Finalmente corremos el job
 
-![image046.png]({{site.baseurl}}/images/PersistenciaLow1/image046.png)
+![image047.png]({{site.baseurl}}/images/PersistenciaLow1/image047.png)
 
 Reiniciado el equipo, se nos abrirá la sesión!
 
-![image047.png]({{site.baseurl}}/images/PersistenciaLow1/image047.png)
+![image048.png]({{site.baseurl}}/images/PersistenciaLow1/image048.png)
