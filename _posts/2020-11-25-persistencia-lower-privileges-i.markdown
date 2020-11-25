@@ -13,18 +13,13 @@ Interesante conocer este concepto debido a que es útil para todos, tanto red te
 
 # ¿Qué objetivos tenemos?
 
-     -  Sobrevivir a un reinicio
-     -	Caída de la red
-     -	Ser detectados 
-     -	Eliminación del vector de acceso
+* Sobrevivir a un reinicio
+* Caída de la red
+* Ser detectados 
+* Eliminación del vector de acceso
 
 
-En este artículo se tratará las siguientes técnicas.
 
-* Startup Folder
-* Registry Run Keys
-* Scheduled Tasks
-* BITS Jobs
 
 # Startup Folder
 
