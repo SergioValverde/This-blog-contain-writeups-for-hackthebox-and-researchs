@@ -26,7 +26,7 @@ Interesante conocer este concepto debido a que es útil para todos, tanto red te
 
 Una de las formulas más conocidas, cualquier binario, script que este alojado en este directorio será ejecuta cuando inicie sesión un usuario.
 
-The path of the startup folder is: 
+La ruta del directorio es: 
 **C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup**
 
 Es importante conocer, que la ejecución se produce bajo el usuario logeado.
