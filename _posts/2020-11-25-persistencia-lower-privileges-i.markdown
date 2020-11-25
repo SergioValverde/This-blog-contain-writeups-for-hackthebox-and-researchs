@@ -152,48 +152,48 @@ Para descargarla:
 [https://github.com/iagox86/dnscat2](https://github.com/iagox86/dnscat2)
 Desde la máquina atacante, creamos nuestro servidor:
 
-![image018.png]({{site.baseurl}}/images/PersistenciaLow1/image018.png)
+![image019.png]({{site.baseurl}}/images/PersistenciaLow1/image019.png)
 
 Indicamos el puerto 53 y el servidor dns, en este caso, inventado. Podemos utilizar servidores dns autorizados, pero la práctica no trata de este tema.
 Y desde la máquina víctima, nos conectamos:
 
-![image019.png]({{site.baseurl}}/images/PersistenciaLow1/image019.png)
+![image020.png]({{site.baseurl}}/images/PersistenciaLow1/image020.png)
 
 Desde el servidor nos confirma que se realizó correctamente la conexión, encriptada y verificada.
 
-![image020.png]({{site.baseurl}}/images/PersistenciaLow1/image020.png)
+![image021.png]({{site.baseurl}}/images/PersistenciaLow1/image021.png)
 
 Podemos ver las sesiones abiertas con el comando sessions o windows.
-![image021.png]({{site.baseurl}}/images/PersistenciaLow1/image021.png)
+![image022.png]({{site.baseurl}}/images/PersistenciaLow1/image022.png)
 
 Nos conectamos a la sesión
 
-![image022.png]({{site.baseurl}}/images/PersistenciaLow1/image022.png)
+![image023.png]({{site.baseurl}}/images/PersistenciaLow1/image023.png)
 
 
 Y nos abrimos una shell
 
-![image023.png]({{site.baseurl}}/images/PersistenciaLow1/image023.png)
+![image024.png]({{site.baseurl}}/images/PersistenciaLow1/image024.png)
 
 Con ctrl^z podemos salir al menú. Vemos las sesiones abiertas:
 
 
-![image024.png]({{site.baseurl}}/images/PersistenciaLow1/image024.png)
+![image025.png]({{site.baseurl}}/images/PersistenciaLow1/image025.png)
 
 Dado que dnscat necesita añadir parámetros a la hora de ejecutar fichero, podemos crear un fichero bat, para que sea llamado en las entradas del registro, a su vez, ejecutando nuestro fichero.
 
 
-![image025.png]({{site.baseurl}}/images/PersistenciaLow1/image025.png)
+![image026.png]({{site.baseurl}}/images/PersistenciaLow1/image026.png)
 
 Podemos subir el fichero:
 
 
-![image026.png]({{site.baseurl}}/images/PersistenciaLow1/image026.png)
+![image027.png]({{site.baseurl}}/images/PersistenciaLow1/image027.png)
 
 Se subirá donde este alojado el client dnscat.
 Para indica nosotros la ruta correcta, debemos hacer uso de barras invertidas.
 
-![image027.png]({{site.baseurl}}/images/PersistenciaLow1/image027.png)
+![image028.png]({{site.baseurl}}/images/PersistenciaLow1/image028.png)
 
 El siguiente paso, será añadir este fichero al registro.
 
@@ -204,38 +204,38 @@ El siguiente paso, será añadir este fichero al registro.
 
 Comprobamos y vemos la nueva entrada llamada persistence, del tipo REG_SZ y la localización.
 
-![image028.png]({{site.baseurl}}/images/PersistenciaLow1/image028.png)
+![image029.png]({{site.baseurl}}/images/PersistenciaLow1/image029.png)
 
 Al reiniciar el equipo, debería devolvernos la conexión…
 Que intriga!
 
 
-![image029.png]({{site.baseurl}}/images/PersistenciaLow1/image029.png)
+![image030.png]({{site.baseurl}}/images/PersistenciaLow1/image030.png)
 
 Recibida la sesión!
 Un proceso también importante es el borrado de huellas
 
 
-![image030.png]({{site.baseurl}}/images/PersistenciaLow1/image030.png)
+![image031.png]({{site.baseurl}}/images/PersistenciaLow1/image031.png)
 
 Y el fichero .bat
 
-![image031.png]({{site.baseurl}}/images/PersistenciaLow1/image031.png)
+![image032.png]({{site.baseurl}}/images/PersistenciaLow1/image032.png)
 
 Otra opción, en vez de crear el fichero .bat, que al fin al cabo no es la opción más segura. 
 Podemos añadir los parámetros de dnscat entrecomillando la sintaxis:
 
-![image032.png]({{site.baseurl}}/images/PersistenciaLow1/image032.png)
-
-
 ![image033.png]({{site.baseurl}}/images/PersistenciaLow1/image033.png)
 
-Lo podemos ver desde el regedit:
+
 ![image034.png]({{site.baseurl}}/images/PersistenciaLow1/image034.png)
+
+Lo podemos ver desde el regedit:
+![image035.png]({{site.baseurl}}/images/PersistenciaLow1/image035.png)
 
 Una vez reiniciado el equipo, nos devolverá la sesión
 
-![image035.png]({{site.baseurl}}/images/PersistenciaLow1/image035.png)
+![image036.png]({{site.baseurl}}/images/PersistenciaLow1/image036.png)
 
 
 
