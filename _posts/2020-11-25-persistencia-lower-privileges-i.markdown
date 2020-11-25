@@ -99,3 +99,14 @@ Y no tendríamos ninguna sesión:
 PERO, una vez reiniciado el equipo, se nos devolverá la sesión gracias a la persistencia que hemos colocado:
 
 ![image012.png]({{site.baseurl}}/images/PersistenciaLow1/image012.png)
+
+Obtenemos nuestra sesión
+
+![image013.png]({{site.baseurl}}/images/PersistenciaLow1/image013.png)
+
+Os preguntareis, esto se ejecutará cada vez que inicie sesión el usuario? La respuesta es sí.
+Si reiniciamos, evidentemente perdemos la sesión
+
+
+![image014.png]({{site.baseurl}}/images/PersistenciaLow1/image014.png)
+
