@@ -248,6 +248,8 @@ Una vez reiniciado el equipo, nos devolverá la sesión
 
 A través del lolbas, schtasks, por ejemplo, podemos crear tareas programas, y ejecutar nuestros payloads.
 
+Más detalles: [https://attack.mitre.org/techniques/T1053/](https://attack.mitre.org/techniques/T1053/)
+
 Tenemos diferentes formas, por ejemplo haciendo uso de at.exe:
 
 ● At job example:
