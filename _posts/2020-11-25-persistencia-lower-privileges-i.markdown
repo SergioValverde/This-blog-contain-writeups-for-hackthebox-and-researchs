@@ -179,3 +179,8 @@ Con ctrl^z podemos salir al menú. Vemos las sesiones abiertas:
 
 
 ![image024.png]({{site.baseurl}}/images/PersistenciaLow1/image024.png)
+
+Dado que dnscat necesita añadir parámetros a la hora de ejecutar fichero, podemos crear un fichero bat, para que sea llamado en las entradas del registro, a su vez, ejecutando nuestro fichero.
+
+
+![image025.png]({{site.baseurl}}/images/PersistenciaLow1/image025.png)
