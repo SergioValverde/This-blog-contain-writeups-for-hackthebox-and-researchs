@@ -159,3 +159,8 @@ Y desde la máquina víctima, nos conectamos:
 
 ![image019.png]({{site.baseurl}}/images/PersistenciaLow1/image019.png)
 
+Desde el servidor nos confirma que se realizó correctamente la conexión, encriptada y verificada.
+
+![image020.png]({{site.baseurl}}/images/PersistenciaLow1/image020.png)
+
+
