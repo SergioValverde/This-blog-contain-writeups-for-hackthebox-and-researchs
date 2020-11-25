@@ -132,7 +132,7 @@ Y una vez reiniciado se nos devuelve las sesiones:
 ![image017.png]({{site.baseurl}}/images/PersistenciaLow1/image017.png)
 
 
-# Editing registries/ Registry Run Keys
+## Editing registries/ Registry Run Keys
 
 En Windows, existen diferentes claves que son ejecutados al arranque del equipo, podemos añadir una entrada o modificarlas. 
 Este código será ejecutado cada vez que el usuario ingrese en el sistema
@@ -240,7 +240,7 @@ Una vez reiniciado el equipo, nos devolverá la sesión
 
 
 
-# Scheduled Tasks
+## Scheduled Tasks
 
 A través del lolbas, schtasks, por ejemplo, podemos crear tareas programas, y ejecutar nuestros payloads.
 
@@ -288,7 +288,7 @@ Y importante conocer las funcionalidades que nos brinda schtasks, por ejemplo, l
 
 
 
-# BITS Jobs
+## BITS Jobs
 
 El objetivo de BITS (Background Intelligent Transfer Service) es facilitar la tranferencia de archivos entre web servers (HTTP) y share folders (SMB)
 
