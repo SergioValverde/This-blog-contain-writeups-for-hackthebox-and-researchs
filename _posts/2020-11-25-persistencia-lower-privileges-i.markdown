@@ -136,8 +136,12 @@ Y una vez reiniciado se nos devuelve las sesiones:
 
 En Windows, existen diferentes claves que son ejecutados al arranque del equipo, podemos añadir una entrada o modificarlas. 
 Este código será ejecutado cada vez que el usuario ingrese en el sistema
+
+
 Más información:
 [https://attack.mitre.org/techniques/T1547/001/](https://attack.mitre.org/techniques/T1547/001/)
+
+
 Los registros HKCU son ejecutados cuando el usuario se logea en el equipo,  a diferentes de los registros HKLM que son arrancados cada vez que se inicie el equipo.
 
 Las claves más comunes:
