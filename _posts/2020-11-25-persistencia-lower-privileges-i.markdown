@@ -3,7 +3,7 @@ title: Persistencia - Lower Privileges I
 date: 2020-11-25 12:48:00 Z
 ---
 
-### # ¿Quien está ahí?
+###¿Quien está ahí?
 
 Definimos persistencia como el proceso de configurar puertas traseras, con el objetivo de mantener el acceso en el equipo. ¿Fácil no? 
 
@@ -11,7 +11,7 @@ Este tutorial intentaré cubrir las técnicas más utilizados para máquinas Win
 
 Interesante conocer este concepto debido a que es útil para todos, tanto red team como blue team.
 
-### # ¿Qué objetivos tenemos?
+###¿Qué objetivos tenemos?
 
 * Sobrevivir a un reinicio
 * Caída de la red
@@ -21,7 +21,7 @@ Interesante conocer este concepto debido a que es útil para todos, tanto red te
 
 
 
-## # Startup Folder
+##Startup Folder
 
 
 Una de las formulas más conocidas, cualquier binario, script que este alojado en este directorio será ejecuta cuando inicie sesión un usuario.
