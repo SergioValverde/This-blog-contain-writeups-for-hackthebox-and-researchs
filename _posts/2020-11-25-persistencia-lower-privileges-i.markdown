@@ -253,27 +253,27 @@ schtasks /create /sc minute /mo 1 /tn "Reverse shell" /tr c:\some\directory\revs
 
 Primero, creamos un payload con msfvenom
 
-![image036.png]({{site.baseurl}}/images/PersistenciaLow1/image036.png)
+![image037.png]({{site.baseurl}}/images/PersistenciaLow1/image037.png)
 
 Lo transferimos al equipo víctima
-![image037.png]({{site.baseurl}}/images/PersistenciaLow1/image037.png)
+![image038.png]({{site.baseurl}}/images/PersistenciaLow1/image038.png)
 
 Y creamos la tarea programada
 
-![image038.png]({{site.baseurl}}/images/PersistenciaLow1/image038.png)
+![image039.png]({{site.baseurl}}/images/PersistenciaLow1/image039.png)
 
 Estamos indicamos: crear una tarea programada, con una frecuencia de un minuto con el nombre de “Reverse” y el path del fichero con /tr.
 Desde metasploit, nos abrimos un multi/handler:
 
-![image039.png]({{site.baseurl}}/images/PersistenciaLow1/image039.png)
+![image040.png]({{site.baseurl}}/images/PersistenciaLow1/image040.png)
 
 Añadimos el payload:
 
-![image040.png]({{site.baseurl}}/images/PersistenciaLow1/image040.png)
+![image041.png]({{site.baseurl}}/images/PersistenciaLow1/image041.png)
 
 Ejecutamos:
 
-![image041.png]({{site.baseurl}}/images/PersistenciaLow1/image041.png)
+![image042.png]({{site.baseurl}}/images/PersistenciaLow1/image042.png)
 
 
 Y obtenemos nuestra reverse shell.
