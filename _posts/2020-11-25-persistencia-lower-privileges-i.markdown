@@ -170,3 +170,7 @@ Nos conectamos a la sesión
 
 ![image022.png]({{site.baseurl}}/images/PersistenciaLow1/image022.png)
 
+
+Y nos abrimos una shell
+
+![image023.png]({{site.baseurl}}/images/PersistenciaLow1/image023.png)
