@@ -80,3 +80,8 @@ Pasos seguidos desde una sesión meterpreter:
 Y ejecutamos el multi/handler en segundo plano. 
 
 ![image008.png]({{site.baseurl}}/images/PersistenciaLow1/image008.png)
+
+Nuestra sesión que tenemos abierta:
+
+
+![image009.png]({{site.baseurl}}/images/PersistenciaLow1/image009.png)
