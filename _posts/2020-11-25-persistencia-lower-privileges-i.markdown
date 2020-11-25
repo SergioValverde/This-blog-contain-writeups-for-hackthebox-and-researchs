@@ -184,3 +184,17 @@ Dado que dnscat necesita añadir parámetros a la hora de ejecutar fichero, pode
 
 
 ![image025.png]({{site.baseurl}}/images/PersistenciaLow1/image025.png)
+
+Podemos subir el fichero:
+
+
+![image026.png]({{site.baseurl}}/images/PersistenciaLow1/image026.png)
+
+Se subirá donde este alojado el client dnscat.
+Para indica nosotros la ruta correcta, debemos hacer uso de barras invertidas.
+
+![image027.png]({{site.baseurl}}/images/PersistenciaLow1/image027.png)
+
+El siguiente paso, será añadir este fichero al registro.
+
+![image028.png]({{site.baseurl}}/images/PersistenciaLow1/image028.png)
