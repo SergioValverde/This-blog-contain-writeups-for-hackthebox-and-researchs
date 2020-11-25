@@ -110,3 +110,11 @@ Si reiniciamos, evidentemente perdemos la sesión
 
 ![image014.png]({{site.baseurl}}/images/PersistenciaLow1/image014.png)
 
+Si nos configuramos adecuadamente metasploit, cada vez que se reinicie el equipo nos devolverá la sesión.
+Y funcionará en diferentes equipos? Veamos…
+Utilizamos otro equipo y realizamos las mismas acciones anteriores. Utilizando el mismo payload y el mismo puerto de escucha.
+Podemos observar las dos sesiones abiertas:
+
+
+
+![image015.png]({{site.baseurl}}/images/PersistenciaLow1/image015.png)
