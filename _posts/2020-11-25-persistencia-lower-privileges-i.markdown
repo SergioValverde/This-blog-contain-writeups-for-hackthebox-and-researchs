@@ -301,7 +301,7 @@ El objetivo de BITS (Background Intelligent Transfer Service) es facilitar la tr
 Más detalles: [https://attack.mitre.org/techniques/T1197/](https://attack.mitre.org/techniques/T1197/)
 
 Antes de ver la realización de persistencia, es necesario conocer lo siguiente:
-“ITS Jobs are containers that contain files that need to be transferred. However, when creating the job the container is empty and it needs to be populated (specify one or more files to be transferred). It's also needed to add the source and the destination.” By TryHackMe-Persistence
+“BITS Jobs are containers that contain files that need to be transferred. However, when creating the job the container is empty and it needs to be populated (specify one or more files to be transferred). It's also needed to add the source and the destination.” By TryHackMe-Persistence
 
 
 Creamos el job y le asignamos el nombre de backdoor
