@@ -44,4 +44,5 @@ Vamos allá, creamos un binario con msfvenom:
 ![image001.png]({{site.baseurl}}/images/PersistenciaLow1/image001.png)
 
 Lo subimos al equipo, tenemos diferentes opciones, si nos encontramos con una sesión meterpreter, podemos utilizar el comando upload:
+
 ![image002.png]({{site.baseurl}}/images/PersistenciaLow1/image002.png)
