@@ -3,7 +3,7 @@ title: Persistencia - Lower Privileges I
 date: 2020-11-25 12:48:00 Z
 ---
 
-### ¿Quien está ahí?
+# ¿Quien está ahí?
 
 Definimos persistencia como el proceso de configurar puertas traseras, con el objetivo de mantener el acceso en el equipo. ¿Fácil no? 
 
