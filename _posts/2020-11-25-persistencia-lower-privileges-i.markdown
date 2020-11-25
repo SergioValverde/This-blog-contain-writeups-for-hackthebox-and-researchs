@@ -198,3 +198,11 @@ Para indica nosotros la ruta correcta, debemos hacer uso de barras invertidas.
 El siguiente paso, será añadir este fichero al registro.
 
 ![image028.png]({{site.baseurl}}/images/PersistenciaLow1/image028.png)
+/v añadimos el nombre 
+/t el tipo de dato
+/d el path del fichero.
+
+Comprobamos y vemos la nueva entrada llamada persistence, del tipo REG_SZ y la localización.
+
+![image028.png]({{site.baseurl}}/images/PersistenciaLow1/image028.png)
+
