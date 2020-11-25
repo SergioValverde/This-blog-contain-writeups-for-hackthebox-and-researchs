@@ -131,3 +131,28 @@ Y una vez reiniciado se nos devuelve las sesiones:
 ![image017.png]({{site.baseurl}}/images/PersistenciaLow1/image017.png)
 
 
+# Editing registries/ Registry Run Keys
+
+En Windows, existen diferentes claves que son ejecutados al arranque del equipo, podemos añadir una entrada o modificarlas. 
+Este código será ejecutado cada vez que el usuario ingrese en el sistema
+Más información:
+[https://attack.mitre.org/techniques/T1547/001/](https://attack.mitre.org/techniques/T1547/001/)
+Los registros HKCU son ejecutados cuando el usuario se logea en el equipo,  a diferentes de los registros HKLM que son arrancados cada vez que se inicie el equipo.
+
+Las claves más comunes:
+
+`HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run`
+`HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunOnce`
+`HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunServices`
+`HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunServicesOnce`
+
+
+En este caso, en vez de utilizar metasploit, usaremos la herramienta dnscat2, el resultado será el mismo, pero buscamos el conocimiento, y más importante, cifrar las comunicaciones es un factor clave como también evadir los diferentes mecanismos de seguridad, así que allá vamos.
+Para descargarla:
+[https://github.com/iagox86/dnscat2](https://github.com/iagox86/dnscat2)
+Desde la máquina atacante, creamos nuestro servidor:
+
+![image018.png]({{site.baseurl}}/images/PersistenciaLow1/image018.png)
+
+
+
