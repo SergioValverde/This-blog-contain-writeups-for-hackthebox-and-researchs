@@ -63,3 +63,17 @@ Movemos el binario a la carpeta indicada anteriormente:
 Podemos revisarlo y ver como tenemos el fichero colocado en la ruta escrita anteriormente.
 
 ![image004.png]({{site.baseurl}}/images/PersistenciaLow1/image004.png)
+
+El siguiente paso será configurar nuestro metasploit.
+
+Añadimos un multi/handler y configuramos las opciones correspondientes
+
+Pasos seguidos desde una sesión meterpreter:
+
+
+![image005.png]({{site.baseurl}}/images/PersistenciaLow1/image005.png)
+
+![image006.png]({{site.baseurl}}/images/PersistenciaLow1/image006.png)
+
+![image007.png]({{site.baseurl}}/images/PersistenciaLow1/image007.png)
+
