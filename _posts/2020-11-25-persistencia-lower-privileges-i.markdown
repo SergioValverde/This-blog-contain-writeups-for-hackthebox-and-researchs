@@ -23,6 +23,7 @@ Interesante conocer este concepto debido a que es útil para todos, tanto red te
 
 # Startup Folder
 
+
 Una de las formulas más conocidas, cualquier binario, script que este alojado en este directorio será ejecuta cuando inicie sesión un usuario.
 
 The path of the startup folder is: 
