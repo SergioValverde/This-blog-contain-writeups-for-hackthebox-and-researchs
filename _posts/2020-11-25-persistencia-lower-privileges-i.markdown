@@ -152,38 +152,38 @@ Para descargarla:
 [https://github.com/iagox86/dnscat2](https://github.com/iagox86/dnscat2)
 Desde la máquina atacante, creamos nuestro servidor:
 
-![image019.png]({{site.baseurl}}/images/PersistenciaLow1/image019.png)
+![image018.png]({{site.baseurl}}/images/PersistenciaLow1/image018.png)
 
 Indicamos el puerto 53 y el servidor dns, en este caso, inventado. Podemos utilizar servidores dns autorizados, pero la práctica no trata de este tema.
 Y desde la máquina víctima, nos conectamos:
 
-![image020.png]({{site.baseurl}}/images/PersistenciaLow1/image020.png)
+![image019.png]({{site.baseurl}}/images/PersistenciaLow1/image019.png)
 
 Desde el servidor nos confirma que se realizó correctamente la conexión, encriptada y verificada.
 
-![image021.png]({{site.baseurl}}/images/PersistenciaLow1/image021.png)
+![image020.png]({{site.baseurl}}/images/PersistenciaLow1/image020.png)
 
 Podemos ver las sesiones abiertas con el comando sessions o windows.
-![image022.png]({{site.baseurl}}/images/PersistenciaLow1/image022.png)
+![image021.png]({{site.baseurl}}/images/PersistenciaLow1/image021.png)
 
 Nos conectamos a la sesión
 
-![image023.png]({{site.baseurl}}/images/PersistenciaLow1/image023.png)
+![image022.png]({{site.baseurl}}/images/PersistenciaLow1/image022.png)
 
 
 Y nos abrimos una shell
 
-![image024.png]({{site.baseurl}}/images/PersistenciaLow1/image024.png)
+![image023.png]({{site.baseurl}}/images/PersistenciaLow1/image023.png)
 
 Con ctrl^z podemos salir al menú. Vemos las sesiones abiertas:
 
 
-![image025.png]({{site.baseurl}}/images/PersistenciaLow1/image025.png)
+![image024.png]({{site.baseurl}}/images/PersistenciaLow1/image024.png)
 
 Dado que dnscat necesita añadir parámetros a la hora de ejecutar fichero, podemos crear un fichero bat, para que sea llamado en las entradas del registro, a su vez, ejecutando nuestro fichero.
 
 
-![image026.png]({{site.baseurl}}/images/PersistenciaLow1/image026.png)
+![image025.png]({{site.baseurl}}/images/PersistenciaLow1/image025.png)
 
 Podemos subir el fichero:
 
