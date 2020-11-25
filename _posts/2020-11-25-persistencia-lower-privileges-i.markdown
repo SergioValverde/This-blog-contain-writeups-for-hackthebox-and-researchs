@@ -118,3 +118,9 @@ Podemos observar las dos sesiones abiertas:
 
 
 ![image015.png]({{site.baseurl}}/images/PersistenciaLow1/image015.png)
+
+Reiniciamos los equipos y vemos que ocurre.
+Vemos que ambas sesiones mueren:
+
+
+![image016.png]({{site.baseurl}}/images/PersistenciaLow1/image016.png)
