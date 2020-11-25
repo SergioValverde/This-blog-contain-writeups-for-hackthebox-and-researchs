@@ -287,6 +287,36 @@ Y importante conocer las funcionalidades que nos brinda schtasks, por ejemplo, l
 
 
 
+# BITS Jobs
+
+El objetivo de BITS (Background Intelligent Transfer Service) es facilitar la tranferencia de archivos entre web servers (HTTP) y share folders (SMB)
+
+Antes de ver la realización de persistencia, es necesario conocer lo siguiente:
+“ITS Jobs are containers that contain files that need to be transferred. However, when creating the job the container is empty and it needs to be populated (specify one or more files to be transferred). It's also needed to add the source and the destination.” By TryHackMe-Persistence
 
 
+Creamos el job y le asignamos el nombre de backdoor
 
+
+![image042.png]({{site.baseurl}}/images/PersistenciaLow1/image042.png)
+
+Añadimos un fichero a al job
+Seguimos la instrucción addfile <job> <remote_url> <local_name>
+
+![image043.png]({{site.baseurl}}/images/PersistenciaLow1/image043.png)
+
+Ahora, introducimos el programa para ejecutarlo.
+
+![image044.png]({{site.baseurl}}/images/PersistenciaLow1/image044.png)
+
+Añadimos un delay al job en segundos.
+
+![image045.png]({{site.baseurl}}/images/PersistenciaLow1/image045.png)
+
+Finalmente corremos el job
+
+![image046.png]({{site.baseurl}}/images/PersistenciaLow1/image046.png)
+
+Reiniciado el equipo, se nos abrirá la sesión!
+
+![image047.png]({{site.baseurl}}/images/PersistenciaLow1/image047.png)
