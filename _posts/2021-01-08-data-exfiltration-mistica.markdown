@@ -57,17 +57,17 @@ Más información: [https://attack.mitre.org/techniques/T1071/001/](https://atta
 `
 python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m io:http -w "--hostname 192.168.1.142 --port 80" -k key
 `
-![image002.png]({{site.baseurl}}/images/Mistica/image002.png)
+![image003.png]({{site.baseurl}}/images/Mistica/image003.png)
 
 Una vez producida la conexión no se nos muestra ningún banner.
 
 Realizamos una prueba, desde el cliente Windows, nos comunicamos con el servidor:
 
-![image003.png]({{site.baseurl}}/images/Mistica/image003.png)
+![image005.png]({{site.baseurl}}/images/Mistica/image005.png)
 
 Y en el servidor nos mostrará este mismo mensaje.
 
-![image004.png]({{site.baseurl}}/images/Mistica/image004.png)
+![image007.png]({{site.baseurl}}/images/Mistica/image007.png)
 
 **Es biderecional, la comunicación se puede realizar tanto desde el cliente como del servidor.**
 
@@ -79,13 +79,13 @@ Server Parrot: 192.168.1.142
 
 Cliente Windows : 192.168.1.139
 
-![image005.png]({{site.baseurl}}/images/Mistica/image005.png)
+![image009.png]({{site.baseurl}}/images/Mistica/image009.png)
 
 Podemos observar como el cliente (192.168.1.139) está constantemente realizando solicitudes get al servidor, esto es una funcionalidad de los Overlays, se encargan de preguntar constantemente al servidor.
 
 La información va cifrada en RC4
 
-![image006.png]({{site.baseurl}}/images/Mistica/image006.png)
+![image011.png]({{site.baseurl}}/images/Mistica/image011.png)
 
 
 En los paquetes HTTP generados por un navegador web, nos muestra el User-Agent, en este caso vemos que no.
@@ -101,11 +101,11 @@ Cliente
 
 `python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m io:http -w "--hostname 192.168.1.142 --port 80 --header token" -k key`
 
-![image008.png]({{site.baseurl}}/images/Mistica/image008.png)
+![image013.png]({{site.baseurl}}/images/Mistica/image013.png)
 
 A través de WireShark lo entenderemos mejor.
 
-![image009.png]({{site.baseurl}}/images/Mistica/image009.png)
+![image015.png]({{site.baseurl}}/images/Mistica/image015.png)
 
 Observamos, como hemos modificado la uri, indicando que el paquete OSTP sea transportado a continuación de “**/?token=**”
 
@@ -116,22 +116,22 @@ En este ejemplo, la información será transmitida por una cabecera customizada 
 **Servidor**
 
 `python3.8 ms.py -m io:http -s "--hostname 0.0.0.0 --port 80" -w "--header token" -k key`
-![image010.png]({{site.baseurl}}/images/Mistica/image010.png)
+![image017.png]({{site.baseurl}}/images/Mistica/image017.png)
 
 **Cliente**
 
 `python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m io:http -w "--hostname 192.168.1.142 --port 80 --header token" -k key
 `
-![image011.png]({{site.baseurl}}/images/Mistica/image011.png)
+![image019.png]({{site.baseurl}}/images/Mistica/image019.png)
 
 Realizamos una prueba entre ambos equipos.
 Y vemos la información en WireShark de la siguiente forma:
 
-![image012.png]({{site.baseurl}}/images/Mistica/image012.png)
+![image021.png]({{site.baseurl}}/images/Mistica/image021.png)
 
 Como vemos, ya no aparece nada en la uri, si vemos las peticiones, la información se mostrará dentro del header token, creada anteriormente.
 
-![image013.png]({{site.baseurl}}/images/Mistica/image013.png)
+![image023.png]({{site.baseurl}}/images/Mistica/image023.png)
 
 
 ### URI Custom + Responde Code HTTP
@@ -144,7 +144,7 @@ Otra opción interesante es combinar una uri customizada con un código de respu
 **Servidor**
 
 
-![image014.png]({{site.baseurl}}/images/Mistica/image014.png)
+![image025.png]({{site.baseurl}}/images/Mistica/image025.png)
 
 `python3.8 ms.py -m io:http -s "--hostname 0.0.0.0 --port 80" -w "--uri /?token= --success-code 302" -k key
 `
@@ -154,14 +154,14 @@ Otra opción interesante es combinar una uri customizada con un código de respu
 
 `python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m io:http -w "--hostname 192.168.1.142 --port 80 --uri /?token= --success-code 302" -k key`
 
-![image015.png]({{site.baseurl}}/images/Mistica/image015.png)
+![image027.png]({{site.baseurl}}/images/Mistica/image027.png)
 
 A través de WireShark, vemos como la información es enviado en la URI customizada, y el código de respuesta es 302 (redirección)
 
-![image016.png]({{site.baseurl}}/images/Mistica/image016.png)
+![image029.png]({{site.baseurl}}/images/Mistica/image029.png)
 
 Esto podríamos modificarlo, que fuese un 404 de un fichero no encontrado por ejemplo. 
 Únicamente, debemos modificar el 302 por 404 en los comandos anteriores.
 
-![image017.png]({{site.baseurl}}/images/Mistica/image017.png)
+![image031.png]({{site.baseurl}}/images/Mistica/image031.png)
 
