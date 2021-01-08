@@ -88,5 +88,7 @@ La información va cifrada en RC4
 ![image006.png]({{site.baseurl}}/images/Mistica/image006.png)
 
 
+En los paquetes HTTP generados por un navegador web, nos muestra el User-Agent, en este caso vemos que no.
+
 
 
