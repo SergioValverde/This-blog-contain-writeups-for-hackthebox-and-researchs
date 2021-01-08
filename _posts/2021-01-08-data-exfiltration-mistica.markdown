@@ -150,3 +150,9 @@ Otra opción interesante es combinar una uri customizada con un código de respu
 `
 
 
+**Cliente**
+
+`python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m io:http -w "--hostname 192.168.1.142 --port 80 --uri /?token= --success-code 302" -k key`
+
+![image015.png]({{site.baseurl}}/images/Mistica/image015.png)
+
