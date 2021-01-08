@@ -136,3 +136,17 @@ Como vemos, ya no aparece nada en la uri, si vemos las peticiones, la informaci�
 
 ### URI Custom + Responde Code HTTP
 
+Otra opción interesante es combinar una uri customizada con un código de respuesta HTTP customizado.
+
+¡Esta opción me ha encantado!
+
+
+**Servidor**
+
+
+![image014.png]({{site.baseurl}}/images/Mistica/image014.png)
+
+`python3.8 ms.py -m io:http -s "--hostname 0.0.0.0 --port 80" -w "--uri /?token= --success-code 302" -k key
+`
+
+
