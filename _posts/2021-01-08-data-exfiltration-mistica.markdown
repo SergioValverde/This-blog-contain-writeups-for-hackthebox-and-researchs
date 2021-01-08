@@ -134,3 +134,5 @@ Como vemos, ya no aparece nada en la uri, si vemos las peticiones, la informaci√
 ![image013.png]({{site.baseurl}}/images/Mistica/image013.png)
 
 
+### URI Custom + Responde Code HTTP
+
