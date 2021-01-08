@@ -68,3 +68,6 @@ Realizamos una prueba, desde el cliente Windows, nos comunicamos con el servidor
 Y en el servidor nos mostrará este mismo mensaje.
 
 ![image004.png]({{site.baseurl}}/images/Mistica/image004.png)
+
+**Es biderecional, la comunicación se puede realizar tanto desde el cliente como del servidor.**
+
