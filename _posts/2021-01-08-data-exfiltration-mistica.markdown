@@ -12,3 +12,17 @@ Mistica is a tool that allows to **embed data into application layer protocol fi
 
 
 Mística has a modular design, **built around a custom transport protocol, called SOTP**: Simple Overlay Transport Protocol. **Data is encrypted, chunked and put into SOTP packets. SOTP packets are encoded and embedded into the desired field of the application protocol, and sent to the other end.**
+
+
+SOTP, cifra los datos en pequeños bloques y los introduce en protocolos de aplicación.
+Podemos partir un fichero en cachitos y transportarlo en SOTP. 
+
+Dota a nuestros canales con unas características especiales para poderlo encapsular el protocolo SOTP, en los protocolos DNS,ICMP.
+
+Aparte, tienes unas características esenciales, es bidereccional, cifrado y confidencial.
+
+Uno de los creadores, lo documenta mucho mejor que yo:
+[https://www.youtube.com/watch?v=xMNAhPkyRmc](https://www.youtube.com/watch?v=xMNAhPkyRmc)
+
+Otra referencia sobre la herramienta
+[https://darkbyte.net/jugando-con-remote-shells-parte-iii-mistica/](https://darkbyte.net/jugando-con-remote-shells-parte-iii-mistica/)
