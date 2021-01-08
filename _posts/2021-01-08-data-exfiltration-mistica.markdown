@@ -190,3 +190,7 @@ Veamos las peticiones DNS realizadas.
 Podríamos crear servidores dns autorizados….
 
 ![image037.png]({{site.baseurl}}/images/Mistica/image037.png)
+
+Podemos observar como la conexión es realizada por el protocolo UDP y el puerto de destino es el 53
+
+![image039.png]({{site.baseurl}}/images/Mistica/image039.png)
