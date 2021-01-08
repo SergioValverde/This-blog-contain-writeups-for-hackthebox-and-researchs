@@ -28,3 +28,8 @@ Otra referencia sobre la herramienta
 [https://darkbyte.net/jugando-con-remote-shells-parte-iii-mistica/](https://darkbyte.net/jugando-con-remote-shells-parte-iii-mistica/)
 
 
+El objetivo será mostrar el funcionamiento de los diferentes protocolos.
+Y ver la información y rastro que nos muestra WireShark.
+
+***No soy un experto ni mucho menos.**
+
