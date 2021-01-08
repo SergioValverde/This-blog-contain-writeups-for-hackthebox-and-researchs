@@ -109,4 +109,19 @@ A través de WireShark lo entenderemos mejor.
 
 Observamos, como hemos modificado la uri, indicando que el paquete OSTP sea transportado a continuación de “**/?token=**”
 
+### HEADER
+
+En este ejemplo, la información será transmitida por una cabecera customizada de HTTP
+
+**Servidor**
+
+`python3.8 ms.py -m io:http -s "--hostname 0.0.0.0 --port 80" -w "--header token" -k key`
+
+
+**Cliente**
+
+`python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m io:http -w "--hostname 192.168.1.142 --port 80 --header token" -k key
+`
+
+
 
