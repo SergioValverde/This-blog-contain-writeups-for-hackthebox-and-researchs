@@ -90,5 +90,14 @@ La información va cifrada en RC4
 
 En los paquetes HTTP generados por un navegador web, nos muestra el User-Agent, en este caso vemos que no.
 
+### Customización de URI
+
+Servidor
+
+`python3.8 ms.py -m io:http -s "--hostname 0.0.0.0 --port 80" -w "--uri /?token=" -k key`
+![image007.png]({{site.baseurl}}/images/Mistica/image007.png)
+
+
+
 
 
