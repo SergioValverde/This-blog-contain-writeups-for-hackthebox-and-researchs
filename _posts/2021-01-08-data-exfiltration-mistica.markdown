@@ -103,7 +103,9 @@ Cliente
 
 ![image008.png]({{site.baseurl}}/images/Mistica/image008.png)
 
+A través de WireShark lo entenderemos mejor.
 
+![image009.png]({{site.baseurl}}/images/Mistica/image009.png)
 
 
 
