@@ -81,4 +81,12 @@ Cliente Windows : 192.168.1.139
 
 ![image005.png]({{site.baseurl}}/images/Mistica/image005.png)
 
+Podemos observar como el cliente (192.168.1.139) está constantemente realizando solicitudes get al servidor, esto es una funcionalidad de los Overlays, se encargan de preguntar constantemente al servidor.
+
+La información va cifrada en RC4
+
+![image006.png]({{site.baseurl}}/images/Mistica/image006.png)
+
+
+
 
