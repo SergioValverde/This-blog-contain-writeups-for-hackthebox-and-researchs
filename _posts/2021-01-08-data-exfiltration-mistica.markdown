@@ -124,5 +124,7 @@ En este ejemplo, la información será transmitida por una cabecera customizada 
 `
 ![image011.png]({{site.baseurl}}/images/Mistica/image011.png)
 
+Realizamos una prueba entre ambos equipos.
+Y vemos la información en WireShark de la siguiente forma:
 
-
+![image012.png]({{site.baseurl}}/images/Mistica/image012.png)
