@@ -156,3 +156,7 @@ Otra opción interesante es combinar una uri customizada con un código de respu
 
 ![image015.png]({{site.baseurl}}/images/Mistica/image015.png)
 
+A través de WireShark, vemos como la información es enviado en la URI customizada, y el código de respuesta es 302 (redirección)
+
+![image016.png]({{site.baseurl}}/images/Mistica/image016.png)
+
