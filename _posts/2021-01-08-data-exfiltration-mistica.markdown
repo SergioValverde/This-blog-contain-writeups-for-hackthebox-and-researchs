@@ -71,3 +71,14 @@ Y en el servidor nos mostrará este mismo mensaje.
 
 **Es biderecional, la comunicación se puede realizar tanto desde el cliente como del servidor.**
 
+Analizamos la información con WireShark.
+
+Primero vamos a realizar el filtrado, en este caso, indicando únicamente el protcolo http, nos mostrará las conexiones que se han ido realizando entre estos equipos.
+
+Server Parrot: 192.168.1.142
+
+Cliente Windows : 192.168.1.139
+
+![image005.png]({{site.baseurl}}/images/Mistica/image005.png)
+
+
