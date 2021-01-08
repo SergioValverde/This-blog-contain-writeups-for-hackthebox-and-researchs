@@ -51,9 +51,10 @@ Servidor
 `
 ./ms.py -m io:http -s "--hostname 0.0.0.0 --port 80" -k Key
 `
-
+![image001.png]({{site.baseurl}}/images/Mistica/image001.png)
 Cliente
 
 `
 python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m io:http -w "--hostname 192.168.1.142 --port 80" -k key
 `
+![image002.png]({{site.baseurl}}/images/Mistica/image002.png)
