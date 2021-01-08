@@ -165,3 +165,20 @@ Esto podríamos modificarlo, que fuese un 404 de un fichero no encontrado por ej
 
 ![image031.png]({{site.baseurl}}/images/Mistica/image031.png)
 
+
+### DNS
+
+Tengo la impresión, pero desconozco, de que este protocolo no es monitorizado por las compañías y tampoco bloqueado por los FW.
+
+El objetivo es darle un uso no genérico al que todos conocemos.
+
+Más información: [https://attack.mitre.org/techniques/T1071/004/](https://attack.mitre.org/techniques/T1071/004/)
+
+
+Servidor:
+python3.8 ms.py -m io:dns -s "--hostname 0.0.0.0 --port 53" -w "--queries MX" -k key
+
+
+
+
+
