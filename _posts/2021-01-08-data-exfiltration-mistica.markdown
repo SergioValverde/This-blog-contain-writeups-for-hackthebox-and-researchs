@@ -64,3 +64,7 @@ Una vez producida la conexión no se nos muestra ningún banner.
 Realizamos una prueba, desde el cliente Windows, nos comunicamos con el servidor:
 
 ![image003.png]({{site.baseurl}}/images/Mistica/image003.png)
+
+Y en el servidor nos mostrará este mismo mensaje.
+
+![image004.png]({{site.baseurl}}/images/Mistica/image004.png)
