@@ -26,3 +26,5 @@ Uno de los creadores, lo documenta mucho mejor que yo:
 
 Otra referencia sobre la herramienta
 [https://darkbyte.net/jugando-con-remote-shells-parte-iii-mistica/](https://darkbyte.net/jugando-con-remote-shells-parte-iii-mistica/)
+
+
