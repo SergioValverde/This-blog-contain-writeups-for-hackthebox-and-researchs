@@ -107,5 +107,6 @@ A través de WireShark lo entenderemos mejor.
 
 ![image009.png]({{site.baseurl}}/images/Mistica/image009.png)
 
+Observamos, como hemos modificado la uri, indicando que el paquete OSTP sea transportado a continuación de “**/?token=**”
 
 
