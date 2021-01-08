@@ -175,10 +175,10 @@ El objetivo es darle un uso no genérico al que todos conocemos.
 Más información: [https://attack.mitre.org/techniques/T1071/004/](https://attack.mitre.org/techniques/T1071/004/)
 
 
-Servidor:
-python3.8 ms.py -m io:dns -s "--hostname 0.0.0.0 --port 53" -w "--queries MX" -k key
+**Servidor**
+`python3.8 ms.py -m io:dns -s "--hostname 0.0.0.0 --port 53" -w "--queries MX" -k key`
 
-
+![image033.png]({{site.baseurl}}/images/Mistica/image033.png)
 
 
 
