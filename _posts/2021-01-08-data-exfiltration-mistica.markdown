@@ -33,7 +33,7 @@ Y ver la información y rastro que nos muestra WireShark.
 
 ***No soy un experto ni mucho menos.**
 
-Encapsulación HTTP
+### Encapsulación HTTP
 
 La comunicación se producirá a través del protocolo web http, con el objetivo de evitar detecciones, intentaremos mezclamos con el tráfico existente.
 
