@@ -47,9 +47,12 @@ Como veremos en los siguientes ejemplos, haremos uso de las propiedades de HTTP,
 Más información: [https://attack.mitre.org/techniques/T1071/001/](https://attack.mitre.org/techniques/T1071/001/)
 
 Servidor
-`./ms.py -m io:http -s "--hostname 0.0.0.0 --port 80" -k Key`
+`
+./ms.py -m io:http -s "--hostname 0.0.0.0 --port 80" -k Key
+`
 
 Cliente
 
-`python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m io:http -w "--hostname 192.168.1.142 --port 80" -k key
+`
+python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m io:http -w "--hostname 192.168.1.142 --port 80" -k key
 `
