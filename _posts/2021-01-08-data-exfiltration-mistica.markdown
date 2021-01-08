@@ -160,3 +160,8 @@ A través de WireShark, vemos como la información es enviado en la URI customiz
 
 ![image016.png]({{site.baseurl}}/images/Mistica/image016.png)
 
+Esto podríamos modificarlo, que fuese un 404 de un fichero no encontrado por ejemplo. 
+Únicamente, debemos modificar el 302 por 404 en los comandos anteriores.
+
+![image017.png]({{site.baseurl}}/images/Mistica/image017.png)
+
