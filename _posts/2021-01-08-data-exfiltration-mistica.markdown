@@ -33,3 +33,17 @@ Y ver la información y rastro que nos muestra WireShark.
 
 ***No soy un experto ni mucho menos.**
 
+Encapsulación HTTP
+
+La comunicación se producirá a través del protocolo web http, con el objetivo de evitar detecciones, intentaremos mezclamos con el tráfico existente.
+
+
+Este protocolo es muy utilizado por los chungos, ya que hay procesos internos en entornos Windows que utilizan este protocolo, como las actualizaciones de Windows.
+
+
+Como veremos en los siguientes ejemplos, haremos uso de las propiedades de HTTP, como son las cabeceras e introduciremos los datos.
+
+
+Más información: [https://attack.mitre.org/techniques/T1071/001/](https://attack.mitre.org/techniques/T1071/001/)
+
+
