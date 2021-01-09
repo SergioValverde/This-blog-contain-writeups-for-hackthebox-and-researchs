@@ -134,7 +134,7 @@ Como vemos, ya no aparece nada en la uri, si vemos las peticiones, la informaci�
 ![image105.png]({{site.baseurl}}/images/Mistica/image105.png)
 
 
-### URI Custom + Responde Code HTTP
+## HTTP - URI Custom + Responde Code 
 
 Otra opción interesante es combinar una uri customizada con un código de respuesta HTTP customizado.
 
