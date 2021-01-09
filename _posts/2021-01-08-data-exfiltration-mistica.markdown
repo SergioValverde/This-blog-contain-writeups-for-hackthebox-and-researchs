@@ -210,3 +210,9 @@ Servidor:
 
 
 ![image117.png]({{site.baseurl}}/images/Mistica/image117.png)
+
+Cliente
+
+`python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m io:icmp -w "--hostname 192.168.1.142" -k key`
+
+![image118.png]({{site.baseurl}}/images/Mistica/image118.png)
