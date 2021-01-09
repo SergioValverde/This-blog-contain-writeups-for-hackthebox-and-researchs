@@ -144,7 +144,7 @@ Otra opción interesante es combinar una uri customizada con un código de respu
 **Servidor**
 
 
-![image025.png]({{site.baseurl}}/images/Mistica/image025.png)
+![image106.png]({{site.baseurl}}/images/Mistica/image106.png)
 
 `python3.8 ms.py -m io:http -s "--hostname 0.0.0.0 --port 80" -w "--uri /?token= --success-code 302" -k key
 `
