@@ -176,6 +176,8 @@ Más información: [https://attack.mitre.org/techniques/T1071/004/](https://atta
 
 
 **Servidor**
+
+
 `python3.8 ms.py -m io:dns -s "--hostname 0.0.0.0 --port 53" -w "--queries MX" -k key`
 
 ![image110.png]({{site.baseurl}}/images/Mistica/image110.png)
