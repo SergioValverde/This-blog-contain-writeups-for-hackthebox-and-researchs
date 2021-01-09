@@ -51,19 +51,19 @@ Más información: [https://attack.mitre.org/techniques/T1071/001/](https://atta
 `
 ./ms.py -m io:http -s "--hostname 0.0.0.0 --port 80" -k Key
 `
-![image001.png]({{site.baseurl}}/images/Mistica/image001.png)
+![image093.png]({{site.baseurl}}/images/Mistica/image093.png)
 **Cliente**
 
 `
 python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m io:http -w "--hostname 192.168.1.142 --port 80" -k key
 `
-![image003.png]({{site.baseurl}}/images/Mistica/image003.png)
+![image094.png]({{site.baseurl}}/images/Mistica/image094.png)
 
 Una vez producida la conexión no se nos muestra ningún banner.
 
 Realizamos una prueba, desde el cliente Windows, nos comunicamos con el servidor:
 
-![image005.png]({{site.baseurl}}/images/Mistica/image005.png)
+![image095.png]({{site.baseurl}}/images/Mistica/image095.png)
 
 Y en el servidor nos mostrará este mismo mensaje.
 
