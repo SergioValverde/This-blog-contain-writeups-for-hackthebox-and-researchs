@@ -222,3 +222,7 @@ Realiamoz la comunicación entre servidor y cliente.
 El tráfico generado:
 
 ![image119.png]({{site.baseurl}}/images/Mistica/image119.png)
+
+Si analizamos el paquete 56
+
+![image120.png]({{site.baseurl}}/images/Mistica/image120.png)
