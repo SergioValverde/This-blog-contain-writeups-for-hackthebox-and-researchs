@@ -216,3 +216,9 @@ Cliente
 `python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m io:icmp -w "--hostname 192.168.1.142" -k key`
 
 ![image118.png]({{site.baseurl}}/images/Mistica/image118.png)
+
+Realiamoz la comunicación entre servidor y cliente.
+
+El tráfico generado:
+
+![image119.png]({{site.baseurl}}/images/Mistica/image119.png)
