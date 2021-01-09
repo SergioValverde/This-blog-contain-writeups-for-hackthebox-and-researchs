@@ -263,3 +263,7 @@ Redireccionamos la información del fichero contraseñas.txt, es un ejemplo, y c
 Y vemos como la información se nos muestra en pantalla.
 ![image117.png]({{site.baseurl}}/images/Mistica/image117.png)
 
+Podemos redirigir la información a un fichero tocando disco.
+
+
+Es una forma creativa para exfiltrar información, utilizando protocolos comunes.
