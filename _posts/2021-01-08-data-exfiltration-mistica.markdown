@@ -122,7 +122,7 @@ En este ejemplo, la información será transmitida por una cabecera customizada 
 
 `python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m io:http -w "--hostname 192.168.1.142 --port 80 --header token" -k key
 `
-![image019.png]({{site.baseurl}}/images/Mistica/image019.png)
+![image103.png]({{site.baseurl}}/images/Mistica/image103.png)
 
 Realizamos una prueba entre ambos equipos.
 Y vemos la información en WireShark de la siguiente forma:
