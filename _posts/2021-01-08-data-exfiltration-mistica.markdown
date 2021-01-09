@@ -92,12 +92,12 @@ En los paquetes HTTP generados por un navegador web, nos muestra el User-Agent, 
 
 ## HTTP - Customización de URI
 
-Servidor
+**Servidor**
 
 `python3.8 ms.py -m io:http -s "--hostname 0.0.0.0 --port 80" -w "--uri /?token=" -k key`
 ![image007.png]({{site.baseurl}}/images/Mistica/image007.png)
 
-Cliente
+**Cliente**
 
 `python.exe mc.py -m io:http -w "--hostname 192.168.1.142 --port 80 --header token" -k key`
 
