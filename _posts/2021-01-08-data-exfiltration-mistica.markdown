@@ -116,7 +116,7 @@ En este ejemplo, la información será transmitida por una cabecera customizada 
 **Servidor**
 
 `python3.8 ms.py -m io:http -s "--hostname 0.0.0.0 --port 80" -w "--header token" -k key`
-![image017.png]({{site.baseurl}}/images/Mistica/image017.png)
+![image102.png]({{site.baseurl}}/images/Mistica/image102.png)
 
 **Cliente**
 
