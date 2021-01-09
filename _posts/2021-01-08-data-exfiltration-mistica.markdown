@@ -202,5 +202,11 @@ Y las consulta van encodeadas en el registro MX
 
 ### ICMP
 
+Hemos visto el protocolo HTTP, DNS, y por último tenemos ICMP.
+
+Servidor:
+
+`python3.8 ms.py -m io:icmp -s "--iface eth0" -k key`
+
 
 ![image117.png]({{site.baseurl}}/images/Mistica/image117.png)
