@@ -219,7 +219,7 @@ Cliente**
 
 ![image119.png]({{site.baseurl}}/images/Mistica/image119.png)
 
-Realiamoz la comunicación entre servidor y cliente.
+Realizamos la comunicación entre servidor y cliente.
 
 El tráfico generado:
 
