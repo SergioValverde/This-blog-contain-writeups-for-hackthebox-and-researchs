@@ -325,7 +325,7 @@ El tráfico generado:
 Como vemos el protocolo utilizado es UDP en vez de DNS, esto es porque hemos indicado el puerto 5051, esto llamaría mucha la atención.
 
 
-SHELL - ICMP
+## SHELL - ICMP
 
 Servidor
 python3.8 ms.py -m io:icmp -s "--iface eth0" -k key
