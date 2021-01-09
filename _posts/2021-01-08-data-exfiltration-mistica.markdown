@@ -154,16 +154,16 @@ Otra opción interesante es combinar una uri customizada con un código de respu
 
 `python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m io:http -w "--hostname 192.168.1.142 --port 80 --uri /?token= --success-code 302" -k key`
 
-![image027.png]({{site.baseurl}}/images/Mistica/image027.png)
+![image107.png]({{site.baseurl}}/images/Mistica/image107.png)
 
 A través de WireShark, vemos como la información es enviado en la URI customizada, y el código de respuesta es 302 (redirección)
 
-![image029.png]({{site.baseurl}}/images/Mistica/image029.png)
+![image108.png]({{site.baseurl}}/images/Mistica/image108.png)
 
 Esto podríamos modificarlo, que fuese un 404 de un fichero no encontrado por ejemplo. 
 Únicamente, debemos modificar el 302 por 404 en los comandos anteriores.
 
-![image031.png]({{site.baseurl}}/images/Mistica/image031.png)
+![image109.png]({{site.baseurl}}/images/Mistica/image109.png)
 
 
 ### DNS
@@ -178,7 +178,7 @@ Más información: [https://attack.mitre.org/techniques/T1071/004/](https://atta
 **Servidor**
 `python3.8 ms.py -m io:dns -s "--hostname 0.0.0.0 --port 53" -w "--queries MX" -k key`
 
-![image033.png]({{site.baseurl}}/images/Mistica/image033.png)
+![image110.png]({{site.baseurl}}/images/Mistica/image110.png)
 
 Cliente:
 
