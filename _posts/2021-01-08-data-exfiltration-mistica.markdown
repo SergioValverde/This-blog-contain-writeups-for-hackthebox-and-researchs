@@ -198,7 +198,7 @@ Podemos observar como la conexión es realizada por el protocolo UDP y el puerto
 Y las consulta van encodeadas en el registro MX
 
 
-![image041.png]({{site.baseurl}}/images/Mistica/image041.png)
+![image114.png]({{site.baseurl}}/images/Mistica/image114.png)
 
 ### ICMP
 
