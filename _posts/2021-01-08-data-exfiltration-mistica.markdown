@@ -223,6 +223,13 @@ El tráfico generado:
 
 ![image119.png]({{site.baseurl}}/images/Mistica/image119.png)
 
-Si analizamos el paquete 56
+Si analizamos la trama 56
 
 ![image120.png]({{site.baseurl}}/images/Mistica/image120.png)
+
+El type tiene un valor 8, lo que nos indica que es una solicitud.
+Otro valor importante es el Data.
+
+Analizamos la trama 57
+
+![image121.png]({{site.baseurl}}/images/Mistica/image121.png)
