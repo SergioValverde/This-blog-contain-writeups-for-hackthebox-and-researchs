@@ -301,3 +301,10 @@ Como vemos, el código que nos devuelve Firefox es un 404, si analizamos un paqu
 ![image131.png]({{site.baseurl}}/images/Mistica/image131.png)
 
 Vemos una nueva cabecera llamada User-Agent donde codificada la información.
+
+## Shell - DNS
+
+Servidor:
+`python3.8 ms.py -m io:dns -s "--hostname 0.0.0.0 --port 5051" -w "--queries SOA" -k key`
+
+![image132.png]({{site.baseurl}}/images/Mistica/image132.png)
