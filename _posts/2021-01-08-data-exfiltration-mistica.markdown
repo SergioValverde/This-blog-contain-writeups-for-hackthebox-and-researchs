@@ -101,11 +101,11 @@ Cliente
 
 `python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m io:http -w "--hostname 192.168.1.142 --port 80 --header token" -k key`
 
-![image099.png]({{site.baseurl}}/images/Mistica/image099.png)
+![image100.png]({{site.baseurl}}/images/Mistica/image100.png)
 
 A través de WireShark lo entenderemos mejor.
 
-![image015.png]({{site.baseurl}}/images/Mistica/image015.png)
+![image101.png]({{site.baseurl}}/images/Mistica/image101.png)
 
 Observamos, como hemos modificado la uri, indicando que el paquete OSTP sea transportado a continuación de “**/?token=**”
 
