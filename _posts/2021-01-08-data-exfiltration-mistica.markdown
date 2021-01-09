@@ -321,3 +321,5 @@ Podremos ejecutar commandos de manera remota en nuestro parrot:
 El tráfico generado:
 
 ![image135.png]({{site.baseurl}}/images/Mistica/image135.png
+
+Como vemos el protocolo utilizado es UDP en vez de DNS, esto es porque hemos indicado el puerto 5051, esto llamaría mucha la atención.
