@@ -109,7 +109,7 @@ A través de WireShark lo entenderemos mejor.
 
 Observamos, como hemos modificado la uri, indicando que el paquete OSTP sea transportado a continuación de “**/?token=**”
 
-### HEADER
+## HTTP - HEADER
 
 En este ejemplo, la información será transmitida por una cabecera customizada de HTTP
 
