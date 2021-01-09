@@ -295,3 +295,7 @@ Indicamos el Servidor con io:http y el cliente, donde se ejecutará los comandos
 Los paquetes capturados por WireShark:
 
 ![image130.png]({{site.baseurl}}/images/Mistica/image130.png)
+
+Como vemos, el código que nos devuelve Firefox es un 404, si analizamos un paquete:
+
+![image131.png]({{site.baseurl}}/images/Mistica/image131.png)
