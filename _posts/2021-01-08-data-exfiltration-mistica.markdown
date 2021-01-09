@@ -292,3 +292,6 @@ Indicamos el Servidor con io:http y el cliente, donde se ejecutará los comandos
 
 ![image125.png]({{site.baseurl}}/images/Mistica/image125.png)
 
+
+
+![image130.png]({{site.baseurl}}/images/Mistica/image130.png)
