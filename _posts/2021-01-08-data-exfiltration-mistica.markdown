@@ -189,7 +189,7 @@ Más información: [https://attack.mitre.org/techniques/T1071/004/](https://atta
 ![image111.png]({{site.baseurl}}/images/Mistica/image111.png)
 
 Veamos las peticiones DNS realizadas.
-Podríamos crear servidores dns autorizados….
+Podríamos crear servidores dns autorizados…
 
 ![image112.png]({{site.baseurl}}/images/Mistica/image112.png)
 
