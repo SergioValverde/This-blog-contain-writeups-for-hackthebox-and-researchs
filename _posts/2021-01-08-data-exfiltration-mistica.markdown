@@ -99,7 +99,7 @@ Servidor
 
 Cliente
 
-`python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m io:http -w "--hostname 192.168.1.142 --port 80 --header token" -k key`
+`python.exe mc.py -m io:http -w "--hostname 192.168.1.142 --port 80 --header token" -k key`
 
 ![image100.png]({{site.baseurl}}/images/Mistica/image100.png)
 
