@@ -235,3 +235,9 @@ Analizamos la trama 57
 ![image121.png]({{site.baseurl}}/images/Mistica/image121.png)
 
 El tipo es 0, confirmándonos que se trata de la respuesta.
+
+
+### Exfiltración de datos
+
+
+En el siguiente ejemplo, vamos a transferir ficheros desde el cliente al servidor a través del protocolo DNS.
