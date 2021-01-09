@@ -209,30 +209,30 @@ Servidor:
 `python3.8 ms.py -m io:icmp -s "--iface eth0" -k key`
 
 
-![image117.png]({{site.baseurl}}/images/Mistica/image117.png)
+![image118.png]({{site.baseurl}}/images/Mistica/image118.png)
 
 Cliente
 
 `python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m io:icmp -w "--hostname 192.168.1.142" -k key`
 
-![image118.png]({{site.baseurl}}/images/Mistica/image118.png)
+![image119.png]({{site.baseurl}}/images/Mistica/image119.png)
 
 Realiamoz la comunicación entre servidor y cliente.
 
 El tráfico generado:
 
-![image119.png]({{site.baseurl}}/images/Mistica/image119.png)
+![image120.png]({{site.baseurl}}/images/Mistica/image120.png)
 
 Si analizamos la trama 56
 
-![image120.png]({{site.baseurl}}/images/Mistica/image120.png)
+![image121.png]({{site.baseurl}}/images/Mistica/image121.png)
 
 El type tiene un valor 8, lo que nos indica que es una solicitud.
 Otro valor importante es el Data.
 
 Analizamos la trama 57
 
-![image121.png]({{site.baseurl}}/images/Mistica/image121.png)
+![image122.png]({{site.baseurl}}/images/Mistica/image122.png)
 
 El tipo es 0, confirmándonos que se trata de la respuesta.
 
