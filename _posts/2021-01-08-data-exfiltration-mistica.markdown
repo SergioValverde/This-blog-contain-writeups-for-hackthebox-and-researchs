@@ -203,3 +203,4 @@ Y las consulta van encodeadas en el registro MX
 ### ICMP
 
 
+![image117.png]({{site.baseurl}}/images/Mistica/image117.png)
