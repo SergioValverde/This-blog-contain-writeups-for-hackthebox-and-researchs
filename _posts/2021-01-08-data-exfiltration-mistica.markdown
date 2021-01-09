@@ -340,3 +340,14 @@ Y ejecutamos comandos sobre la maquina víctima a través del protocolo ICMP �
 
 
 ![image138.png]({{site.baseurl}}/images/Mistica/image138.png
+
+
+### Exfiltración de datos
+
+En el siguiente ejemplo, vamos a transferir ficheros desde el cliente al servidor a través del protocolo DNS.
+
+Servidor:
+python3.8 ms.py -m io:dns -s "--hostname 0.0.0.0 --port 53" -w "--queries MX" -k key 
+
+
+![image115.png]({{site.baseurl}}/images/Mistica/image115.png
