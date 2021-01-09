@@ -193,7 +193,7 @@ Podríamos crear servidores dns autorizados….
 
 Podemos observar como la conexión es realizada por el protocolo UDP y el puerto de destino es el 53
 
-![image039.png]({{site.baseurl}}/images/Mistica/image039.png)
+![image113.png]({{site.baseurl}}/images/Mistica/image113.png)
 
 Y las consulta van encodeadas en el registro MX
 
