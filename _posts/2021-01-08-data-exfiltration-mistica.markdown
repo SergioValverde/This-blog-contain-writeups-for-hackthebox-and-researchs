@@ -120,7 +120,7 @@ En este ejemplo, la información será transmitida por una cabecera customizada 
 
 **Cliente**
 
-`python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m io:http -w "--hostname 192.168.1.142 --port 80 --header token" -k key
+`python.exe mc.py -m io:http -w "--hostname 192.168.1.142 --port 80 --header token" -k key
 `
 ![image103.png]({{site.baseurl}}/images/Mistica/image103.png)
 
