@@ -206,16 +206,16 @@ Y las consulta van encodeadas en el registro MX
 
 Hemos visto el protocolo HTTP, DNS, y por último tenemos ICMP.
 
-Servidor:
+**Servidor**
 
 `python3.8 ms.py -m io:icmp -s "--iface eth0" -k key`
 
 
 ![image118.png]({{site.baseurl}}/images/Mistica/image118.png)
+**
+Cliente**
 
-Cliente
-
-`python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m io:icmp -w "--hostname 192.168.1.142" -k key`
+`python.exe mc.py -m io:icmp -w "--hostname 192.168.1.142" -k key`
 
 ![image119.png]({{site.baseurl}}/images/Mistica/image119.png)
 
