@@ -233,3 +233,5 @@ Otro valor importante es el Data.
 Analizamos la trama 57
 
 ![image121.png]({{site.baseurl}}/images/Mistica/image121.png)
+
+El tipo es 0, confirmándonos que se trata de la respuesta.
