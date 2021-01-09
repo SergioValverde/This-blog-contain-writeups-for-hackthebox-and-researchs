@@ -79,7 +79,7 @@ Server Parrot: 192.168.1.142
 
 Cliente Windows : 192.168.1.139
 
-![image009.png]({{site.baseurl}}/images/Mistica/image009.png)
+![image097.png]({{site.baseurl}}/images/Mistica/image097.png)
 
 Podemos observar como el cliente (192.168.1.139) está constantemente realizando solicitudes get al servidor, esto es una funcionalidad de los Overlays, se encargan de preguntar constantemente al servidor.
 
