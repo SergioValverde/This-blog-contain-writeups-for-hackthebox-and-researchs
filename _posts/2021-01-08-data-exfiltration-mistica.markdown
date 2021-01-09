@@ -90,7 +90,7 @@ La información va cifrada en RC4
 
 En los paquetes HTTP generados por un navegador web, nos muestra el User-Agent, en este caso vemos que no.
 
-### Customización de URI
+## HTTP - Customización de URI
 
 Servidor
 
