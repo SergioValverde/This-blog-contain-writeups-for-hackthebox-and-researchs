@@ -291,3 +291,4 @@ Como veremos en el siguientes ejemplo, y de manera de dejar claro las prueba rea
 Indicamos el Servidor con io:http y el cliente, donde se ejecutará los comandos, con shell:http.
 
 ![image125.png]({{site.baseurl}}/images/Mistica/image125.png)
+
