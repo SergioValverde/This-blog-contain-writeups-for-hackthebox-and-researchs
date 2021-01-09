@@ -272,7 +272,7 @@ Es una forma creativa para exfiltrar información, utilizando protocolos comunes
 
 ### SHELL
 
-## Shell - HTTP
+## HTTP - Shell
 
 Podemos ejecutar comandos de manera remota, combinando los módulos shell e io.
 Si queremos ejecutar comandos en el cliente
