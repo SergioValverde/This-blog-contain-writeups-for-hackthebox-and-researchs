@@ -213,8 +213,8 @@ Hemos visto el protocolo HTTP, DNS, y por último tenemos ICMP.
 
 
 ![image118.png]({{site.baseurl}}/images/Mistica/image118.png)
-**
-Cliente**
+
+**Cliente**
 
 `mc.py -m io:icmp -w "--hostname 192.168.1.142" -k key`
 
