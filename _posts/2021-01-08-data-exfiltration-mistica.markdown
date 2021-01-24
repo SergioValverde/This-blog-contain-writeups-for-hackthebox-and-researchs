@@ -93,12 +93,12 @@ En los paquetes HTTP generados por un navegador web, nos muestra el User-Agent, 
 
 **Servidor**
 
-`python3.8 ms.py -m io:http -s "--hostname 0.0.0.0 --port 80" -w "--uri /?token=" -k key`
+`ms.py -m io:http -s "--hostname 0.0.0.0 --port 80" -w "--uri /?token=" -k key`
 ![image007.png]({{site.baseurl}}/images/Mistica/image007.png)
 
 **Cliente**
 
-`python.exe mc.py -m io:http -w "--hostname 192.168.1.142 --port 80 --header token" -k key`
+`mc.py -m io:http -w "--hostname 192.168.1.142 --port 80 --header token" -k key`
 
 ![image100.png]({{site.baseurl}}/images/Mistica/image100.png)
 
