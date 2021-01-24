@@ -128,7 +128,7 @@ Y vemos la información en WireShark de la siguiente forma:
 
 ![image104.png]({{site.baseurl}}/images/Mistica/image104.png)
 
-Como vemos, ya no aparece nada en la uri, si vemos las peticiones, la información se mostrará dentro del header token, creada anteriormente.
+Como vemos, ya no aparece nada en la uri, si vemos las peticiones, **la información** se mostrará dentro del header **token**, creada anteriormente.
 
 ![image105.png]({{site.baseurl}}/images/Mistica/image105.png)
 
