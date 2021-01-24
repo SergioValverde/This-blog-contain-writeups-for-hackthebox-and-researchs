@@ -114,12 +114,12 @@ En este ejemplo, la información será transmitida por una cabecera customizada 
 
 **Servidor**
 
-`python3.8 ms.py -m io:http -s "--hostname 0.0.0.0 --port 80" -w "--header token" -k key`
+`ms.py -m io:http -s "--hostname 0.0.0.0 --port 80" -w "--header token" -k key`
 ![image102.png]({{site.baseurl}}/images/Mistica/image102.png)
 
 **Cliente**
 
-`python.exe mc.py -m io:http -w "--hostname 192.168.1.142 --port 80 --header token" -k key
+`mc.py -m io:http -w "--hostname 192.168.1.142 --port 80 --header token" -k key
 `
 ![image103.png]({{site.baseurl}}/images/Mistica/image103.png)
 
