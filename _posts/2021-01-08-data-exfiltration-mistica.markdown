@@ -145,13 +145,13 @@ Otra opción interesante es combinar una uri customizada con un código de respu
 
 ![image106.png]({{site.baseurl}}/images/Mistica/image106.png)
 
-`python3.8 ms.py -m io:http -s "--hostname 0.0.0.0 --port 80" -w "--uri /?token= --success-code 302" -k key
+`ms.py -m io:http -s "--hostname 0.0.0.0 --port 80" -w "--uri /?token= --success-code 302" -k key
 `
 
 
 **Cliente**
 
-`python.exe mc.py -m io:http -w "--hostname 192.168.1.142 --port 80 --uri /?token= --success-code 302" -k key`
+`mc.py -m io:http -w "--hostname 192.168.1.142 --port 80 --uri /?token= --success-code 302" -k key`
 
 ![image107.png]({{site.baseurl}}/images/Mistica/image107.png)
 
