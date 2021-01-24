@@ -179,13 +179,13 @@ Más información: [https://attack.mitre.org/techniques/T1071/004/](https://atta
 **Servidor**
 
 
-`python3.8 ms.py -m io:dns -s "--hostname 0.0.0.0 --port 53" -w "--queries MX" -k key`
+`ms.py -m io:dns -s "--hostname 0.0.0.0 --port 53" -w "--queries MX" -k key`
 
 ![image110.png]({{site.baseurl}}/images/Mistica/image110.png)
 
 **Cliente**
 
-`python.exe mc.py -m io:dns -w "--hostname 192.168.1.142 --port 53 --query MX" -k key`
+`mc.py -m io:dns -w "--hostname 192.168.1.142 --port 53 --query MX" -k key`
 
 ![image111.png]({{site.baseurl}}/images/Mistica/image111.png)
 
