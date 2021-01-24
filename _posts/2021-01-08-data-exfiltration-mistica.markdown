@@ -74,9 +74,9 @@ Analizamos la información con WireShark.
 
 Primero vamos a realizar el filtrado, en este caso, indicando únicamente el protcolo http, nos mostrará las conexiones que se han ido realizando entre estos equipos.
 
-Server Parrot: 192.168.1.142
+**Server Parrot:** 192.168.1.142
 
-Cliente Windows : 192.168.1.139
+**Cliente Windows:** 192.168.1.139
 
 ![image097.png]({{site.baseurl}}/images/Mistica/image097.png)
 
