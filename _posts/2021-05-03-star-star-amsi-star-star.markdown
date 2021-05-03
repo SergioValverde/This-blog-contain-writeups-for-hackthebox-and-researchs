@@ -93,3 +93,15 @@ Vemos como mimi se cargó correctamente.
 
 ![Imagen20.png]({{site.baseurl}}/images/AMSI/Imagen20.png)
 
+
+Otras formas de bypassear AMSI:
+
+Puede ser un poco engorroso el proceso llevado a cabo, asique os traigo otras formas de saltarnos está protección.
+
+**PowerShell 2.0, no soporta AMSI**
+
+![Imagen21.png]({{site.baseurl}}/images/AMSI/Imagen21.png)
+
+En la imágen anterior, vemos como tenemos compatibilidad con powershell 2.0, ejecutamos con powershell.exe -version 2
+
+![Imagen22.png]({{site.baseurl}}/images/AMSI/Imagen22.png)
