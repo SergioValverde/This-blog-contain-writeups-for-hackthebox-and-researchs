@@ -82,3 +82,14 @@ Esté código generado, lo pegamos en nuestra PowerShell
 
 
 
+En el marco amarillo, cargamos mimi directamente en memoria.
+Listamos las funciones.
+
+![Imagen18.png]({{site.baseurl}}/images/AMSI/Imagen18.png)
+
+Vemos como mimi se cargó correctamente.
+
+![Imagen19.png]({{site.baseurl}}/images/AMSI/Imagen19.png)
+
+![Imagen20.png]({{site.baseurl}}/images/AMSI/Imagen20.png)
+
