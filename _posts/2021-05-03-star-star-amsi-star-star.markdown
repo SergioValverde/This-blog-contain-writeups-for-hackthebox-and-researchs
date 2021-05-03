@@ -62,6 +62,8 @@ https://www.youtube.com/watch?v=KMEmxuy-wt4
 “
 AMSI.fail generates obfuscated PowerShell snippets that break or disable AMSI for the current process. The snippets are randomly selected from a small pool of techniques/variations before being obfuscated. Every snippet is obfuscated at runtime/request so that no generated output share the same signatures.
 “	
+
+
 El ejemplo, que vamos a ver a continuación, intentaremos cargar mimikatz 
 Primero, verificamos el funcionamiento de AMSI
 
