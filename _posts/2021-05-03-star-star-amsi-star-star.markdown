@@ -108,16 +108,16 @@ Puede ser un poco engorroso el proceso llevado a cabo, asique os traigo otras fo
 
 En la imágen anterior, vemos como tenemos compatibilidad con powershell 2.0, ejecutamos con powershell.exe -version 2
 
-![Imagen22.png]({{site.baseurl}}/images/AMSI/Imagen22.png)
+![Imagen21.png]({{site.baseurl}}/images/AMSI/Imagen21.png)
 
-![Imagen23.png]({{site.baseurl}}/images/AMSI/Imagen23.png)
+![Imagen22.png]({{site.baseurl}}/images/AMSI/Imagen22.png)
 
 **Desactivando el defender (necesitamos permisos):**
 
 Set-MpPreference -DisableRealtimeMonitoring $True
 
+![Imagen23.png]({{site.baseurl}}/images/AMSI/Imagen23.png)
 ![Imagen24.png]({{site.baseurl}}/images/AMSI/Imagen24.png)
-![Imagen25.png]({{site.baseurl}}/images/AMSI/Imagen25.png)
 
 
 Espero que haya sido interesante 😊
