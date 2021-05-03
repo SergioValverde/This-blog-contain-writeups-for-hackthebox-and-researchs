@@ -43,7 +43,7 @@ AMSI Podemos identificarlo de diferentes maneras, tenemos el registro de Windows
 
 ![Imagen11.png]({{site.baseurl}}/images/AMSI/Imagen11.png)
 
-Amsi lo que analiza o pasa al AV son strings, son cadenas de texto.
+Amsi lo que analiza o pasa al AV son **strings**, son cadenas de texto.
 Como vemos en los siguientes ejemplos
 
 ![Imagen12.png]({{site.baseurl}}/images/AMSI/Imagen12.png)
