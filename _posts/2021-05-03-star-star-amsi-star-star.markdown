@@ -5,7 +5,7 @@ date: 2021-05-03 17:32:00 Z
 
 # AMSI
 
-AMSI, antimalware Scan Interface, es un mecanismo que permite integrarse con el AV, con el fin final, de investigar procesos que están ocurriendo.
+**AMSI, antimalware Scan Interface, es un mecanismo que permite integrarse con el AV, con el fin final, de investigar procesos que están ocurriendo.**
 
 
 AMSI ayuda a los antivirus a detectar scripts, como por ejemplo, powershell, Jscript, VBScript, VBA (office macros) o .NET y los envía al AV para analizarlos.
@@ -39,7 +39,7 @@ Como suele ocurrir habitualmente, una vez creado, por cierto, se implementó por
 
 AMSI Podemos identificarlo de diferentes maneras, tenemos el registro de Windows:
 
-HKEY_CLASSES_ROOT\CLSID\{fdb00e52-a214-4aa1-8fba-4357bb0072ec}
+`HKEY_CLASSES_ROOT\CLSID\{fdb00e52-a214-4aa1-8fba-4357bb0072ec}`
 
 ![Imagen11.png]({{site.baseurl}}/images/AMSI/Imagen11.png)
 
