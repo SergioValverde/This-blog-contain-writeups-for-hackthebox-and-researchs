@@ -112,9 +112,9 @@ En la imágen anterior, vemos como tenemos compatibilidad con powershell 2.0, ej
 
 ![Imagen22.png]({{site.baseurl}}/images/AMSI/Imagen22.png)
 
-**Desactivando el defender (necesitamos permisos):**
+**Desactivando el defender (necesitamos permisos)**
 
-Set-MpPreference -DisableRealtimeMonitoring $True
+`Set-MpPreference -DisableRealtimeMonitoring $True`
 
 ![Imagen23.png]({{site.baseurl}}/images/AMSI/Imagen23.png)
 ![Imagen24.png]({{site.baseurl}}/images/AMSI/Imagen24.png)
