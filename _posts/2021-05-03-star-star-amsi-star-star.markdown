@@ -65,6 +65,8 @@ AMSI.fail generates obfuscated PowerShell snippets that break or disable AMSI fo
 
 
 El ejemplo, que vamos a ver a continuación, intentaremos cargar mimikatz 
+
+
 Primero, verificamos el funcionamiento de AMSI
 
 ![Imagen14.png]({{site.baseurl}}/images/AMSI/Imagen14.png)
