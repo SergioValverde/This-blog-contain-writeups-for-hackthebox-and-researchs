@@ -98,7 +98,7 @@ Vemos como mimi se cargó correctamente.
 
 
 
-### Otras formas de bypassear AMSI:
+### Otras formas de bypassear AMSI
 
 Puede ser un poco engorroso el proceso llevado a cabo, asique os traigo otras formas de saltarnos está protección.
 
